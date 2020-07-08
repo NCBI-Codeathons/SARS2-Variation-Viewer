@@ -1,0 +1,90 @@
+  <div id="div0" style="margin:20px"></div>
+
+  <style>
+    .icn3d-seqLine {white-space:nowrap;}
+    .icn3d-dl_sequence {background: white;}
+    .icn3d-dl_sequence span {display:inline-block; font-size:11px; width:10px; text-align:center;}
+    .icn3d-residue {font-weight:regular;}
+  </style>
+
+  <link rel="stylesheet" href="lib/jquery-ui-1.12.1.min.css">
+  <script src="https://www.ncbi.nlm.nih.gov/Structure/icn3d/lib/jquery-3.5.0.min.js"></script>
+  <script src="https://www.ncbi.nlm.nih.gov/Structure/icn3d/lib/jquery-ui-1.12.1.min.js"></script>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+        var dataStr = '{ "acc": "NC_045512.2", "gi": 1798174254, "range": [ 0, 50], "variants": [ { "start": 5, "stop": 5, "reference_sequence": "A", "alleles": [ { "allele": "C", "count": 10 }, { "allele": "G", "count": 20 } ] }, { "start": 25, "stop": 25, "reference_sequence": "C", "alleles": [ { "allele": "A", "count": 40 }, { "allele": "T", "count": 80 } ] } ] }';
+
+        var data = JSON.parse(dataStr);
+
+        html = '<div class="icn3d-dl_sequence">';
+
+        html += '<span class="icn3d-seqLine">';
+        var range0 = data.range[0], range1 = data.range[1];
+        for(var i = range0; i < range1; ++i) {
+          var c = 'A';
+          var pos = i + 1;
+          var color = '333333';
+
+          html += '<span id="' + pos + '" title="' + c + pos + '" class="icn3d-residue" style="color:#' + color + '">' + c + '</span>';
+        }
+        html += '</span><br>';
+
+        var snpData = data.variants;
+
+        var posHash = {};
+        for(var i = 0, il = snpData.length; i < il; ++i) {
+            var pos = snpData[i].start;
+            posHash[pos] = snpData[i].alleles;
+        }
+
+        html += getSnpHtml(posHash, 'A', range0, range1);
+        html += getSnpHtml(posHash, 'T', range0, range1);
+        html += getSnpHtml(posHash, 'C', range0, range1);
+        html += getSnpHtml(posHash, 'G', range0, range1);
+        html += getSnpHtml(posHash, 'U', range0, range1);
+
+        html += '</div>';
+
+        $("#div0").html(html);
+
+        function getSnpHtml(posHash, type, range0, range1) {
+            var snpHtml = '';
+
+            snpHtml += '<span class="icn3d-seqLine">';
+            for(var i = range0; i < range1; ++i) {
+                if(!posHash.hasOwnProperty(i)) {
+                    snpHtml += '<span class="icn3d-residue"> </span>';
+                }
+                else {
+                    for(var j = 0, jl = posHash[i].length; j < jl; ++j) {
+                      var alleleItem = posHash[i][j];
+
+                      if(alleleItem.allele !== type) {
+                          snpHtml += '<span class="icn3d-residue"> </span>';
+                      }
+                      else {
+                          var c = alleleItem.allele;
+                          var pos = i + 1;
+                          var color = getColorByCnt(alleleItem.count);
+
+                          snpHtml += '<span id="' + pos + '" title="' + c + pos + '" class="icn3d-residue" style="background-color:' + color + '">' + c + '</span>';
+                      }
+                    }
+                }
+            }
+            snpHtml += '</span><br>';
+
+            return snpHtml;
+        }
+
+        function getColorByCnt(cnt) {
+            var max = 100;
+            var value = (cnt / max > 1) ? 1 : cnt / max;
+
+            return 'rgb(255, ' + parseInt(255 - value * 255) + ', ' + parseInt(255 - value * 255) + ')';
+        }
+
+    }); // document ready
+
+  </script>
