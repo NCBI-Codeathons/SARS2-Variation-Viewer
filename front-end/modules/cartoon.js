@@ -1,14 +1,19 @@
-import {data} from "./mock-data/data.js";
-
-const cartoonData = data;
+export const CARTOON_ITEM_CLICKED = 'CARTOON_ITEM_CLICKED';
+export const CSS_ITEM_SELECTED = 'cartoon__item--selected';
 
 export class Cartoon {
 
-  constructor() {
-    console.info('hi')
-    this.container = d3.select('#cartoon');
+  constructor({data, containerId = '#cartoon'} = {}) {
+    this.data = data;
+    this.container = d3.select(containerId);
     this.initCartoon();
+
+    tippy('[data-tippy-content]', {
+      animation: 'perspective',
+      allowHTML: true
+    });
   }
+
 
   initCartoon() {
     this.setStyles();
@@ -22,7 +27,7 @@ export class Cartoon {
       height: 100,
       boxHeight: 40,
       padding: 25, // old gap between genes
-      segmPadding: 28,
+      segmPadding: 25, // old is 28
       genePadding: 20,
       peptPadding: 24,
       svgPadding: 50,
@@ -30,6 +35,27 @@ export class Cartoon {
       scaleYSVG: undefined,
       trans: d3.transition().duration(400).ease(d3.easeLinear)
     };
+  }
+
+  runD3() {
+    this.dataset = [];
+    const cls = this;
+
+    // convert dataset to an array as D3 select works with array
+    this.dataset = ([this.data]);
+
+    // set count of genes for deciding to show peptides or not
+    cls.countOfGenes = +cls.dataset[0].gene_count;
+
+    cls.styles.height = this.getSvgHeight(cls.styles.height, this.dataset[0]['_id']);
+
+    const svg = this.container.selectAll('svg')
+      .data(this.dataset)
+      .enter()
+      .append('svg');
+
+    cls.svg = svg;
+    cls.drawSvg(this.dataset, svg);
   }
 
   drawSvg(dataset, svg) {
@@ -44,7 +70,7 @@ export class Cartoon {
 
     this.styles.scaleXSVG = d3.scaleLinear()
       .domain([start, stop])
-      .range([0, this.styles.width]);
+      .range([0, this.styles.width - 50]);
 
     const styles = this.styles;
 
@@ -60,6 +86,20 @@ export class Cartoon {
 
     let cls = this;
 
+    // add variants here
+    const variants = g
+      .append('g')
+      .selectAll('g')
+      .data(d => {
+        return d['variants']
+      })
+      .enter()
+      .append('g')
+      .attr('class', 'variant')
+      .each(function (d, i) {
+        cls.renderVariant.call(this, d, i, cls)
+      })
+
     // this g.segment class is needed, otherwise D3 will skip first data item
     // see https://stackoverflow.com/questions/19182775/d3-data-skipping-the-first-row-of-data
     let segment = g
@@ -70,7 +110,7 @@ export class Cartoon {
       .attr('class', 'segment')
       .attr('data-taxid', dataset[0]['tax_id'])
       .attr('data-accession', dataset[0]['assembly_acc'])
-      .attr('transform', (d, i) => `translate(0, ${i * 150})`)
+      .attr('transform', (d, i) => `translate(0, ${(i * 150) + 20})`)
       .attr('id', (d, i) => `segment-${i}`)
       .each(function (d, i) {
         cls.selectItemById.call(this, cls);
@@ -136,27 +176,6 @@ export class Cartoon {
       .range([0, parentSelection.datum().range[1] - parentSelection.datum().range[0]]);
   }
 
-  runD3() {
-    this.dataset = [];
-    const cls = this;
-
-    // convert dataset to an array as D3 select works with array
-    this.dataset = ([cartoonData]);
-
-    // set count of genes for deciding to show peptides or not
-    cls.countOfGenes = +cls.dataset[0].gene_count;
-
-    cls.styles.height = this.getSvgHeight(cls.styles.height, this.dataset[0]['_id']);
-
-    const svg = this.container.selectAll('svg')
-      .data(this.dataset)
-      .enter()
-      .append('svg');
-
-    cls.svg = svg;
-    cls.drawSvg(this.dataset, svg);
-  }
-
   runD3Redraw() {
     this.styles.width = this.container.style('width').replace(/px/, '') - 50;
     this.styles.trans = undefined;
@@ -187,25 +206,18 @@ export class Cartoon {
       })
       .attr('data-ga-action', 'virus-segment-click')
       .attr('data-ga-label', 'viral-genome')
-      // .on('mouseover', function (data) {
-      //   cls.mouseOver.call(this, data, cls);
-      // })
-      // .on('mousemove', function (data) {
-      //   cls.mouseMove.call(this, data, cls);
-      // })
-      // .on('mouseout', function (data) {
-      //   cls.mouseOut.call(this, data, cls);
-      // })
-      .on('click', function (d, i, node) {
-        cls.mouseClicked.call(this, d, i, cls, 'segment');
-      });
-
-    // selection.append('text')
-    //   .text('SARS-CoV-2 genome')
-    //   .classed('segment-label', true)
-    //   .attr('text-anchor', 'start')
-    //   .attr('x', 0)
-    //   .attr('y', -4);
+    // .on('mouseover', function (data) {
+    //   cls.mouseOver.call(this, data, cls);
+    // })
+    // .on('mousemove', function (data) {
+    //   cls.mouseMove.call(this, data, cls);
+    // })
+    // .on('mouseout', function (data) {
+    //   cls.mouseOut.call(this, data, cls);
+    // })
+    // .on('click', function (d, i, node) {
+    //   cls.mouseClicked.call(this, d, i, cls, 'segment');
+    // });
 
     selection.append('text')
       .text('5\'')
@@ -264,18 +276,18 @@ export class Cartoon {
         .attr('data-base-end', bases[bases.length - 1][1])
         .attr('data-ga-action', 'virus-segment-click')
         .attr('data-ga-label', 'cds')
-        // .on('mouseover', function (data) {
-        //   cls.mouseOver.call(this, data, cls);
-        // })
-        // .on('mousemove', function (data) {
-        //   cls.mouseMove.call(this, data, cls);
-        // })
-        // .on('mouseout', function (data) {
-        //   cls.mouseOut.call(this, data, cls);
-        // })
-        .on('click', function (d, i, node) {
-          cls.mouseClicked.call(this, d, i, cls, 'gene');
-        });
+      // .on('mouseover', function (data) {
+      //   cls.mouseOver.call(this, data, cls);
+      // })
+      // .on('mousemove', function (data) {
+      //   cls.mouseMove.call(this, data, cls);
+      // })
+      // .on('mouseout', function (data) {
+      //   cls.mouseOut.call(this, data, cls);
+      // })
+      // .on('click', function (d, i, node) {
+      //   cls.mouseClicked.call(this, d, i, cls, 'gene');
+      // });
 
       selection.append('text')
         .classed('gene-label', true)
@@ -421,9 +433,9 @@ export class Cartoon {
           otherPeptides.classed('cartoon__item--mouseover', false)
         }
       })
-      .on('click', function (d, i, node) {
-        cls.mouseClicked.call(this, d, i, cls, 'peptide');
-      });
+    // .on('click', function (d, i, node) {
+    //   cls.mouseClicked.call(this, d, i, cls, 'peptide');
+    // });
 
 
     // get the parent Gene and add peptides and their locations
@@ -445,6 +457,37 @@ export class Cartoon {
       })
       .attr('y', -5)
       */
+  }
+
+  renderVariant(d, i, cls) {
+    const boxWidth = 10,
+      boxHeight = 10,
+      boxMargin = 10;
+    const {start, stop} = d;
+    const selection = d3.select(this);
+    selection
+      .selectAll('rect')
+      .data(d => d.alleles)
+      .enter()
+      .append('rect')
+      .classed('allele-box', true)
+      .attr('width', boxWidth)
+      .attr('height', boxHeight)
+      .attr('fill', 'cyan')
+      .attr('stroke', 'black')
+      .attr('stroke-width', 1)
+      .attr('x', (dd, i) => {
+        return start + (i * (boxWidth + boxMargin))
+      })
+      .attr('data-tippy-content', d => {
+        const {allele, count} = d
+        return `
+          <div class="variant--tooltip">
+            <div>Allele: ${allele}</div>
+            <div>Count: ${count}</div>
+          </div>
+        `
+      });
   }
 
   fixGeneCollision(d, i, cls) {
@@ -569,47 +612,31 @@ export class Cartoon {
   mouseMove(data, cls) {
   }
 
-  mouseClicked(d, i, cls, itemType) {
-    let selection = d3.select(this);
-    if (selection.classed(CSS_ITEM_SELECTED)) {
-      selection.classed(CSS_ITEM_SELECTED, false)
-    } else {
-      selection.classed(CSS_ITEM_SELECTED, true);
-    }
-    const eventData = {
-      target: this,
-      selection: selection,
-      data: d,
-      itemType: itemType,
-      selected: selection.classed(CSS_ITEM_SELECTED)
-    };
-
-    if (itemType === 'peptide') {
-      const otherPeptides = d3.selectAll(`rect.peptide-box[data-tippy-content="${d.label}"]`);
-      if (!otherPeptides.empty()) {
-        otherPeptides.classed(CSS_ITEM_SELECTED, selection.classed(CSS_ITEM_SELECTED))
-      }
-    }
-
-
-    cls.logToGAAndApplog(this);
-    cls.emit(CARTOON_ITEM_CLICKED, eventData);
-  }
-
-  logToGAAndApplog(thisNode) {
-    const label = thisNode.getAttribute('data-ga-label');
-    const action = thisNode.getAttribute('data-ga-action');
-    ncbi.sg.getGA()('send', 'event', 'Featured', action, label);
-    const d = d3.select(thisNode).datum();
-    ncbi.sg.ping({
-      'link_action_name': action,
-      'jsevent': 'click',
-      'link_section_name': 'Featured',
-      'link_text': d.label,
-      'link_id': label // mature-peptide
-    });
-
-  }
+  // mouseClicked(d, i, cls, itemType) {
+  //   let selection = d3.select(this);
+  //   if (selection.classed(CSS_ITEM_SELECTED)) {
+  //     selection.classed(CSS_ITEM_SELECTED, false)
+  //   } else {
+  //     selection.classed(CSS_ITEM_SELECTED, true);
+  //   }
+  //   const eventData = {
+  //     target: this,
+  //     selection: selection,
+  //     data: d,
+  //     itemType: itemType,
+  //     selected: selection.classed(CSS_ITEM_SELECTED)
+  //   };
+  //
+  //   if (itemType === 'peptide') {
+  //     const otherPeptides = d3.selectAll(`rect.peptide-box[data-tippy-content="${d.label}"]`);
+  //     if (!otherPeptides.empty()) {
+  //       otherPeptides.classed(CSS_ITEM_SELECTED, selection.classed(CSS_ITEM_SELECTED))
+  //     }
+  //   }
+  //
+  //
+  //   cls.emit(CARTOON_ITEM_CLICKED, eventData);
+  // }
 
 
   // TODO: each object should have its own highlighter
