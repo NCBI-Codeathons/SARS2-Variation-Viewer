@@ -45,7 +45,7 @@ $(document).ready(function () {
           trigger: 'hover',
           html: true,
           placement: 'top',
-          delay: {show: 0, hide: 1000}
+
         })
       }
     });
