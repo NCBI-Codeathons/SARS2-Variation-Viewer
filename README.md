@@ -25,6 +25,10 @@ The goal of this project is to identify and visualize variation (SNPs) in SARS-C
 * Join variant data to virus metadata
 
 ## Visualize SNPs in a graphical display
-* Visualize SNPs and associated metadata in a graphical display using two views, detailed view and assembly view
+* Visualize SNPs and associated metadata in a graphical display using two views, summary view and detailed view
+* Summary View: Visualize SNPs mapped to the SARS-CoV-2 reference genome with protein annotations
 * Detailed View: Visualize SNPs mapped to SARS-CoV-2 proteins at single amino acid resolution, with links to [iCn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/docs/icn3d_about.html) protein structure views 
-* Assembly View: Visualize SNPs mapped to the SARS-CoV-2 reference genome with protein annotations
+
+<img src="summary-view.png" alt="variant counts by position" width="800"/>
+<img src="detailed-view.png" alt="variant counts by position" width="800"/>
+
