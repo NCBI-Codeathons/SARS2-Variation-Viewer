@@ -40,8 +40,6 @@ def main():
                     continue
                 counter+=1
                 records.append(process_record(line, accession))
-        if counter > 10:
-            break
 
     with open(args.output, 'w') as fh:
         json.dump(records, fh)

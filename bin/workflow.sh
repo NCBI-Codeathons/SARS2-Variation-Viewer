@@ -20,11 +20,11 @@ then
 fi
 
 
-GENOMIC_FASTA_DIR='data/genomic_fasta_split'
-if [[ ! -e $GENOMIC_FASTA_DIR ]]
+GENOMIC_FASTA_SPLIT_DIR='data/genomic_fasta_split'
+if [[ ! -e $GENOMIC_FASTA_SPLIT_DIR ]]
 then
-    mkdir -p $GENOMIC_FASTA_DIR
-    csplit -z $GENOMIC_FASTA_FILE '/>/' '{*}' --prefix $GENOMIC_FASTA_DIR/xx > /dev/null
+    mkdir -p $GENOMIC_FASTA_SPLIT_DIR
+    csplit -z $GENOMIC_FASTA_FILE '/>/' '{*}' --prefix $GENOMIC_FASTA_SPLIT_DIR/xx > /dev/null
 fi
 
 REFERENCE_FASTA='data/reference/NC_045512.fasta'
@@ -43,7 +43,7 @@ then
     echo "Iterate through files ..."
     TEMP_DIR=data/tmp
     rm -rf ${TEMP_DIR}
-    for fasta_file in $(find ${GENOMIC_FASTA_DIR} -name "xx*"); do
+    for fasta_file in $(find ${GENOMIC_FASTA_SPLIT_DIR} -name "xx*"); do
         mkdir -p ${TEMP_DIR}
         accession=$(head -1 $fasta_file | cut -f 1 -d  ' ' | cut -b 2-)
         echo "Process $fasta_file ($accession)"
@@ -63,5 +63,30 @@ then
     done
 fi
 
-# Process the call data into JSON.  Need accession per file :(
-# Otherwise each row is an object in JSON.  Tempted to hand-code the JSON.  start needs --.  Python is better.
+VIRTUAL_ENV_DIR=ve/
+if [[ ! -e ${VIRTUAL_ENV_DIR} ]]
+then
+    virtualenv -p python3 ${VIRTUAL_ENV_DIR}
+    source ${VIRTUAL_ENV_DIR}/bin/activate
+    pip install -r requirements.txt
+fi
+
+METADATA_JSON=data/metadata.json
+if [[ ! -e ${METADATA_JSON} ]]
+then
+    ./bin/collect_metadata.py -i data/sars2_data.zip -o ${METDATA_JSON}
+fi
+
+FRONTEND_CARTOON=front_end_cartoon.json
+if [[ ! -e ${FRONTEND_CARTOON} ]]
+then
+    grep -v \> data/reference/NC_045512.fasta | tr -d '\n' > data/raw_reference_sequence.txt
+
+    ./bin/calls_to_alleles.py -o pre_spdi.calls.json -i data/calls2/*vcf
+    ./bin/call_spdi.py -i pre_spdi.calls.json -o variants.json -m $METADATA_JSON
+    ./bin/produce_cartoon_data.py -i variants.json -t bin/template_cartoon.json -o ${FRONTEND_CARTOON} -r data/raw_reference_sequence.txt
+fi
+
+# TODO:
+# 1. Add protein annotation (Brad)
+# 2. 
