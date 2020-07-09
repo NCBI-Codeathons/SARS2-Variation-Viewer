@@ -13,10 +13,12 @@ The goal of this project is to identify and visualize variation (SNPs) in SARS-C
 ## Download SARS-CoV-2 genomes using NCBI Datasets
 * Use the [NCBI Datasets command-line tool](https://www.ncbi.nlm.nih.gov/datasets/docs/command-line-virus/) to download all available SARS-CoV-2 genome sequences (6k+ as of July 8 2020) and associated metadata from GenBank 
 
-## Identify SNPs in these SARS-CoV-2 genomes
+## Identify SNPs in SARS-CoV-2 genomes
 * Align 6k+ genomes using bwa mem
 * Call variants (identify SNPs) using bcftools
 * Encode variants using SPDI format [(Holmes et al., 2019)](https://www.ncbi.nlm.nih.gov/pubmed/31738401)
+
+<img src="variant-counts-by-pos-spike.png" alt="variant counts by position" width="800"/>
 
 ## Correlate SNPs with SARS-CoV-2 genome metadata
 * Extract metadata, e.g. geographic location, host isolate, etc. from the NCBI Datasets virus genome data report
