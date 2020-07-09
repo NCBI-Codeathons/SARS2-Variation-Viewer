@@ -1,9 +1,11 @@
 import {cartoonData} from "../mock-data/data.js";
 import {Cartoon} from "./modules/cartoon.js";
+import {Table} from "./table.js";
 
 
-document.addEventListener('DOMContentLoaded', event => {
+$(document).ready(function () {
   const cartoon = new Cartoon({data: cartoonData});
+  const table = new Table({data: cartoonData})
 });
 
 // details view
@@ -35,7 +37,8 @@ $(document).ready(function () {
   $("#div0").html(html);
 
   const initTooltips = () => {
-    $('[data-tippy-content]').each(function (i, elem) {
+    const $allPoppers = $('[data-tippy-content]');
+    $allPoppers.each(function (i, elem) {
       const $this = $(this);
 
       const content = $this.attr('data-tippy-content');
@@ -45,7 +48,10 @@ $(document).ready(function () {
           trigger: 'hover',
           html: true,
           placement: 'top',
-
+          delay: {
+            "show": 0,
+            "hide": 2000
+          }
         })
       }
     });
