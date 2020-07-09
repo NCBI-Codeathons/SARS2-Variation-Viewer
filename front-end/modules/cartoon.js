@@ -14,12 +14,19 @@ export class Cartoon {
     this.container = d3.select(containerId);
     this.initCartoon();
 
-    tippy('[data-tippy-content]', {
-      animation: 'perspective',
-      allowHTML: true
+    $('rect').each(function (i, elem) {
+      const $this = $(this);
+      const content = $this.attr('data-tooltip');
+      if (content) {
+        $this.popover({
+          content: $this.attr('data-tooltip'),
+          trigger: 'hover',
+          html: true,
+          placement: 'top'
+        })
+      }
     });
   }
-
 
   initCartoon() {
     this.setStyles();
@@ -412,7 +419,7 @@ export class Cartoon {
       .attr('data-ga-action', 'virus-segment-click')
       .attr('data-ga-label', 'mature-peptide')
       .attr('data-protein', d.label)
-      .attr('data-tippy-content', d.label)
+      .attr('data-tooltip', d.label)
       /*
       .style('fill', 'darkgrey')
       .style('stroke-width', 2)
@@ -421,7 +428,7 @@ export class Cartoon {
        */
       //
       .on('mouseover', function (data) {
-        const selector = `rect.peptide-box[data-tippy-content="${data.label}"]`;
+        const selector = `rect.peptide-box[data-tooltip="${data.label}"]`;
         const otherPeptides = d3.selectAll(selector);
         if (!otherPeptides.empty()) {
           otherPeptides.classed('cartoon__item--mouseover', true)
@@ -432,9 +439,9 @@ export class Cartoon {
       // })
       .on('mouseout', function (data) {
         // // cls.mouseOut.call(this, data, cls);
-        // const otherPeptides = d3.select(`rect.peptide-box[data-tippy-content="${data.label}"]`);
+        // const otherPeptides = d3.select(`rect.peptide-box[data-tooltip="${data.label}"]`);
         // otherPeptides.style('fill', '#aeb0b5')
-        const otherPeptides = d3.selectAll(`rect.peptide-box[data-tippy-content="${data.label}"]`);
+        const otherPeptides = d3.selectAll(`rect.peptide-box[data-tooltip="${data.label}"]`);
         if (!otherPeptides.empty()) {
           otherPeptides.classed('cartoon__item--mouseover', false)
         }
@@ -487,7 +494,7 @@ export class Cartoon {
       .attr('x', (dd, i) => {
         return start + (i * (boxWidth + boxMargin))
       })
-      .attr('data-tippy-content', d => {
+      .attr('data-tooltip', d => {
         const {allele, count} = d
         return `
           <div class="variant--tooltip">
@@ -636,7 +643,7 @@ export class Cartoon {
   //   };
   //
   //   if (itemType === 'peptide') {
-  //     const otherPeptides = d3.selectAll(`rect.peptide-box[data-tippy-content="${d.label}"]`);
+  //     const otherPeptides = d3.selectAll(`rect.peptide-box[data-tooltip="${d.label}"]`);
   //     if (!otherPeptides.empty()) {
   //       otherPeptides.classed(CSS_ITEM_SELECTED, selection.classed(CSS_ITEM_SELECTED))
   //     }
