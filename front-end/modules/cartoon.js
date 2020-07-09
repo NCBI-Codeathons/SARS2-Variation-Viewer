@@ -1,6 +1,12 @@
 export const CARTOON_ITEM_CLICKED = 'CARTOON_ITEM_CLICKED';
 export const CSS_ITEM_SELECTED = 'cartoon__item--selected';
 
+export const getColorByCnt = (cnt) => {
+  const max = 100;
+  const value = (cnt / max > 1) ? 1 : cnt / max;
+  return 'rgb(255, ' + parseInt(255 - value * 255) + ', ' + parseInt(255 - value * 255) + ')';
+}
+
 export class Cartoon {
 
   constructor({data, containerId = '#cartoon'} = {}) {
@@ -473,7 +479,9 @@ export class Cartoon {
       .classed('allele-box', true)
       .attr('width', boxWidth)
       .attr('height', boxHeight)
-      .attr('fill', 'cyan')
+      .attr('fill', d => {
+        return getColorByCnt(d.count);
+      })
       .attr('stroke', 'black')
       .attr('stroke-width', 1)
       .attr('x', (dd, i) => {
