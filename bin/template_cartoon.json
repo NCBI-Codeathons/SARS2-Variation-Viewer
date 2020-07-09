@@ -21,9 +21,7 @@
   "cardinality": "single",
   "topology": "linear",
   "segment_count": 1,
-  "variants": [
-    "to be replace -- this is just a template"
-  ],
+  "variants": [],
   "segments": [
     {
       "label": "Severe acute respiratory syndrome coronavirus 2 genome",
