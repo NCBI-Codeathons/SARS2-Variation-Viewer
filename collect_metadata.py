@@ -54,3 +54,4 @@ for g in virus_report.genomes:
 genome_data = {'accessions': genome_data}
 with open('metadata.json', 'w') as f:
     json.dump(genome_data, f)
+

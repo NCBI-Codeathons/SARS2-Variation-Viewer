@@ -25,10 +25,19 @@ with open('input.json') as f:
     data = json.load(f)
 
 variants = data['variants']
-base_url = 'https://api.ncbi.nlm.nih.gov/variation/v0/spdi/NC_045512.2:'
-spdis = []
 
+counts = {}
+# get the counts for all the input variants
 for var in variants:
+    try:
+        counts[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] += 1
+    except:
+        counts[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] = 1
+
+base_url = 'https://api.ncbi.nlm.nih.gov/variation/v0/spdi/NC_045512.1:'
+spdis = []
+for var in variants:
+    count_key = f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'
     spdi_str = f'{var["start"]}:{var["reference"]}:{var["alleles"]}/contextual'
     input_req = f'{base_url}{spdi_str}'
     output = get_spdi(input_req)
@@ -40,7 +49,12 @@ for var in variants:
             curr_acc = meta[ct]['accession']
         curr_meta = meta[ct]['metadata']
         # TO-DO: concat the metadata with the spdi output here as same elements in the last so next line of code below works
-
+        #spdis.append(output, curr_meta)
+        output = {"accession": var['accession'], "spdi": output, "metadata": curr_meta, "count": counts[count_key] }
+        spdis.append(output)
+    else:
+        output = {"accession": var['accession'], "spdi": output, "metadata": {}, "count": counts[count_key]}
+        spdis.append(output)
 
 out_json = {'variants': spdis}
 
