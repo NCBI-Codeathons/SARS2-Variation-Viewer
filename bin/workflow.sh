@@ -66,6 +66,7 @@ fi
 VIRTUAL_ENV_DIR=ve/
 if [[ ! -e ${VIRTUAL_ENV_DIR} ]]
 then
+    echo "-> Create virtualenv"
     virtualenv -p python3 ${VIRTUAL_ENV_DIR}
     source ${VIRTUAL_ENV_DIR}/bin/activate
     pip install -r requirements.txt
@@ -74,17 +75,25 @@ fi
 METADATA_JSON=data/metadata.json
 if [[ ! -e ${METADATA_JSON} ]]
 then
+    echo "-> Collect metadata"
     ./bin/collect_metadata.py -i data/sars2_data.zip -o ${METDATA_JSON}
 fi
 
-FRONTEND_CARTOON=front_end_cartoon.json
+
+VARIANTS_JSON=data/variants.json
+if [[ ! -e ${VARIANTS_JSON} ]]
+then
+    echo "-> Aggregate variant calls"
+    ./bin/calls_to_alleles.py -o data/pre_spdi.calls.json -i data/calls2/*vcf
+    ./bin/call_spdi.py -i data/pre_spdi.calls.json -o ${VARIANTS_JSON} -m $METADATA_JSON
+fi
+
+FRONTEND_CARTOON=data/cartoon.json
 if [[ ! -e ${FRONTEND_CARTOON} ]]
 then
+    echo "-> Create cartoon graphic"
     grep -v \> data/reference/NC_045512.fasta | tr -d '\n' > data/raw_reference_sequence.txt
-
-    ./bin/calls_to_alleles.py -o pre_spdi.calls.json -i data/calls2/*vcf
-    ./bin/call_spdi.py -i pre_spdi.calls.json -o variants.json -m $METADATA_JSON
-    ./bin/produce_cartoon_data.py -i variants.json -t bin/template_cartoon.json -o ${FRONTEND_CARTOON} -r data/raw_reference_sequence.txt
+    ./bin/produce_cartoon_data.py -i data/variants.json -t bin/template_cartoon.json -o ${FRONTEND_CARTOON} -r data/raw_reference_sequence.txt
 fi
 
 # TODO:
