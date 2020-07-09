@@ -1,9 +1,11 @@
 import {cartoonData} from "../mock-data/data.js";
 import {Cartoon} from "./modules/cartoon.js";
+import {Table} from "./table.js";
 
 
-document.addEventListener('DOMContentLoaded', event => {
+$(document).ready(function () {
   const cartoon = new Cartoon({data: cartoonData});
+  const table = new Table({data: cartoonData})
 });
 
 // details view
