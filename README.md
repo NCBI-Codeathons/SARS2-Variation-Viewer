@@ -3,6 +3,14 @@ NCBI Datasets Codeathon Team 4
 
 The goal of this project is to identify and visualize variation (SNPs) in SARS-CoV-2 genomes
 
+## Background
+Understanding variation across SARS-CoV-2 genome sequences has important implications for epidemiology and molecular biology.
+
+Existing tools allow researchers to visualize SARS-CoV-2 variation but access to the underlying data is restricted and don’t provide access to individual genome sequences and valuable metadata, such as where in the world a particular genome was isolated.
+
+The SARS-CoV-2 Variation Viewer will allow users to view variation across SARS-CoV-2 genome sequences and associated protein annotation, protein structures, and genome metadata such as geographic location and host species.
+
+## Workflow
 1. Download all SARS-CoV-2 genomes from GenBank using [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
 2. Identify SNPs in these SARS-CoV-2 genomes
 3. Correlate SNPs with SARS-CoV-2 genome metadata
@@ -44,4 +52,6 @@ bash bin/workflow.sh
 
 <img src="summary-view.png" alt="variant counts by position" width="800"/>
 <img src="detailed-view.png" alt="variant counts by position" width="800"/>
+
+[SARS2 Variation Viewer](https://ncbi-codeathons.github.io/SARS2-Variation-Viewer/)
 
