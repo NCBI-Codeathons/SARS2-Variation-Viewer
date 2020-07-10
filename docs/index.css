@@ -171,4 +171,6 @@
     font-weight: regular;
 }
 
-
+.hide {
+    display:none;
+}
