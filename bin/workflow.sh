@@ -74,7 +74,7 @@ VIRTUAL_ENV_DIR=ve/
 if [[ ! -e ${VIRTUAL_ENV_DIR} ]]
 then
     echo "-> Create virtualenv"
-    virtualenv -p python3 ${VIRTUAL_ENV_DIR}
+    python3 -m venv ${VIRTUAL_ENV_DIR}
     source ${VIRTUAL_ENV_DIR}/bin/activate
     pip install -r requirements.txt
 fi
@@ -112,7 +112,3 @@ then
        -o ${FRONTEND_CARTOON} \
        -r data/raw_reference_sequence.txt
 fi
-
-# TODO:
-# 1. Add protein annotation (Brad)
-# 2. 
