@@ -106,12 +106,12 @@ then
     grep -v \> data/reference/NC_045512.fasta | tr -d '\n' > data/raw_reference_sequence.txt
     ./bin/annotate.py \
        -v ${VARIANTS_JSON} \
-       -o data/annotated_varints.json \
+       -o data/annotated_variants.json \
        -i ${SARS2_DATA_ZIP} \
        -r ${SARS2_REFSEQ_DATA_ZIP}
 
     ./bin/produce_cartoon_data.py \
-       -i data/annotated_varints.json \
+       -i data/annotated_variants.json \
        -t bin/template_cartoon.json \
        -o ${FINAL_DATA_FILE} \
        -r data/raw_reference_sequence.txt
