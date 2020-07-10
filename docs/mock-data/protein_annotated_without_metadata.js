@@ -23,7 +23,7 @@ export const data = {
   "segment_count": 1,
   "variants": [
     {
-      "start": 8781,
+      "start": 8781, // start + 1, genomic location
       "stop": 8782,
       "reference_sequence": "C",
       "alleles": [
@@ -31,31 +31,410 @@ export const data = {
           "allele": "T",
           "count": 1436,
           "spdi": "NC_045512.2:8781:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 1434
+            },
+            {
+              "value": "",
+              "count": 2
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 332
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 182
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 160
+            },
+            {
+              "value": "USA: CA",
+              "count": 100
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 85
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 78
+            },
+            {
+              "value": "USA",
+              "count": 75
+            },
+            {
+              "value": "USA: Washington",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 32
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 22
+            },
+            {
+              "value": "USA: VA",
+              "count": 19
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 19
+            },
+            {
+              "value": "China",
+              "count": 17
+            },
+            {
+              "value": "USA: UT",
+              "count": 15
+            },
+            {
+              "value": "USA: GA",
+              "count": 14
+            },
+            {
+              "value": "USA: NY",
+              "count": 13
+            },
+            {
+              "value": "Thailand",
+              "count": 11
+            },
+            {
+              "value": "China: Beijing",
+              "count": 9
+            },
+            {
+              "value": "USA: FL",
+              "count": 9
+            },
+            {
+              "value": "Hong Kong",
+              "count": 7
+            },
+            {
+              "value": "USA: MI",
+              "count": 7
+            },
+            {
+              "value": "China: Guangzhou",
+              "count": 6
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 5
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 5
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 5
+            },
+            {
+              "value": "India: Surat",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: AZ",
+              "count": 3
+            },
+            {
+              "value": "Taiwan",
+              "count": 3
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 2
+            },
+            {
+              "value": "USA: NC",
+              "count": 2
+            },
+            {
+              "value": "USA: KY",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: MA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Umatilla County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "Chile",
+              "count": 2
+            },
+            {
+              "value": "China: Shenzhen",
+              "count": 1
+            },
+            {
+              "value": "China: Yunnan",
+              "count": 1
+            },
+            {
+              "value": "India: Kerala State",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: Snohomish County, WA",
+              "count": 1
+            },
+            {
+              "value": "Colombia: Antioquia",
+              "count": 1
+            },
+            {
+              "value": "China: Wuhan",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Uruguay",
+              "count": 1
+            },
+            {
+              "value": "USA: VT",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Ben Arous",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Kittitas County",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 1
+            },
+            {
+              "value": "South Korea",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "S76S",
-          "aa_type": "synonymous",
-          "attributes": [
-            {
-              "name": "Collection Location",
-              "values": [
-                {
-                  "value": "Chicago",
-                  "count": 36
-                },
-                {
-                  "value": "New York",
-                  "count": 1400
-                }
-              ]
-            }]
+          "aa_type": "synonymous" // protein_change_type
         }
       ],
       "protein_name": "nsp4",
       "protein_accession": "YP_009724389.1",
       "protein_position": 76,
       "offset": 2,
-      "codon": "AGC",
+      "codon": "AGC", //AGC > AGT
       "amino_acid": "S"
     },
     {
@@ -67,6 +446,399 @@ export const data = {
           "allele": "C",
           "count": 1448,
           "spdi": "NC_045512.2:28143:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 1446
+            },
+            {
+              "value": "",
+              "count": 2
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 332
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 181
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 160
+            },
+            {
+              "value": "USA: CA",
+              "count": 101
+            },
+            {
+              "value": "USA",
+              "count": 88
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 85
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 77
+            },
+            {
+              "value": "USA: Washington",
+              "count": 44
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 31
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 22
+            },
+            {
+              "value": "USA: VA",
+              "count": 19
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 19
+            },
+            {
+              "value": "China",
+              "count": 17
+            },
+            {
+              "value": "USA: UT",
+              "count": 15
+            },
+            {
+              "value": "USA: GA",
+              "count": 14
+            },
+            {
+              "value": "USA: NY",
+              "count": 13
+            },
+            {
+              "value": "Thailand",
+              "count": 11
+            },
+            {
+              "value": "China: Beijing",
+              "count": 9
+            },
+            {
+              "value": "USA: FL",
+              "count": 9
+            },
+            {
+              "value": "Hong Kong",
+              "count": 7
+            },
+            {
+              "value": "USA: MI",
+              "count": 7
+            },
+            {
+              "value": "China: Guangzhou",
+              "count": 6
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 5
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 5
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: AZ",
+              "count": 3
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "USA: NC",
+              "count": 2
+            },
+            {
+              "value": "USA: KY",
+              "count": 2
+            },
+            {
+              "value": "India: Surat",
+              "count": 2
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: MA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Umatilla County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "Chile",
+              "count": 2
+            },
+            {
+              "value": "China: Shenzhen",
+              "count": 1
+            },
+            {
+              "value": "China: Yunnan",
+              "count": 1
+            },
+            {
+              "value": "India: Kerala State",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: Snohomish County, WA",
+              "count": 1
+            },
+            {
+              "value": "Colombia: Antioquia",
+              "count": 1
+            },
+            {
+              "value": "China: Wuhan",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Uruguay",
+              "count": 1
+            },
+            {
+              "value": "USA: VT",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Ben Arous",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Kittitas County",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 1
+            },
+            {
+              "value": "South Korea",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "L84S",
@@ -89,6 +861,59 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:29094:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: SC",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 3
+            },
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "China: Shenzhen",
+              "count": 1
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "China: Beijing",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "China: Guangzhou",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F274F",
@@ -111,6 +936,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:9560:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "China",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S336L",
@@ -133,24 +975,243 @@ export const data = {
           "allele": "T",
           "count": 1168,
           "spdi": "NC_045512.2:18059:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 1167
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 326
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 181
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 160
+            },
+            {
+              "value": "USA: CA",
+              "count": 92
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 76
+            },
+            {
+              "value": "USA",
+              "count": 61
+            },
+            {
+              "value": "USA: Washington",
+              "count": 42
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 39
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 32
+            },
+            {
+              "value": "USA: VA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 13
+            },
+            {
+              "value": "USA: UT",
+              "count": 11
+            },
+            {
+              "value": "USA: FL",
+              "count": 6
+            },
+            {
+              "value": "USA: NY",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 6
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 2
+            },
+            {
+              "value": "USA: AZ",
+              "count": 2
+            },
+            {
+              "value": "USA: KY",
+              "count": 2
+            },
+            {
+              "value": "USA: MI",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Umatilla County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Snohomish County, WA",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "USA: VT",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Kittitas County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L7L",
-          "aa_type": "synonymous",
-          "attributes": [
-            {
-              "name": "Collection Location",
-              "values": [
-                {
-                  "value": "Chicago",
-                  "count": 36
-                },
-                {
-                  "value": "New York",
-                  "count": 1400
-                }
-              ]
-            }]
+          "aa_type": "synonymous"
         }
       ],
       "protein_name": "3'-to-5' exonuclease",
@@ -169,6 +1230,139 @@ export const data = {
           "allele": "T",
           "count": 145,
           "spdi": "NC_045512.2:24033:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 144
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 26
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "Hong Kong",
+              "count": 4
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: MA",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "Nepal",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N824N",
@@ -191,6 +1385,131 @@ export const data = {
           "allele": "C",
           "count": 130,
           "spdi": "NC_045512.2:26728:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 129
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 25
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 19
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "Hong Kong",
+              "count": 4
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "A69A",
@@ -213,6 +1532,131 @@ export const data = {
           "allele": "C",
           "count": 133,
           "spdi": "NC_045512.2:28076:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 132
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 23
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "Hong Kong",
+              "count": 4
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "CTG",
           "amino_acid": "L",
           "protein_variant": "V62L",
@@ -222,6 +1666,47 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:28076:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "V62L",
@@ -244,6 +1729,175 @@ export const data = {
           "allele": "T",
           "count": 175,
           "spdi": "NC_045512.2:26143:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 175
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 47
+            },
+            {
+              "value": "USA: NY",
+              "count": 17
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 13
+            },
+            {
+              "value": "USA: WA",
+              "count": 10
+            },
+            {
+              "value": "USA",
+              "count": 9
+            },
+            {
+              "value": "France",
+              "count": 8
+            },
+            {
+              "value": "USA: CA",
+              "count": 7
+            },
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "South Korea",
+              "count": 4
+            },
+            {
+              "value": "Hong Kong",
+              "count": 4
+            },
+            {
+              "value": "Thailand",
+              "count": 4
+            },
+            {
+              "value": "USA: AK",
+              "count": 4
+            },
+            {
+              "value": "Jamaica",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: MD",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 2
+            },
+            {
+              "value": "Brazil",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 2
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "Australia: Melbourne, Victoria",
+              "count": 1
+            },
+            {
+              "value": "Sweden",
+              "count": 1
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "China: Anhui, Fuyang",
+              "count": 1
+            },
+            {
+              "value": "Spain",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G251V",
@@ -266,6 +1920,55 @@ export const data = {
           "allele": "G",
           "count": 21,
           "spdi": "NC_045512.2:21136:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 5
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "China: Wuhan",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K160R",
@@ -288,6 +1991,303 @@ export const data = {
           "allele": "T",
           "count": 368,
           "spdi": "NC_045512.2:11082:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 368
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 75
+            },
+            {
+              "value": "USA",
+              "count": 44
+            },
+            {
+              "value": "USA: WA",
+              "count": 19
+            },
+            {
+              "value": "USA: NY",
+              "count": 18
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 17
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 14
+            },
+            {
+              "value": "USA: CA",
+              "count": 14
+            },
+            {
+              "value": "Taiwan",
+              "count": 11
+            },
+            {
+              "value": "France",
+              "count": 11
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 8
+            },
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "USA: AK",
+              "count": 7
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "Hong Kong",
+              "count": 5
+            },
+            {
+              "value": "Jamaica",
+              "count": 5
+            },
+            {
+              "value": "Czech Republic",
+              "count": 5
+            },
+            {
+              "value": "South Korea",
+              "count": 4
+            },
+            {
+              "value": "India: Surat",
+              "count": 4
+            },
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "Guam",
+              "count": 3
+            },
+            {
+              "value": "India: Una",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 3
+            },
+            {
+              "value": "USA: MD",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "Brazil",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 2
+            },
+            {
+              "value": "USA: TX",
+              "count": 2
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 2
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "India: Modasa",
+              "count": 2
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 2
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 2
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "Italy",
+              "count": 1
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "Pakistan: Gilgit",
+              "count": 1
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "China: Anhui, Fuyang",
+              "count": 1
+            },
+            {
+              "value": "Spain",
+              "count": 1
+            },
+            {
+              "value": "Iran",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "Turkey",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Botad",
+              "count": 1
+            },
+            {
+              "value": "China: Jiangsu, Changzhou",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "Serbia",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Washington county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L37F",
@@ -310,6 +2310,39 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:17372:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China: Guangzhou",
+              "count": 2
+            },
+            {
+              "value": "India: Kerala State",
+              "count": 1
+            },
+            {
+              "value": "USA: WI",
+              "count": 1
+            },
+            {
+              "value": "China: Hubei, Wuhan",
+              "count": 1
+            },
+            {
+              "value": "China: Guangdong, Guangzhou",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "A379A",
@@ -332,6 +2365,51 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:21706:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Northern Territory",
+              "count": 2
+            },
+            {
+              "value": "Finland",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "H49Y",
@@ -354,6 +2432,155 @@ export const data = {
           "allele": "T",
           "count": 155,
           "spdi": "NC_045512.2:28853:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 155
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 59
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Surat",
+              "count": 12
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 8
+            },
+            {
+              "value": "USA: CA",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 5
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 5
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 4
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "India: Kadi",
+              "count": 1
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S194L",
@@ -376,6 +2603,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:6030:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "South Korea",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N1104N",
@@ -398,6 +2650,23 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:22223:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 14
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "S221L",
@@ -420,6 +2689,127 @@ export const data = {
           "allele": "A",
           "count": 129,
           "spdi": "NC_045512.2:489:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 128
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 25
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "GAA",
           "amino_acid": "E",
           "protein_variant": "D75E",
@@ -442,6 +2832,131 @@ export const data = {
           "allele": "T",
           "count": 135,
           "spdi": "NC_045512.2:3176:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 134
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 25
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "P153L",
@@ -463,7 +2978,52 @@ export const data = {
         {
           "allele": "",
           "count": 20,
-          "spdi": "NC_045512.2:685:AAGTCATTT:"
+          "spdi": "NC_045512.2:685:AAGTCATTT:",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: NJ",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: OK",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -476,6 +3036,35 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:9490:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 8
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "H313Y",
@@ -498,6 +3087,31 @@ export const data = {
           "allele": "T",
           "count": 13,
           "spdi": "NC_045512.2:2535:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "South Korea",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V577V",
@@ -520,6 +3134,19 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:8885:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China",
+              "count": 5
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "L111S",
@@ -542,6 +3169,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:10625:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "A191V",
@@ -564,6 +3220,95 @@ export const data = {
           "allele": "A",
           "count": 43,
           "spdi": "NC_045512.2:28877:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 43
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 14
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 5
+            },
+            {
+              "value": "India: Surat",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Ben Arous",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "S202N",
@@ -585,12 +3330,154 @@ export const data = {
         {
           "allele": "A",
           "count": 39,
-          "spdi": "NC_045512.2:29741:G:A"
+          "spdi": "NC_045512.2:29741:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 39
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 14
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 4
+            },
+            {
+              "value": "India: Surat",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ]
         },
         {
           "allele": "T",
           "count": 52,
-          "spdi": "NC_045512.2:29741:G:T"
+          "spdi": "NC_045512.2:29741:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 52
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 30
+            },
+            {
+              "value": "Taiwan",
+              "count": 8
+            },
+            {
+              "value": "Hong Kong",
+              "count": 3
+            },
+            {
+              "value": "Iran",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Turkey",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -603,6 +3490,23 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:28860:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            }
+          ],
           "codon": "AAC",
           "amino_acid": "N",
           "protein_variant": "N196N",
@@ -625,6 +3529,63 @@ export const data = {
           "allele": "A",
           "count": 51,
           "spdi": "NC_045512.2:1396:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 51
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 30
+            },
+            {
+              "value": "Taiwan",
+              "count": 8
+            },
+            {
+              "value": "Hong Kong",
+              "count": 3
+            },
+            {
+              "value": "Iran",
+              "count": 2
+            },
+            {
+              "value": "Pakistan: Gilgit",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Turkey",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "V198I",
@@ -647,6 +3608,59 @@ export const data = {
           "allele": "C",
           "count": 49,
           "spdi": "NC_045512.2:28687:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 49
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 30
+            },
+            {
+              "value": "Taiwan",
+              "count": 8
+            },
+            {
+              "value": "Hong Kong",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Turkey",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Iran",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            }
+          ],
           "codon": "CTG",
           "amino_acid": "L",
           "protein_variant": "L139L",
@@ -669,6 +3683,35 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:8091:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L1791L",
@@ -691,6 +3734,27 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:9923:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 8
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "A457V",
@@ -713,6 +3777,35 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:6025:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "Czech Republic",
+              "count": 3
+            },
+            {
+              "value": "China: Shanghai",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "P1103S",
@@ -735,6 +3828,127 @@ export const data = {
           "allele": "T",
           "count": 99,
           "spdi": "NC_045512.2:15323:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 99
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "France",
+              "count": 24
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 17
+            },
+            {
+              "value": "USA: VA",
+              "count": 9
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 8
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 6
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 4
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "Bangladesh",
+              "count": 2
+            },
+            {
+              "value": "India: Kadi",
+              "count": 2
+            },
+            {
+              "value": "India: Kalol",
+              "count": 2
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 2
+            },
+            {
+              "value": "China: Guangdong, Guangzhou",
+              "count": 1
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "India",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "India: Junagadh",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 1
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Dhanera",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-303",
@@ -757,6 +3971,31 @@ export const data = {
           "allele": "T",
           "count": 13,
           "spdi": "NC_045512.2:12533:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 8
+            },
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "China: Guangzhou",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T148I",
@@ -779,6 +4018,171 @@ export const data = {
           "allele": "T",
           "count": 194,
           "spdi": "NC_045512.2:14804:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 194
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 68
+            },
+            {
+              "value": "USA: NY",
+              "count": 18
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 14
+            },
+            {
+              "value": "USA: WA",
+              "count": 10
+            },
+            {
+              "value": "USA",
+              "count": 9
+            },
+            {
+              "value": "France",
+              "count": 8
+            },
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 7
+            },
+            {
+              "value": "USA: AK",
+              "count": 4
+            },
+            {
+              "value": "Jamaica",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 4
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "South Korea",
+              "count": 3
+            },
+            {
+              "value": "USA: MD",
+              "count": 3
+            },
+            {
+              "value": "Brazil",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-476",
@@ -801,6 +4205,103 @@ export const data = {
           "allele": "C",
           "count": 66,
           "spdi": "NC_045512.2:17246:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 66
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 13
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 12
+            },
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 4
+            },
+            {
+              "value": "USA: AK",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "Brazil",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "CGC",
           "amino_acid": "R",
           "protein_variant": "R337R",
@@ -823,6 +4324,27 @@ export const data = {
           "allele": "C",
           "count": 9,
           "spdi": "NC_045512.2:4401:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China: Beijing",
+              "count": 7
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "South Korea",
+              "count": 1
+            }
+          ],
           "codon": "CTC",
           "amino_acid": "L",
           "protein_variant": "L561L",
@@ -845,6 +4367,27 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:5061:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China: Beijing",
+              "count": 7
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "South Korea",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L781F",
@@ -867,6 +4410,43 @@ export const data = {
           "allele": "T",
           "count": 20,
           "spdi": "NC_045512.2:5783:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 9
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: Snohomish County, WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T1022I",
@@ -889,6 +4469,231 @@ export const data = {
           "allele": "T",
           "count": 1134,
           "spdi": "NC_045512.2:17746:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 1133
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 322
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 181
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 160
+            },
+            {
+              "value": "USA: CA",
+              "count": 82
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 77
+            },
+            {
+              "value": "USA",
+              "count": 60
+            },
+            {
+              "value": "USA: Washington",
+              "count": 40
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 32
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 29
+            },
+            {
+              "value": "USA: VA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 13
+            },
+            {
+              "value": "USA: UT",
+              "count": 11
+            },
+            {
+              "value": "USA: NY",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 6
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "USA: AZ",
+              "count": 2
+            },
+            {
+              "value": "USA: KY",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Umatilla County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Snohomish County, WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: VT",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Kittitas County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "P504L",
@@ -911,6 +4716,231 @@ export const data = {
           "allele": "G",
           "count": 1158,
           "spdi": "NC_045512.2:17857:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 1157
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 322
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 180
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 161
+            },
+            {
+              "value": "USA: CA",
+              "count": 91
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 77
+            },
+            {
+              "value": "USA",
+              "count": 60
+            },
+            {
+              "value": "USA: Washington",
+              "count": 41
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 39
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 32
+            },
+            {
+              "value": "USA: VA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 13
+            },
+            {
+              "value": "USA: UT",
+              "count": 11
+            },
+            {
+              "value": "USA: NY",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 6
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 2
+            },
+            {
+              "value": "USA: AZ",
+              "count": 2
+            },
+            {
+              "value": "USA: KY",
+              "count": 2
+            },
+            {
+              "value": "USA: MI",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Umatilla County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Snohomish County, WA",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "USA: VT",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Kittitas County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "Y541C",
@@ -933,6 +4963,39 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:28377:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "A35A",
@@ -954,7 +5017,24 @@ export const data = {
         {
           "allele": "T",
           "count": 5,
-          "spdi": "NC_045512.2:29735:G:T"
+          "spdi": "NC_045512.2:29735:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "Bangladesh",
+              "count": 2
+            }
+          ]
         }
       ]
     },
@@ -967,6 +5047,35 @@ export const data = {
           "allele": "T",
           "count": 88,
           "spdi": "NC_045512.2:34:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 88
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 58
+            },
+            {
+              "value": "USA",
+              "count": 21
+            },
+            {
+              "value": "USA: CT",
+              "count": 7
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-76",
@@ -989,6 +5098,47 @@ export const data = {
           "allele": "T",
           "count": 204,
           "spdi": "NC_045512.2:35:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 204
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 133
+            },
+            {
+              "value": "USA",
+              "count": 26
+            },
+            {
+              "value": "USA: ID",
+              "count": 20
+            },
+            {
+              "value": "USA: CT",
+              "count": 19
+            },
+            {
+              "value": "USA: OR",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-75",
@@ -1011,6 +5161,35 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:5571:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "South Korea",
+              "count": 3
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "M951I",
@@ -1032,7 +5211,40 @@ export const data = {
         {
           "allele": "A",
           "count": 34,
-          "spdi": "NC_045512.2:29863:G:A"
+          "spdi": "NC_045512.2:29863:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 34
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 16
+            },
+            {
+              "value": "USA: ID",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 2
+            },
+            {
+              "value": "Malaysia",
+              "count": 2
+            }
+          ]
         }
       ]
     },
@@ -1044,7 +5256,52 @@ export const data = {
         {
           "allele": "A",
           "count": 42,
-          "spdi": "NC_045512.2:29866:T:A"
+          "spdi": "NC_045512.2:29866:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 42
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 16
+            },
+            {
+              "value": "USA: ID",
+              "count": 9
+            },
+            {
+              "value": "USA: CT",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA: OR",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1056,12 +5313,90 @@ export const data = {
         {
           "allele": "A",
           "count": 61,
-          "spdi": "NC_045512.2:29867:G:A"
+          "spdi": "NC_045512.2:29867:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 60
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 19
+            },
+            {
+              "value": "USA: ID",
+              "count": 11
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 6
+            },
+            {
+              "value": "USA: CT",
+              "count": 5
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "USA: MD",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 1
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            }
+          ]
         },
         {
           "allele": "C",
           "count": 13,
-          "spdi": "NC_045512.2:29867:G:C"
+          "spdi": "NC_045512.2:29867:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China: Hubei, Wuhan",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1073,7 +5408,64 @@ export const data = {
         {
           "allele": "A",
           "count": 168,
-          "spdi": "NC_045512.2:29869:C:A"
+          "spdi": "NC_045512.2:29869:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 168
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 60
+            },
+            {
+              "value": "USA: VA",
+              "count": 46
+            },
+            {
+              "value": "USA: WA",
+              "count": 26
+            },
+            {
+              "value": "USA: ID",
+              "count": 10
+            },
+            {
+              "value": "USA",
+              "count": 10
+            },
+            {
+              "value": "USA: CT",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "India",
+              "count": 3
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1086,6 +5478,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:23524:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "China",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "H655Y",
@@ -1107,7 +5528,28 @@ export const data = {
         {
           "allele": "T",
           "count": 5,
-          "spdi": "NC_045512.2:29750:G:T"
+          "spdi": "NC_045512.2:29750:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1120,6 +5562,35 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:1101:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S99S",
@@ -1142,6 +5613,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:22431:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Czech Republic",
+              "count": 3
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D290D",
@@ -1163,7 +5655,32 @@ export const data = {
         {
           "allele": "T",
           "count": 7,
-          "spdi": "NC_045512.2:29836:C:T"
+          "spdi": "NC_045512.2:29836:C:T",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 6
+            },
+            {
+              "value": "Homo sapiens",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 5
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1176,6 +5693,27 @@ export const data = {
           "allele": "C",
           "count": 8,
           "spdi": "NC_045512.2:513:T:C",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 6
+            },
+            {
+              "value": "Homo sapiens",
+              "count": 2
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 6
+            },
+            {
+              "value": "USA: MN",
+              "count": 2
+            }
+          ],
           "codon": "CAC",
           "amino_acid": "H",
           "protein_variant": "H83H",
@@ -1198,6 +5736,39 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:17409:C:T",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 6
+            },
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 6
+            },
+            {
+              "value": "USA: MN",
+              "count": 2
+            },
+            {
+              "value": "Germany: Bavaria",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "R392C",
@@ -1207,6 +5778,19 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:17409:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 7
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "R392S",
@@ -1229,6 +5813,27 @@ export const data = {
           "allele": "G",
           "count": 7,
           "spdi": "NC_045512.2:16466:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "CCG",
           "amino_acid": "P",
           "protein_variant": "P77P",
@@ -1251,6 +5856,27 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:23184:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F541F",
@@ -1273,6 +5899,859 @@ export const data = {
           "allele": "T",
           "count": 4095,
           "spdi": "NC_045512.2:240:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 4082
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            },
+            {
+              "value": "",
+              "count": 2
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            },
+            {
+              "value": "Panthera tigris jacksoni",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 330
+            },
+            {
+              "value": "USA: WA",
+              "count": 315
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 303
+            },
+            {
+              "value": "USA: CA",
+              "count": 302
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 257
+            },
+            {
+              "value": "USA: NY",
+              "count": 200
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 185
+            },
+            {
+              "value": "USA: VA",
+              "count": 145
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 126
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 116
+            },
+            {
+              "value": "USA: FL",
+              "count": 104
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 94
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 74
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 73
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 72
+            },
+            {
+              "value": "Egypt",
+              "count": 62
+            },
+            {
+              "value": "France",
+              "count": 61
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 57
+            },
+            {
+              "value": "USA: MI",
+              "count": 52
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 49
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 43
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 41
+            },
+            {
+              "value": "USA: ID",
+              "count": 40
+            },
+            {
+              "value": "USA: CT",
+              "count": 39
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 39
+            },
+            {
+              "value": "USA: Washington",
+              "count": 37
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 36
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 33
+            },
+            {
+              "value": "USA: MA",
+              "count": 31
+            },
+            {
+              "value": "India: Surat",
+              "count": 25
+            },
+            {
+              "value": "USA: AK",
+              "count": 25
+            },
+            {
+              "value": "Bangladesh",
+              "count": 24
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 24
+            },
+            {
+              "value": "Czech Republic",
+              "count": 23
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 23
+            },
+            {
+              "value": "Poland",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "USA: UT",
+              "count": 20
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 18
+            },
+            {
+              "value": "USA: MD",
+              "count": 17
+            },
+            {
+              "value": "Germany: Bavaria",
+              "count": 14
+            },
+            {
+              "value": "Taiwan",
+              "count": 14
+            },
+            {
+              "value": "India: Modasa",
+              "count": 13
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "USA: NJ",
+              "count": 12
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 12
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: PA",
+              "count": 10
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "USA: IA",
+              "count": 8
+            },
+            {
+              "value": "Netherlands",
+              "count": 8
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 8
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 7
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 7
+            },
+            {
+              "value": "Chile",
+              "count": 7
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 6
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 6
+            },
+            {
+              "value": "Turkey",
+              "count": 6
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 6
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 6
+            },
+            {
+              "value": "USA: GA",
+              "count": 5
+            },
+            {
+              "value": "Spain",
+              "count": 5
+            },
+            {
+              "value": "USA: NC",
+              "count": 5
+            },
+            {
+              "value": "Germany",
+              "count": 5
+            },
+            {
+              "value": "USA: IN",
+              "count": 5
+            },
+            {
+              "value": "India: Prantij",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 5
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 5
+            },
+            {
+              "value": "USA: RI",
+              "count": 4
+            },
+            {
+              "value": "USA: NH",
+              "count": 4
+            },
+            {
+              "value": "USA: TX",
+              "count": 4
+            },
+            {
+              "value": "USA: SC",
+              "count": 4
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 4
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 4
+            },
+            {
+              "value": "Tunisia",
+              "count": 4
+            },
+            {
+              "value": "USA: IL",
+              "count": 3
+            },
+            {
+              "value": "USA: OH",
+              "count": 3
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: HI",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 3
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 3
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 3
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 3
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 3
+            },
+            {
+              "value": "India: Kalol",
+              "count": 3
+            },
+            {
+              "value": "USA: MN",
+              "count": 2
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 2
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 2
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 2
+            },
+            {
+              "value": "India: Mansa",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "India: Kadi",
+              "count": 2
+            },
+            {
+              "value": "USA: CO",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 2
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 2
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Columbia county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Sauk county",
+              "count": 2
+            },
+            {
+              "value": "USA: CA, San Diego County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "Pakistan: Gilgit",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: North Carolina",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "South Africa: KwaZulu-Natal",
+              "count": 1
+            },
+            {
+              "value": "USA: KS",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "USA: New York",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "Colombia",
+              "count": 1
+            },
+            {
+              "value": "USA: PR",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: Oregon, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Verona, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "India: Junagadh",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Leiden",
+              "count": 1
+            },
+            {
+              "value": "Morocco",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Uzice",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Dhanera",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: California, Monterey County",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Bhuj",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "New Zealand",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Colorado, El Paso county",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Richland county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Grant county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            },
+            {
+              "value": "Georgia",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-7",
@@ -1295,6 +6774,855 @@ export const data = {
           "allele": "T",
           "count": 4098,
           "spdi": "NC_045512.2:3036:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 4085
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            },
+            {
+              "value": "",
+              "count": 2
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            },
+            {
+              "value": "Panthera tigris jacksoni",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 332
+            },
+            {
+              "value": "USA: WA",
+              "count": 329
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 303
+            },
+            {
+              "value": "USA: CA",
+              "count": 302
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 256
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 185
+            },
+            {
+              "value": "USA: NY",
+              "count": 176
+            },
+            {
+              "value": "USA: VA",
+              "count": 145
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 126
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 116
+            },
+            {
+              "value": "USA: FL",
+              "count": 104
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 94
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 74
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 73
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 72
+            },
+            {
+              "value": "Egypt",
+              "count": 71
+            },
+            {
+              "value": "France",
+              "count": 59
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 58
+            },
+            {
+              "value": "USA: MI",
+              "count": 52
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 49
+            },
+            {
+              "value": "USA: ID",
+              "count": 42
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 42
+            },
+            {
+              "value": "USA: CT",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 41
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington",
+              "count": 37
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 36
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 33
+            },
+            {
+              "value": "USA: MA",
+              "count": 30
+            },
+            {
+              "value": "India: Surat",
+              "count": 27
+            },
+            {
+              "value": "USA: AK",
+              "count": 25
+            },
+            {
+              "value": "Bangladesh",
+              "count": 24
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 24
+            },
+            {
+              "value": "Czech Republic",
+              "count": 23
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 23
+            },
+            {
+              "value": "Poland",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "USA: UT",
+              "count": 20
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 18
+            },
+            {
+              "value": "USA: MD",
+              "count": 17
+            },
+            {
+              "value": "Germany: Bavaria",
+              "count": 14
+            },
+            {
+              "value": "Taiwan",
+              "count": 13
+            },
+            {
+              "value": "India: Modasa",
+              "count": 13
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "USA: NJ",
+              "count": 12
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 12
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: PA",
+              "count": 10
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "USA: IA",
+              "count": 8
+            },
+            {
+              "value": "Netherlands",
+              "count": 8
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 8
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 7
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 7
+            },
+            {
+              "value": "Chile",
+              "count": 7
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 6
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 6
+            },
+            {
+              "value": "Turkey",
+              "count": 6
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 6
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 6
+            },
+            {
+              "value": "USA: GA",
+              "count": 5
+            },
+            {
+              "value": "Spain",
+              "count": 5
+            },
+            {
+              "value": "USA: NC",
+              "count": 5
+            },
+            {
+              "value": "Germany",
+              "count": 5
+            },
+            {
+              "value": "USA: IN",
+              "count": 5
+            },
+            {
+              "value": "India: Prantij",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 5
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 5
+            },
+            {
+              "value": "USA: RI",
+              "count": 4
+            },
+            {
+              "value": "USA: NH",
+              "count": 4
+            },
+            {
+              "value": "USA: TX",
+              "count": 4
+            },
+            {
+              "value": "USA: SC",
+              "count": 4
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 4
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 4
+            },
+            {
+              "value": "Tunisia",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 3
+            },
+            {
+              "value": "USA: OH",
+              "count": 3
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: HI",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 3
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 3
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 3
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 3
+            },
+            {
+              "value": "India: Kalol",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 2
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 2
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 2
+            },
+            {
+              "value": "India: Mansa",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 2
+            },
+            {
+              "value": "India: Kadi",
+              "count": 2
+            },
+            {
+              "value": "USA: CO",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 2
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 2
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Columbia county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Sauk county",
+              "count": 2
+            },
+            {
+              "value": "USA: CA, San Diego County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: North Carolina",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "South Africa: KwaZulu-Natal",
+              "count": 1
+            },
+            {
+              "value": "USA: KS",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "USA: New York",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "Colombia",
+              "count": 1
+            },
+            {
+              "value": "USA: PR",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: Oregon, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Verona, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "India: Junagadh",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Leiden",
+              "count": 1
+            },
+            {
+              "value": "Morocco",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Bizerte",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Uzice",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Dhanera",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Bhuj",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "New Zealand",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Colorado, El Paso county",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Richland county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Grant county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            },
+            {
+              "value": "Georgia",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F106F",
@@ -1317,6 +7645,851 @@ export const data = {
           "allele": "T",
           "count": 4080,
           "spdi": "NC_045512.2:14407:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 4067
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            },
+            {
+              "value": "",
+              "count": 2
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            },
+            {
+              "value": "Panthera tigris jacksoni",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 333
+            },
+            {
+              "value": "USA: WA",
+              "count": 329
+            },
+            {
+              "value": "USA: CA",
+              "count": 303
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 303
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 256
+            },
+            {
+              "value": "USA: NY",
+              "count": 200
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 185
+            },
+            {
+              "value": "USA: VA",
+              "count": 145
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 125
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 115
+            },
+            {
+              "value": "USA: FL",
+              "count": 104
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 94
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 73
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 73
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 71
+            },
+            {
+              "value": "France",
+              "count": 61
+            },
+            {
+              "value": "Egypt",
+              "count": 58
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 58
+            },
+            {
+              "value": "USA: MI",
+              "count": 52
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 49
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 43
+            },
+            {
+              "value": "USA: ID",
+              "count": 42
+            },
+            {
+              "value": "USA: CT",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 41
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington",
+              "count": 38
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 32
+            },
+            {
+              "value": "USA: MA",
+              "count": 31
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 30
+            },
+            {
+              "value": "USA: AK",
+              "count": 25
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 24
+            },
+            {
+              "value": "Czech Republic",
+              "count": 23
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 23
+            },
+            {
+              "value": "Bangladesh",
+              "count": 23
+            },
+            {
+              "value": "India: Surat",
+              "count": 21
+            },
+            {
+              "value": "Poland",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "USA: UT",
+              "count": 20
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 18
+            },
+            {
+              "value": "USA: MD",
+              "count": 17
+            },
+            {
+              "value": "Taiwan",
+              "count": 13
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "USA: NJ",
+              "count": 12
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Modasa",
+              "count": 11
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: PA",
+              "count": 10
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "USA: IA",
+              "count": 8
+            },
+            {
+              "value": "Netherlands",
+              "count": 8
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 8
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 7
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 7
+            },
+            {
+              "value": "Chile",
+              "count": 7
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 6
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 6
+            },
+            {
+              "value": "Turkey",
+              "count": 6
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 6
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 6
+            },
+            {
+              "value": "USA: GA",
+              "count": 5
+            },
+            {
+              "value": "Spain",
+              "count": 5
+            },
+            {
+              "value": "USA: NC",
+              "count": 5
+            },
+            {
+              "value": "Germany",
+              "count": 5
+            },
+            {
+              "value": "USA: IN",
+              "count": 5
+            },
+            {
+              "value": "India: Prantij",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 5
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 5
+            },
+            {
+              "value": "USA: RI",
+              "count": 4
+            },
+            {
+              "value": "USA: NH",
+              "count": 4
+            },
+            {
+              "value": "USA: TX",
+              "count": 4
+            },
+            {
+              "value": "USA: SC",
+              "count": 4
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 4
+            },
+            {
+              "value": "Tunisia",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 3
+            },
+            {
+              "value": "USA: OH",
+              "count": 3
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: HI",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 3
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 3
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 3
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 3
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 3
+            },
+            {
+              "value": "India: Kalol",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 2
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 2
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 2
+            },
+            {
+              "value": "India: Mansa",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 2
+            },
+            {
+              "value": "India: Kadi",
+              "count": 2
+            },
+            {
+              "value": "USA: CO",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 2
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 2
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Columbia county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Sauk county",
+              "count": 2
+            },
+            {
+              "value": "USA: CA, San Diego County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: North Carolina",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "South Africa: KwaZulu-Natal",
+              "count": 1
+            },
+            {
+              "value": "USA: KS",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "USA: New York",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "Colombia",
+              "count": 1
+            },
+            {
+              "value": "USA: PR",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: Oregon, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Verona, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "India: Junagadh",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Leiden",
+              "count": 1
+            },
+            {
+              "value": "Morocco",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Bizerte",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Uzice",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Dhanera",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Bhuj",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "India: Savali",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "New Zealand",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Colorado, El Paso county",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Richland county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Grant county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            },
+            {
+              "value": "Georgia",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-608",
@@ -1339,6 +8512,859 @@ export const data = {
           "allele": "G",
           "count": 4119,
           "spdi": "NC_045512.2:23402:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 4106
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            },
+            {
+              "value": "",
+              "count": 2
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            },
+            {
+              "value": "Panthera tigris jacksoni",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 333
+            },
+            {
+              "value": "USA: WA",
+              "count": 329
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 303
+            },
+            {
+              "value": "USA: CA",
+              "count": 293
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 257
+            },
+            {
+              "value": "USA: NY",
+              "count": 200
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 185
+            },
+            {
+              "value": "USA: VA",
+              "count": 145
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 127
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 115
+            },
+            {
+              "value": "USA: FL",
+              "count": 104
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 94
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 74
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 73
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 72
+            },
+            {
+              "value": "Egypt",
+              "count": 71
+            },
+            {
+              "value": "France",
+              "count": 63
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 58
+            },
+            {
+              "value": "USA: MI",
+              "count": 52
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 49
+            },
+            {
+              "value": "USA: ID",
+              "count": 42
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 42
+            },
+            {
+              "value": "USA: CT",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 41
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington",
+              "count": 38
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 36
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 33
+            },
+            {
+              "value": "USA: MA",
+              "count": 31
+            },
+            {
+              "value": "India: Surat",
+              "count": 27
+            },
+            {
+              "value": "USA: AK",
+              "count": 25
+            },
+            {
+              "value": "Bangladesh",
+              "count": 24
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 24
+            },
+            {
+              "value": "Czech Republic",
+              "count": 23
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 23
+            },
+            {
+              "value": "Poland",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "USA: UT",
+              "count": 20
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 18
+            },
+            {
+              "value": "USA: MD",
+              "count": 17
+            },
+            {
+              "value": "Germany: Bavaria",
+              "count": 14
+            },
+            {
+              "value": "Taiwan",
+              "count": 13
+            },
+            {
+              "value": "India: Modasa",
+              "count": 13
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "USA: NJ",
+              "count": 12
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 12
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: PA",
+              "count": 10
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "USA: IA",
+              "count": 8
+            },
+            {
+              "value": "Netherlands",
+              "count": 8
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 8
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 7
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 7
+            },
+            {
+              "value": "Chile",
+              "count": 7
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 6
+            },
+            {
+              "value": "Turkey",
+              "count": 6
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 6
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 6
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 5
+            },
+            {
+              "value": "USA: GA",
+              "count": 5
+            },
+            {
+              "value": "Spain",
+              "count": 5
+            },
+            {
+              "value": "USA: NC",
+              "count": 5
+            },
+            {
+              "value": "Germany",
+              "count": 5
+            },
+            {
+              "value": "USA: IN",
+              "count": 5
+            },
+            {
+              "value": "India: Prantij",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 5
+            },
+            {
+              "value": "USA: RI",
+              "count": 4
+            },
+            {
+              "value": "USA: NH",
+              "count": 4
+            },
+            {
+              "value": "USA: TX",
+              "count": 4
+            },
+            {
+              "value": "USA: SC",
+              "count": 4
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 4
+            },
+            {
+              "value": "Tunisia",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 3
+            },
+            {
+              "value": "USA: OH",
+              "count": 3
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: HI",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 3
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 3
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 3
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 3
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 3
+            },
+            {
+              "value": "India: Kalol",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 2
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 2
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 2
+            },
+            {
+              "value": "India: Mansa",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 2
+            },
+            {
+              "value": "India: Kadi",
+              "count": 2
+            },
+            {
+              "value": "USA: CO",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 2
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 2
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 2
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Columbia county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Sauk county",
+              "count": 2
+            },
+            {
+              "value": "USA: CA, San Diego County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: North Carolina",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "South Africa: KwaZulu-Natal",
+              "count": 1
+            },
+            {
+              "value": "USA: KS",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "USA: New York",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "Colombia",
+              "count": 1
+            },
+            {
+              "value": "USA: PR",
+              "count": 1
+            },
+            {
+              "value": "USA: DC",
+              "count": 1
+            },
+            {
+              "value": "USA: Oregon, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Verona, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "India: Junagadh",
+              "count": 1
+            },
+            {
+              "value": "Netherlands: Leiden",
+              "count": 1
+            },
+            {
+              "value": "Morocco",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Bizerte",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Uzice",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Dhanera",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: California, Monterey County",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Bhuj",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "New Zealand",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Colorado, El Paso county",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Richland county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Grant county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            },
+            {
+              "value": "Georgia",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "D614G",
@@ -1361,6 +9387,59 @@ export const data = {
           "allele": "A",
           "count": 37,
           "spdi": "NC_045512.2:9476:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 37
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 21
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "F308Y",
@@ -1383,6 +9462,59 @@ export const data = {
           "allele": "T",
           "count": 37,
           "spdi": "NC_045512.2:25978:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 37
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 22
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "G196V",
@@ -1405,6 +9537,71 @@ export const data = {
           "allele": "T",
           "count": 40,
           "spdi": "NC_045512.2:28656:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 40
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 21
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D128D",
@@ -1427,6 +9624,63 @@ export const data = {
           "allele": "T",
           "count": 37,
           "spdi": "NC_045512.2:28862:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 37
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 21
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 3
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S197L",
@@ -1449,6 +9703,27 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:1594:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Hong Kong",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "AAA",
           "amino_acid": "K",
           "protein_variant": "E264K",
@@ -1471,6 +9746,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:11703:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Hong Kong",
+              "count": 3
+            },
+            {
+              "value": "Poland",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y244Y",
@@ -1493,6 +9793,35 @@ export const data = {
           "allele": "G",
           "count": 8,
           "spdi": "NC_045512.2:7478:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 4
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "N1587S",
@@ -1515,6 +9844,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:1662:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Hong Kong",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D286D",
@@ -1537,6 +9883,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:22660:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Hong Kong",
+              "count": 4
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "V367F",
@@ -1559,6 +9930,39 @@ export const data = {
           "allele": "A",
           "count": 18,
           "spdi": "NC_045512.2:3372:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 8
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 1
+            }
+          ],
           "codon": "GAA",
           "amino_acid": "E",
           "protein_variant": "D218E",
@@ -1581,6 +9985,311 @@ export const data = {
           "allele": "A",
           "count": 538,
           "spdi": "NC_045512.2:28880:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 535
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 73
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 58
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 57
+            },
+            {
+              "value": "USA: CA",
+              "count": 34
+            },
+            {
+              "value": "Bangladesh",
+              "count": 22
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "Egypt",
+              "count": 21
+            },
+            {
+              "value": "Czech Republic",
+              "count": 17
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 17
+            },
+            {
+              "value": "USA",
+              "count": 16
+            },
+            {
+              "value": "Poland",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 12
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "USA: WA",
+              "count": 11
+            },
+            {
+              "value": "USA: NY",
+              "count": 10
+            },
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 7
+            },
+            {
+              "value": "France",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "Taiwan",
+              "count": 5
+            },
+            {
+              "value": "USA: GA",
+              "count": 4
+            },
+            {
+              "value": "Germany",
+              "count": 4
+            },
+            {
+              "value": "Turkey",
+              "count": 4
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: MI",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "Chile",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "Spain",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "India",
+              "count": 1
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA: California, Monterey County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 1
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "R203K",
@@ -1603,6 +10312,311 @@ export const data = {
           "allele": "A",
           "count": 535,
           "spdi": "NC_045512.2:28881:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 532
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 73
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 58
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 57
+            },
+            {
+              "value": "USA: CA",
+              "count": 34
+            },
+            {
+              "value": "Bangladesh",
+              "count": 22
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "Egypt",
+              "count": 21
+            },
+            {
+              "value": "Czech Republic",
+              "count": 17
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 17
+            },
+            {
+              "value": "USA",
+              "count": 15
+            },
+            {
+              "value": "Poland",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 11
+            },
+            {
+              "value": "USA: WA",
+              "count": 10
+            },
+            {
+              "value": "USA: NY",
+              "count": 10
+            },
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 7
+            },
+            {
+              "value": "France",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "Taiwan",
+              "count": 5
+            },
+            {
+              "value": "USA: GA",
+              "count": 4
+            },
+            {
+              "value": "Germany",
+              "count": 4
+            },
+            {
+              "value": "Turkey",
+              "count": 4
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: MI",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "Chile",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "Spain",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "India",
+              "count": 1
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA: California, Monterey County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 1
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "AGA",
           "amino_acid": "R",
           "protein_variant": "R203R",
@@ -1625,6 +10639,311 @@ export const data = {
           "allele": "C",
           "count": 536,
           "spdi": "NC_045512.2:28882:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 533
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            },
+            {
+              "value": "Canis lupus familiaris",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 73
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 58
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 57
+            },
+            {
+              "value": "USA: CA",
+              "count": 34
+            },
+            {
+              "value": "Bangladesh",
+              "count": 22
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 21
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 21
+            },
+            {
+              "value": "Egypt",
+              "count": 21
+            },
+            {
+              "value": "Czech Republic",
+              "count": 17
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 17
+            },
+            {
+              "value": "USA",
+              "count": 15
+            },
+            {
+              "value": "Poland",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 12
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 11
+            },
+            {
+              "value": "USA: WA",
+              "count": 10
+            },
+            {
+              "value": "USA: NY",
+              "count": 10
+            },
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 7
+            },
+            {
+              "value": "France",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "Taiwan",
+              "count": 5
+            },
+            {
+              "value": "USA: GA",
+              "count": 4
+            },
+            {
+              "value": "Germany",
+              "count": 4
+            },
+            {
+              "value": "Turkey",
+              "count": 4
+            },
+            {
+              "value": "Greece",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: MI",
+              "count": 3
+            },
+            {
+              "value": "Italy",
+              "count": 3
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 3
+            },
+            {
+              "value": "Hong Kong",
+              "count": 2
+            },
+            {
+              "value": "Serbia",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 2
+            },
+            {
+              "value": "Chile",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            },
+            {
+              "value": "Spain: Valencia",
+              "count": 1
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "Peru",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "Spain",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "India",
+              "count": 1
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Sad",
+              "count": 1
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "Russia: Moscow region",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA: California, Monterey County",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "CGA",
           "amino_acid": "R",
           "protein_variant": "G204R",
@@ -1647,6 +10966,39 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:883:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Pakistan: Gilgit",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "R27C",
@@ -1669,6 +11021,443 @@ export const data = {
           "allele": "T",
           "count": 2264,
           "spdi": "NC_045512.2:1058:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 2261
+            },
+            {
+              "value": "",
+              "count": 2
+            },
+            {
+              "value": "Panthera tigris jacksoni",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 301
+            },
+            {
+              "value": "USA",
+              "count": 246
+            },
+            {
+              "value": "USA: CA",
+              "count": 213
+            },
+            {
+              "value": "USA: NY",
+              "count": 170
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 134
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 125
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 94
+            },
+            {
+              "value": "USA: VA",
+              "count": 84
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 84
+            },
+            {
+              "value": "USA: FL",
+              "count": 79
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 70
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 49
+            },
+            {
+              "value": "USA: MI",
+              "count": 43
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 43
+            },
+            {
+              "value": "USA: ID",
+              "count": 40
+            },
+            {
+              "value": "USA: Washington",
+              "count": 38
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 35
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 34
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 33
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 31
+            },
+            {
+              "value": "USA: CT",
+              "count": 29
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 24
+            },
+            {
+              "value": "France",
+              "count": 18
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 18
+            },
+            {
+              "value": "USA: UT",
+              "count": 13
+            },
+            {
+              "value": "USA: AK",
+              "count": 13
+            },
+            {
+              "value": "USA: MD",
+              "count": 13
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 11
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "Taiwan",
+              "count": 9
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 9
+            },
+            {
+              "value": "USA: NJ",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 5
+            },
+            {
+              "value": "Czech Republic",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: NH",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "USA: SC",
+              "count": 3
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 3
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 3
+            },
+            {
+              "value": "USA: NC",
+              "count": 2
+            },
+            {
+              "value": "USA: RI",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: MA",
+              "count": 2
+            },
+            {
+              "value": "USA: TX",
+              "count": 2
+            },
+            {
+              "value": "USA: CO",
+              "count": 2
+            },
+            {
+              "value": "USA: HI",
+              "count": 2
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Columbia county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Sauk county",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: North Carolina",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: OH",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "USA: New York",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "Colombia",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: Oregon, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "Georgia",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "ATC",
           "amino_acid": "I",
           "protein_variant": "T85I",
@@ -1691,6 +11480,607 @@ export const data = {
           "allele": "T",
           "count": 3026,
           "spdi": "NC_045512.2:25562:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 3023
+            },
+            {
+              "value": "",
+              "count": 2
+            },
+            {
+              "value": "Panthera tigris jacksoni",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 309
+            },
+            {
+              "value": "USA",
+              "count": 292
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 275
+            },
+            {
+              "value": "USA: CA",
+              "count": 235
+            },
+            {
+              "value": "USA: NY",
+              "count": 182
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 158
+            },
+            {
+              "value": "USA: VA",
+              "count": 125
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 111
+            },
+            {
+              "value": "USA: FL",
+              "count": 97
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 87
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 73
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 70
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 57
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 49
+            },
+            {
+              "value": "USA: MI",
+              "count": 43
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 43
+            },
+            {
+              "value": "USA: ID",
+              "count": 40
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 40
+            },
+            {
+              "value": "USA: Washington",
+              "count": 38
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 38
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 37
+            },
+            {
+              "value": "USA: CT",
+              "count": 36
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 33
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 33
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 33
+            },
+            {
+              "value": "Egypt",
+              "count": 31
+            },
+            {
+              "value": "France",
+              "count": 29
+            },
+            {
+              "value": "USA: MA",
+              "count": 26
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 20
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 18
+            },
+            {
+              "value": "USA: MD",
+              "count": 17
+            },
+            {
+              "value": "USA: UT",
+              "count": 16
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 16
+            },
+            {
+              "value": "India: Surat",
+              "count": 15
+            },
+            {
+              "value": "USA: AK",
+              "count": 14
+            },
+            {
+              "value": "USA: NJ",
+              "count": 12
+            },
+            {
+              "value": "India: Modasa",
+              "count": 12
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: PA",
+              "count": 9
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 9
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 8
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 7
+            },
+            {
+              "value": "Taiwan",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 5
+            },
+            {
+              "value": "USA: NC",
+              "count": 5
+            },
+            {
+              "value": "Czech Republic",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 5
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 5
+            },
+            {
+              "value": "USA: TX",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 4
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 4
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 3
+            },
+            {
+              "value": "USA: NH",
+              "count": 3
+            },
+            {
+              "value": "USA: OH",
+              "count": 3
+            },
+            {
+              "value": "USA: IN",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 3
+            },
+            {
+              "value": "USA: SC",
+              "count": 3
+            },
+            {
+              "value": "Tunisia",
+              "count": 3
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 3
+            },
+            {
+              "value": "Chile",
+              "count": 3
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 3
+            },
+            {
+              "value": "USA: RI",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: CO",
+              "count": 2
+            },
+            {
+              "value": "USA: HI",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "Turkey",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Columbia county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Sauk county",
+              "count": 2
+            },
+            {
+              "value": "USA: North Carolina",
+              "count": 1
+            },
+            {
+              "value": "USA: KS",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Maricopa County, Arizona",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "USA: New York",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "India: Prantij",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "Colombia",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Mansa",
+              "count": 1
+            },
+            {
+              "value": "USA: Oregon, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Bizerte",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Connecticut",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "USA: Colorado, El Paso county",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            },
+            {
+              "value": "Georgia",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "Q57H",
@@ -1713,6 +12103,71 @@ export const data = {
           "allele": "A",
           "count": 377,
           "spdi": "NC_045512.2:29552:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 377
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 162
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 44
+            },
+            {
+              "value": "USA",
+              "count": 40
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 31
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 29
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 23
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 22
+            },
+            {
+              "value": "USA: Washington",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 10
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "0",
@@ -1735,6 +12190,55 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:27045:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Czech Republic",
+              "count": 4
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Italy",
+              "count": 1
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            }
+          ],
           "codon": "ATG",
           "amino_acid": "M",
           "protein_variant": "T175M",
@@ -1757,6 +12261,27 @@ export const data = {
           "allele": "G",
           "count": 11,
           "spdi": "NC_045512.2:27524:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            }
+          ],
           "codon": "TCG",
           "amino_acid": "S",
           "protein_variant": "S44S",
@@ -1779,6 +12304,91 @@ export const data = {
           "allele": "C",
           "count": 102,
           "spdi": "NC_045512.2:832:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 102
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: ID",
+              "count": 35
+            },
+            {
+              "value": "USA",
+              "count": 16
+            },
+            {
+              "value": "USA: CA",
+              "count": 10
+            },
+            {
+              "value": "USA: WA",
+              "count": 9
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "USA: MI",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: AK",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 2
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "CTC",
           "amino_acid": "L",
           "protein_variant": "F10L",
@@ -1801,6 +12411,231 @@ export const data = {
           "allele": "T",
           "count": 280,
           "spdi": "NC_045512.2:27963:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 279
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 60
+            },
+            {
+              "value": "USA: ID",
+              "count": 35
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 30
+            },
+            {
+              "value": "USA: CA",
+              "count": 25
+            },
+            {
+              "value": "USA: FL",
+              "count": 24
+            },
+            {
+              "value": "USA: WA",
+              "count": 17
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 9
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 6
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 4
+            },
+            {
+              "value": "USA: MN",
+              "count": 3
+            },
+            {
+              "value": "USA: UT",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 3
+            },
+            {
+              "value": "USA: AK",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: RI",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LULING, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: Mount Horeb, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LACOMBE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MARRERO, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: VIOLET, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: AVONDALE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: TN",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Richland county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S24L",
@@ -1823,6 +12658,39 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:29253:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S327S",
@@ -1845,6 +12713,27 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:20822:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 15
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N55N",
@@ -1867,6 +12756,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:27876:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 5
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "C41F",
@@ -1888,7 +12794,36 @@ export const data = {
         {
           "allele": "A",
           "count": 22,
-          "spdi": "NC_045512.2:29861:G:A"
+          "spdi": "NC_045512.2:29861:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 22
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 12
+            },
+            {
+              "value": "USA: ID",
+              "count": 3
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1900,7 +12835,32 @@ export const data = {
         {
           "allele": "T",
           "count": 21,
-          "spdi": "NC_045512.2:29868:A:T"
+          "spdi": "NC_045512.2:29868:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 12
+            },
+            {
+              "value": "USA",
+              "count": 7
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -1913,6 +12873,123 @@ export const data = {
           "allele": "T",
           "count": 74,
           "spdi": "NC_045512.2:21574:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 74
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 9
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "France",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 3
+            },
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 2
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L5F",
@@ -1935,6 +13012,23 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:22987:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 2
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "G476S",
@@ -1957,6 +13051,59 @@ export const data = {
           "allele": "C",
           "count": 33,
           "spdi": "NC_045512.2:27383:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 33
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 19
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 3
+            },
+            {
+              "value": "China: Hubei, Wuhan",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "GAC",
           "amino_acid": "D",
           "protein_variant": "D61D",
@@ -1979,6 +13126,39 @@ export const data = {
           "allele": "T",
           "count": 57,
           "spdi": "NC_045512.2:33:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 57
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 35
+            },
+            {
+              "value": "USA",
+              "count": 12
+            },
+            {
+              "value": "USA: CT",
+              "count": 6
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-76",
@@ -2001,6 +13181,35 @@ export const data = {
           "allele": "A",
           "count": 17,
           "spdi": "NC_045512.2:36:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 11
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "Sri Lanka",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-75",
@@ -2023,6 +13232,31 @@ export const data = {
           "allele": "C",
           "count": 57,
           "spdi": "NC_045512.2:11319:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 57
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 27
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 22
+            },
+            {
+              "value": "USA: Washington",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAC",
           "amino_acid": "Y",
           "protein_variant": "Y116Y",
@@ -2045,6 +13279,27 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:25493:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "T34T",
@@ -2067,6 +13322,31 @@ export const data = {
           "allele": "A",
           "count": 23,
           "spdi": "NC_045512.2:353:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 23
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 16
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "GAC",
           "amino_acid": "D",
           "protein_variant": "G30D",
@@ -2089,6 +13369,43 @@ export const data = {
           "allele": "T",
           "count": 13,
           "spdi": "NC_045512.2:16886:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y217Y",
@@ -2110,7 +13427,44 @@ export const data = {
         {
           "allele": "T",
           "count": 9,
-          "spdi": "NC_045512.2:29773:C:T"
+          "spdi": "NC_045512.2:29773:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -2123,6 +13477,27 @@ export const data = {
           "allele": "T",
           "count": 14,
           "spdi": "NC_045512.2:6309:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 9
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "S1197S",
@@ -2132,6 +13507,35 @@ export const data = {
           "allele": "A",
           "count": 10,
           "spdi": "NC_045512.2:6309:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "India: Surat",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            }
+          ],
           "codon": "AGA",
           "amino_acid": "R",
           "protein_variant": "S1197R",
@@ -2154,6 +13558,27 @@ export const data = {
           "allele": "A",
           "count": 11,
           "spdi": "NC_045512.2:22983:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 9
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "CAA",
           "amino_acid": "Q",
           "protein_variant": "Q474Q",
@@ -2176,6 +13601,291 @@ export const data = {
           "allele": "T",
           "count": 440,
           "spdi": "NC_045512.2:18876:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 440
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 70
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 55
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 24
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 20
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 18
+            },
+            {
+              "value": "India: Surat",
+              "count": 15
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 15
+            },
+            {
+              "value": "USA",
+              "count": 14
+            },
+            {
+              "value": "Egypt",
+              "count": 13
+            },
+            {
+              "value": "India: Modasa",
+              "count": 12
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 9
+            },
+            {
+              "value": "USA: WA",
+              "count": 8
+            },
+            {
+              "value": "USA: VA",
+              "count": 8
+            },
+            {
+              "value": "USA: NY",
+              "count": 8
+            },
+            {
+              "value": "USA: CA",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 8
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 8
+            },
+            {
+              "value": "USA: CT",
+              "count": 7
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 6
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 6
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 6
+            },
+            {
+              "value": "USA: PA",
+              "count": 5
+            },
+            {
+              "value": "USA: NJ",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 5
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 5
+            },
+            {
+              "value": "USA: MD",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 4
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 4
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 4
+            },
+            {
+              "value": "Taiwan",
+              "count": 3
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: TX",
+              "count": 2
+            },
+            {
+              "value": "USA: OH",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "Turkey",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: OR",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "India: Prantij",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Mansa",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Bizerte",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 1
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "L280L",
@@ -2198,6 +13908,27 @@ export const data = {
           "allele": "G",
           "count": 11,
           "spdi": "NC_045512.2:15926:T:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 4
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-102",
@@ -2220,6 +13951,27 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:26935:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 4
+            },
+            {
+              "value": "USA: King County,WA",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L138L",
@@ -2242,6 +13994,95 @@ export const data = {
           "allele": "T",
           "count": 44,
           "spdi": "NC_045512.2:10318:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 43
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 15
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA: LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: East Feliciana Parish, Louisiana",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: GHEENS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: THIBODAUX,LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Lacombe, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: SLIDELL, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L89F",
@@ -2264,6 +14105,43 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:28825:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "China",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "R185C",
@@ -2286,6 +14164,27 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:27326:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "K42N",
@@ -2307,7 +14206,28 @@ export const data = {
         {
           "allele": "G",
           "count": 5,
-          "spdi": "NC_045512.2:29870:A:G"
+          "spdi": "NC_045512.2:29870:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Turkey",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -2320,6 +14240,31 @@ export const data = {
           "allele": "T",
           "count": 25,
           "spdi": "NC_045512.2:16911:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 25
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 12
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 3
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "V226L",
@@ -2342,6 +14287,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:831:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N9N",
@@ -2364,6 +14330,31 @@ export const data = {
           "allele": "A",
           "count": 9,
           "spdi": "NC_045512.2:26729:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "V70I",
@@ -2373,6 +14364,35 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:26729:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V70F",
@@ -2395,6 +14415,31 @@ export const data = {
           "allele": "T",
           "count": 23,
           "spdi": "NC_045512.2:4083:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 23
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Vadodara",
+              "count": 14
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 5
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Skagit County",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D455D",
@@ -2417,6 +14462,19 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:149:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-37",
@@ -2439,6 +14497,23 @@ export const data = {
           "allele": "G",
           "count": 6,
           "spdi": "NC_045512.2:152:T:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-36",
@@ -2461,6 +14536,27 @@ export const data = {
           "allele": "C",
           "count": 13,
           "spdi": "NC_045512.2:29409:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 7
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            }
+          ],
           "codon": "ACC",
           "amino_acid": "T",
           "protein_variant": "T379T",
@@ -2483,6 +14579,35 @@ export const data = {
           "allele": "G",
           "count": 45,
           "spdi": "NC_045512.2:6692:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 45
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 27
+            },
+            {
+              "value": "USA: WA",
+              "count": 8
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K1325R",
@@ -2504,7 +14629,36 @@ export const data = {
         {
           "allele": "T",
           "count": 6,
-          "spdi": "NC_045512.2:29732:C:T"
+          "spdi": "NC_045512.2:29732:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Grant County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -2517,6 +14671,35 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:27004:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington",
+              "count": 5
+            },
+            {
+              "value": "Czech Republic",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I161I",
@@ -2539,6 +14722,95 @@ export const data = {
           "allele": "A",
           "count": 51,
           "spdi": "NC_045512.2:6311:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 51
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "India: Surat",
+              "count": 3
+            },
+            {
+              "value": "Guam",
+              "count": 3
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "India: Botad",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "AAA",
           "amino_acid": "K",
           "protein_variant": "T1198K",
@@ -2561,6 +14833,91 @@ export const data = {
           "allele": "T",
           "count": 52,
           "spdi": "NC_045512.2:13729:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 52
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "India: Surat",
+              "count": 3
+            },
+            {
+              "value": "Guam",
+              "count": 3
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-834",
@@ -2583,6 +14940,95 @@ export const data = {
           "allele": "T",
           "count": 51,
           "spdi": "NC_045512.2:23928:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 51
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "India: Surat",
+              "count": 3
+            },
+            {
+              "value": "Guam",
+              "count": 3
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "India: Botad",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y789Y",
@@ -2605,6 +15051,107 @@ export const data = {
           "allele": "T",
           "count": 77,
           "spdi": "NC_045512.2:28310:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 77
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 29
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "South Korea",
+              "count": 3
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "India: Surat",
+              "count": 3
+            },
+            {
+              "value": "Guam",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "India",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "India: Hyderabad",
+              "count": 1
+            },
+            {
+              "value": "India: Prantij",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "India: Botad",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Kittitas County",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "CTC",
           "amino_acid": "L",
           "protein_variant": "P13L",
@@ -2626,7 +15173,140 @@ export const data = {
         {
           "allele": "G",
           "count": 144,
-          "spdi": "NC_045512.2:29699:A:G"
+          "spdi": "NC_045512.2:29699:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 143
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 26
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 7
+            },
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -2639,6 +15319,27 @@ export const data = {
           "allele": "C",
           "count": 7,
           "spdi": "NC_045512.2:21254:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "A199A",
@@ -2661,6 +15362,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:1237:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "H145Y",
@@ -2683,6 +15409,39 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:4682:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A655V",
@@ -2705,6 +15464,31 @@ export const data = {
           "allele": "C",
           "count": 8,
           "spdi": "NC_045512.2:28923:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "A217A",
@@ -2727,6 +15511,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:23757:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "T732T",
@@ -2749,6 +15550,31 @@ export const data = {
           "allele": "G",
           "count": 6,
           "spdi": "NC_045512.2:1514:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "CGT",
           "amino_acid": "R",
           "protein_variant": "H237R",
@@ -2771,6 +15597,35 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:9222:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "H223H",
@@ -2792,7 +15647,32 @@ export const data = {
         {
           "allele": "",
           "count": 5,
-          "spdi": "NC_045512.2:668:GTT:"
+          "spdi": "NC_045512.2:668:GTT:",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "India: Surat",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -2804,7 +15684,32 @@ export const data = {
         {
           "allele": "",
           "count": 24,
-          "spdi": "NC_045512.2:29866:TGAC:"
+          "spdi": "NC_045512.2:29866:TGAC:",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 24
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 15
+            },
+            {
+              "value": "USA: ID",
+              "count": 4
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: OR",
+              "count": 2
+            }
+          ]
         }
       ]
     },
@@ -2817,6 +15722,51 @@ export const data = {
           "allele": "A",
           "count": 21,
           "spdi": "NC_045512.2:15759:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 8
+            },
+            {
+              "value": "USA: WA",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: HI",
+              "count": 2
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-158",
@@ -2839,6 +15789,35 @@ export const data = {
           "allele": "C",
           "count": 22,
           "spdi": "NC_045512.2:23009:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 22
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,King County",
+              "count": 9
+            },
+            {
+              "value": "USA: WA",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "V483A",
@@ -2861,6 +15840,31 @@ export const data = {
           "allele": "C",
           "count": 9,
           "spdi": "NC_045512.2:3010:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 5
+            },
+            {
+              "value": "USA: IA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            }
+          ],
           "codon": "CTG",
           "amino_acid": "L",
           "protein_variant": "L98L",
@@ -2883,6 +15887,35 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:17469:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Colombia: Antioquia",
+              "count": 1
+            },
+            {
+              "value": "Uruguay",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "L412L",
@@ -2905,6 +15938,43 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:26087:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "Colombia: Antioquia",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Uruguay",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I232I",
@@ -2927,6 +15997,95 @@ export const data = {
           "allele": "T",
           "count": 132,
           "spdi": "NC_045512.2:11915:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 132
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 45
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 40
+            },
+            {
+              "value": "USA: CA",
+              "count": 11
+            },
+            {
+              "value": "USA",
+              "count": 7
+            },
+            {
+              "value": "USA: CT",
+              "count": 4
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: San Francisco, CA",
+              "count": 1
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: NJ",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S25L",
@@ -2948,7 +16107,36 @@ export const data = {
         {
           "allele": "A",
           "count": 10,
-          "spdi": "NC_045512.2:29860:G:A"
+          "spdi": "NC_045512.2:29860:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "China: Hubei, Wuhan",
+              "count": 2
+            },
+            {
+              "value": "Malaysia",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -2961,6 +16149,35 @@ export const data = {
           "allele": "G",
           "count": 7,
           "spdi": "NC_045512.2:26432:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CT",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: NJ",
+              "count": 1
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "K63K",
@@ -2983,6 +16200,39 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:1190:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "P129L",
@@ -3005,6 +16255,87 @@ export const data = {
           "allele": "T",
           "count": 52,
           "spdi": "NC_045512.2:21723:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 52
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 13
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 5
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 3
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "USA: SAINT ROSE, LA",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 1
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L54F",
@@ -3027,6 +16358,103 @@ export const data = {
           "allele": "T",
           "count": 43,
           "spdi": "NC_045512.2:312:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 43
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 3
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "Israel",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "Spain",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "Morocco: Casablanca",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L16L",
@@ -3049,6 +16477,123 @@ export const data = {
           "allele": "C",
           "count": 126,
           "spdi": "NC_045512.2:18735:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 125
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 23
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA: GA",
+              "count": 13
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            },
+            {
+              "value": "USA: SC",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 4
+            },
+            {
+              "value": "USA: UT",
+              "count": 4
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "F233L",
@@ -3071,6 +16616,63 @@ export const data = {
           "allele": "T",
           "count": 41,
           "spdi": "NC_045512.2:19683:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 41
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA",
+              "count": 6
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "V22L",
@@ -3093,6 +16695,83 @@ export const data = {
           "allele": "T",
           "count": 55,
           "spdi": "NC_045512.2:27634:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 55
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 23
+            },
+            {
+              "value": "USA",
+              "count": 7
+            },
+            {
+              "value": "USA: GA",
+              "count": 4
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S81L",
@@ -3115,6 +16794,35 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:3954:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 5
+            },
+            {
+              "value": "Czech Republic",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "K412N",
@@ -3137,6 +16845,39 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:28098:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: CHALMETTE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: METAIRIE, LA",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S69L",
@@ -3159,6 +16900,39 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:17638:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S468L",
@@ -3181,6 +16955,63 @@ export const data = {
           "allele": "T",
           "count": 59,
           "spdi": "NC_045512.2:24693:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 59
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 19
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 11
+            },
+            {
+              "value": "USA",
+              "count": 9
+            },
+            {
+              "value": "USA: CA",
+              "count": 9
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 2
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "G1044G",
@@ -3203,6 +17034,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:10817:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A255V",
@@ -3225,6 +17085,35 @@ export const data = {
           "allele": "T",
           "count": 25,
           "spdi": "NC_045512.2:14936:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 25
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 19
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-432",
@@ -3247,6 +17136,35 @@ export const data = {
           "allele": "G",
           "count": 9,
           "spdi": "NC_045512.2:4235:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 2
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "N506S",
@@ -3269,6 +17187,39 @@ export const data = {
           "allele": "C",
           "count": 10,
           "spdi": "NC_045512.2:25654:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 2
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "USA: Ak",
+              "count": 1
+            }
+          ],
           "codon": "GCA",
           "amino_acid": "A",
           "protein_variant": "V88A",
@@ -3291,6 +17242,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:17325:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "P364S",
@@ -3313,6 +17281,23 @@ export const data = {
           "allele": "G",
           "count": 8,
           "spdi": "NC_045512.2:17883:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "T550A",
@@ -3335,6 +17320,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:19644:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V9F",
@@ -3357,6 +17359,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:23119:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,King County",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "A520S",
@@ -3379,6 +17402,35 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:218:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "Poland",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-14",
@@ -3401,6 +17453,39 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:21647:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T29I",
@@ -3423,6 +17508,35 @@ export const data = {
           "allele": "C",
           "count": 11,
           "spdi": "NC_045512.2:29566:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: GA",
+              "count": 4
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "I4L",
@@ -3445,6 +17559,39 @@ export const data = {
           "allele": "G",
           "count": 8,
           "spdi": "NC_045512.2:10322:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K90R",
@@ -3467,6 +17614,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:83:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-59",
@@ -3489,6 +17653,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:29556:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "1",
@@ -3511,6 +17692,43 @@ export const data = {
           "allele": "A",
           "count": 80,
           "spdi": "NC_045512.2:1400:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 80
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 39
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 36
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Adams County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 1
+            }
+          ],
           "codon": "GAA",
           "amino_acid": "E",
           "protein_variant": "G199E",
@@ -3533,6 +17751,27 @@ export const data = {
           "allele": "A",
           "count": 10,
           "spdi": "NC_045512.2:8601:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "V16V",
@@ -3555,6 +17794,27 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:26151:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "AGA",
           "amino_acid": "R",
           "protein_variant": "G254R",
@@ -3577,6 +17837,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:8077:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "P1787S",
@@ -3599,6 +17880,47 @@ export const data = {
           "allele": "T",
           "count": 13,
           "spdi": "NC_045512.2:618:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 4
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y118Y",
@@ -3621,6 +17943,47 @@ export const data = {
           "allele": "G",
           "count": 14,
           "spdi": "NC_045512.2:14911:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 5
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-440",
@@ -3643,6 +18006,91 @@ export const data = {
           "allele": "T",
           "count": 75,
           "spdi": "NC_045512.2:6039:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 75
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 20
+            },
+            {
+              "value": "USA",
+              "count": 20
+            },
+            {
+              "value": "USA: CA",
+              "count": 8
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F1107F",
@@ -3665,6 +18113,71 @@ export const data = {
           "allele": "A",
           "count": 34,
           "spdi": "NC_045512.2:12477:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 34
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 10
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 3
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "M129I",
@@ -3687,6 +18200,71 @@ export const data = {
           "allele": "G",
           "count": 35,
           "spdi": "NC_045512.2:28895:C:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 35
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 10
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Georgia",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "A208G",
@@ -3709,6 +18287,31 @@ export const data = {
           "allele": "T",
           "count": 21,
           "spdi": "NC_045512.2:27803:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 4
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "L17L",
@@ -3731,6 +18334,43 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:5182:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            },
+            {
+              "value": "",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "P822S",
@@ -3753,6 +18393,55 @@ export const data = {
           "allele": "A",
           "count": 20,
           "spdi": "NC_045512.2:1439:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Germany: Heinsberg",
+              "count": 5
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 3
+            },
+            {
+              "value": "USA: NE",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "GAC",
           "amino_acid": "D",
           "protein_variant": "G212D",
@@ -3775,6 +18464,55 @@ export const data = {
           "allele": "A",
           "count": 20,
           "spdi": "NC_045512.2:2890:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Germany: Heinsberg",
+              "count": 5
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 3
+            },
+            {
+              "value": "USA: NE",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "ACA",
           "amino_acid": "T",
           "protein_variant": "A58T",
@@ -3797,6 +18535,103 @@ export const data = {
           "allele": "T",
           "count": 280,
           "spdi": "NC_045512.2:2415:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 280
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 116
+            },
+            {
+              "value": "USA: VA",
+              "count": 33
+            },
+            {
+              "value": "USA",
+              "count": 31
+            },
+            {
+              "value": "USA: MA",
+              "count": 24
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 15
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 13
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 11
+            },
+            {
+              "value": "France",
+              "count": 11
+            },
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA: NC",
+              "count": 3
+            },
+            {
+              "value": "USA: PA",
+              "count": 3
+            },
+            {
+              "value": "USA: IN",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: KS",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Colorado, El Paso county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y537Y",
@@ -3819,6 +18654,59 @@ export const data = {
           "allele": "T",
           "count": 108,
           "spdi": "NC_045512.2:26232:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 108
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 58
+            },
+            {
+              "value": "USA",
+              "count": 17
+            },
+            {
+              "value": "USA: VA",
+              "count": 10
+            },
+            {
+              "value": "USA: MA",
+              "count": 8
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 5
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: NC",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: IL",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-3",
@@ -3841,6 +18729,35 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:1911:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "Pakistan: Karachi",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S369S",
@@ -3863,6 +18780,43 @@ export const data = {
           "allele": "T",
           "count": 44,
           "spdi": "NC_045512.2:14876:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 44
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 27
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-452",
@@ -3885,6 +18839,39 @@ export const data = {
           "allele": "T",
           "count": 41,
           "spdi": "NC_045512.2:29187:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 41
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 27
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "A305A",
@@ -3907,6 +18894,39 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:25522:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: AK",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "G44V",
@@ -3929,6 +18949,39 @@ export const data = {
           "allele": "C",
           "count": 16,
           "spdi": "NC_045512.2:27868:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 6
+            },
+            {
+              "value": "USA: AK",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ],
           "codon": "AAC",
           "amino_acid": "N",
           "protein_variant": "N38N",
@@ -3951,6 +19004,19 @@ export const data = {
           "allele": "A",
           "count": 10,
           "spdi": "NC_045512.2:6445:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Germany: Bavaria",
+              "count": 10
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "V1243I",
@@ -3973,6 +19039,115 @@ export const data = {
           "allele": "G",
           "count": 67,
           "spdi": "NC_045512.2:20267:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 67
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 13
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 12
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 6
+            },
+            {
+              "value": "Spain",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 3
+            },
+            {
+              "value": "USA: RI",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "USA: MA",
+              "count": 2
+            },
+            {
+              "value": "Chile",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA: HI",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "New Zealand",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "L216L",
@@ -3995,6 +19170,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:16456:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: AK",
+              "count": 4
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S74L",
@@ -4017,6 +19217,27 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:21710:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 6
+            },
+            {
+              "value": "China: Anhui, Fuyang",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S50L",
@@ -4039,6 +19260,55 @@ export const data = {
           "allele": "T",
           "count": 29,
           "spdi": "NC_045512.2:28886:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 29
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 9
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 4
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "India: Surat",
+              "count": 2
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 2
+            },
+            {
+              "value": "China: Beijing",
+              "count": 1
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T205I",
@@ -4061,6 +19331,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25206:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y1215Y",
@@ -4083,6 +19374,35 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:26012:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 9
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F207F",
@@ -4105,6 +19425,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:28898:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 5
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "R209I",
@@ -4127,6 +19464,47 @@ export const data = {
           "allele": "T",
           "count": 49,
           "spdi": "NC_045512.2:12879:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 49
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 18
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 13
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 9
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Jefferson County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I65I",
@@ -4149,6 +19527,23 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:20579:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V320V",
@@ -4171,6 +19566,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:29252:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "S327L",
@@ -4193,6 +19613,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:5729:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T1004I",
@@ -4215,6 +19664,27 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:26455:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "P71L",
@@ -4237,6 +19707,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:6722:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T1335I",
@@ -4259,6 +19750,27 @@ export const data = {
           "allele": "A",
           "count": 33,
           "spdi": "NC_045512.2:7559:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 33
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 29
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "R1614K",
@@ -4281,6 +19793,27 @@ export const data = {
           "allele": "T",
           "count": 33,
           "spdi": "NC_045512.2:19998:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 33
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 29
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V127F",
@@ -4303,6 +19836,27 @@ export const data = {
           "allele": "T",
           "count": 31,
           "spdi": "NC_045512.2:21451:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 31
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 27
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G265V",
@@ -4324,12 +19878,78 @@ export const data = {
         {
           "allele": "C",
           "count": 13,
-          "spdi": "NC_045512.2:29733:G:C"
+          "spdi": "NC_045512.2:29733:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: PA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ]
         },
         {
           "allele": "T",
           "count": 6,
-          "spdi": "NC_045512.2:29733:G:T"
+          "spdi": "NC_045512.2:29733:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Jamnagar",
+              "count": 3
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -4342,6 +19962,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25095:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N1178N",
@@ -4364,6 +20009,63 @@ export const data = {
           "allele": "C",
           "count": 44,
           "spdi": "NC_045512.2:19838:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 44
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 25
+            },
+            {
+              "value": "Turkey",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: AZ",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Italy",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "AAC",
           "amino_acid": "N",
           "protein_variant": "N73N",
@@ -4386,6 +20088,27 @@ export const data = {
           "allele": "C",
           "count": 7,
           "spdi": "NC_045512.2:13005:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NH",
+              "count": 3
+            },
+            {
+              "value": "France",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "A107A",
@@ -4408,6 +20131,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:25687:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NH",
+              "count": 3
+            },
+            {
+              "value": "France",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A99V",
@@ -4417,6 +20165,23 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:25687:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "A99D",
@@ -4439,6 +20204,35 @@ export const data = {
           "allele": "T",
           "count": 26,
           "spdi": "NC_045512.2:29352:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 26
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 22
+            },
+            {
+              "value": "USA: TX",
+              "count": 1
+            },
+            {
+              "value": "USA: MO",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y360Y",
@@ -4461,6 +20255,51 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:15959:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA: NC",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-91",
@@ -4483,6 +20322,27 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:159:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Czech Republic",
+              "count": 4
+            },
+            {
+              "value": "Germany",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-34",
@@ -4505,6 +20365,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:3588:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "H290H",
@@ -4527,6 +20404,27 @@ export const data = {
           "allele": "A",
           "count": 31,
           "spdi": "NC_045512.2:4522:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 31
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 18
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 10
+            },
+            {
+              "value": "USA",
+              "count": 3
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "A602T",
@@ -4549,6 +20447,27 @@ export const data = {
           "allele": "T",
           "count": 35,
           "spdi": "NC_045512.2:10711:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 35
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 21
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 10
+            },
+            {
+              "value": "USA",
+              "count": 4
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "L220F",
@@ -4571,6 +20490,35 @@ export const data = {
           "allele": "T",
           "count": 21,
           "spdi": "NC_045512.2:14924:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 9
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "France",
+              "count": 2
+            },
+            {
+              "value": "USA: OK",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-436",
@@ -4593,6 +20541,119 @@ export const data = {
           "allele": "T",
           "count": 132,
           "spdi": "NC_045512.2:22443:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 132
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 58
+            },
+            {
+              "value": "India: Surat",
+              "count": 14
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 13
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 7
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 3
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 2
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D294D",
@@ -4615,6 +20676,31 @@ export const data = {
           "allele": "G",
           "count": 5,
           "spdi": "NC_045512.2:360:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Ben Arous",
+              "count": 1
+            }
+          ],
           "codon": "GGG",
           "amino_acid": "G",
           "protein_variant": "G32G",
@@ -4637,6 +20723,63 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:22467:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Rajkot",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "India: Surat",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia: Ben Arous",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "T302T",
@@ -4659,6 +20802,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:23574:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "C671C",
@@ -4681,6 +20845,39 @@ export const data = {
           "allele": "T",
           "count": 68,
           "spdi": "NC_045512.2:1916:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 68
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 23
+            },
+            {
+              "value": "USA: FL",
+              "count": 22
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 11
+            },
+            {
+              "value": "USA: NY",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T371I",
@@ -4703,6 +20900,39 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:5466:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 10
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y916Y",
@@ -4725,6 +20955,39 @@ export const data = {
           "allele": "T",
           "count": 26,
           "spdi": "NC_045512.2:8388:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 26
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 14
+            },
+            {
+              "value": "USA: FL",
+              "count": 7
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N1890N",
@@ -4747,6 +21010,75 @@ export const data = {
           "allele": "G",
           "count": 48,
           "spdi": "NC_045512.2:2479:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 48
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 12
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 8
+            },
+            {
+              "value": "France",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "USA: MD",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "I559V",
@@ -4769,6 +21101,75 @@ export const data = {
           "allele": "T",
           "count": 55,
           "spdi": "NC_045512.2:2557:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 55
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 19
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 8
+            },
+            {
+              "value": "France",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "USA: MD",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "China: Zhejiang",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "P585S",
@@ -4791,6 +21192,23 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:4911:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            }
+          ],
           "codon": "GAC",
           "amino_acid": "D",
           "protein_variant": "E731D",
@@ -4813,6 +21231,27 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:17009:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "I258I",
@@ -4822,6 +21261,27 @@ export const data = {
           "allele": "T",
           "count": 39,
           "spdi": "NC_045512.2:17009:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 39
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 25
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 13
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I258I",
@@ -4844,6 +21304,67 @@ export const data = {
           "allele": "A",
           "count": 150,
           "spdi": "NC_045512.2:378:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 150
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 77
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 42
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: UT",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: KY",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "V38V",
@@ -4866,6 +21387,47 @@ export const data = {
           "allele": "T",
           "count": 33,
           "spdi": "NC_045512.2:11416:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 33
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 24
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V149F",
@@ -4888,6 +21450,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:22334:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: IA",
+              "count": 2
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "W258L",
@@ -4910,6 +21497,43 @@ export const data = {
           "allele": "G",
           "count": 11,
           "spdi": "NC_045512.2:26529:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "USA: SC",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "D3G",
@@ -4932,6 +21556,43 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:1819:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Bangladesh",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "India: Surat",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "G339S",
@@ -4954,6 +21615,27 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:4455:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "A579A",
@@ -4976,6 +21658,27 @@ export const data = {
           "allele": "G",
           "count": 5,
           "spdi": "NC_045512.2:27923:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 1
+            }
+          ],
           "codon": "GCA",
           "amino_acid": "A",
           "protein_variant": "T11A",
@@ -4998,6 +21701,39 @@ export const data = {
           "allele": "C",
           "count": 60,
           "spdi": "NC_045512.2:2243:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 60
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 41
+            },
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "V480A",
@@ -5020,6 +21756,55 @@ export const data = {
           "allele": "T",
           "count": 24,
           "spdi": "NC_045512.2:16259:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 24
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "C8C",
@@ -5042,6 +21827,47 @@ export const data = {
           "allele": "A",
           "count": 22,
           "spdi": "NC_045512.2:28820:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 22
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "S183Y",
@@ -5064,6 +21890,39 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:27629:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 10
+            },
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "A79A",
@@ -5086,6 +21945,43 @@ export const data = {
           "allele": "C",
           "count": 14,
           "spdi": "NC_045512.2:20754:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "CGT",
           "amino_acid": "R",
           "protein_variant": "S33R",
@@ -5108,6 +22004,35 @@ export const data = {
           "allele": "T",
           "count": 23,
           "spdi": "NC_045512.2:20147:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 23
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 19
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F176F",
@@ -5130,6 +22055,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:15479:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "China: Zhejiang",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-251",
@@ -5152,6 +22094,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:3230:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G171V",
@@ -5174,6 +22145,35 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:4974:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V752V",
@@ -5196,6 +22196,35 @@ export const data = {
           "allele": "G",
           "count": 13,
           "spdi": "NC_045512.2:2017:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 8
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: NJ",
+              "count": 1
+            }
+          ],
           "codon": "GTG",
           "amino_acid": "V",
           "protein_variant": "M405V",
@@ -5217,7 +22246,36 @@ export const data = {
         {
           "allele": "T",
           "count": 9,
-          "spdi": "NC_045512.2:221:C:T"
+          "spdi": "NC_045512.2:221:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, King County",
+              "count": 3
+            },
+            {
+              "value": "Taiwan",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -5230,6 +22288,43 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:14785:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-482",
@@ -5252,6 +22347,35 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:9429:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "Greece",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "Poland",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I292I",
@@ -5274,6 +22398,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:1886:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: UT",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 3
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A361V",
@@ -5296,6 +22437,23 @@ export const data = {
           "allele": "G",
           "count": 9,
           "spdi": "NC_045512.2:17614:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 7
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K460R",
@@ -5318,6 +22476,43 @@ export const data = {
           "allele": "T",
           "count": 20,
           "spdi": "NC_045512.2:16288:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 13
+            },
+            {
+              "value": "USA: FL",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A18V",
@@ -5340,6 +22535,39 @@ export const data = {
           "allele": "T",
           "count": 21,
           "spdi": "NC_045512.2:25428:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 13
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "V13L",
@@ -5362,6 +22590,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:24377:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: UT",
+              "count": 2
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "S939F",
@@ -5384,6 +22629,31 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:6444:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 7
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D1242D",
@@ -5406,6 +22676,39 @@ export const data = {
           "allele": "T",
           "count": 14,
           "spdi": "NC_045512.2:23592:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 8
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "India: Surat",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "Q677H",
@@ -5428,6 +22731,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25168:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: IN",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L1203F",
@@ -5449,7 +22769,24 @@ export const data = {
         {
           "allele": "CGAG",
           "count": 5,
-          "spdi": "NC_045512.2:29732:CGAGGCCACGCGGAGTACGATCGAG:CGAG"
+          "spdi": "NC_045512.2:29732:CGAGGCCACGCGGAGTACGATCGAG:CGAG",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: IN",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ]
         }
       ]
     },
@@ -5461,7 +22798,44 @@ export const data = {
         {
           "allele": "GTT",
           "count": 10,
-          "spdi": "NC_045512.2:514:GTTATGGTT:GTT"
+          "spdi": "NC_045512.2:514:GTTATGGTT:GTT",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: OH",
+              "count": 2
+            },
+            {
+              "value": "USA: PA",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -5473,7 +22847,48 @@ export const data = {
         {
           "allele": "A",
           "count": 14,
-          "spdi": "NC_045512.2:1604:ATGA:A"
+          "spdi": "NC_045512.2:1604:ATGA:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 6
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "USA: NV",
+              "count": 1
+            },
+            {
+              "value": "USA: MN",
+              "count": 1
+            },
+            {
+              "value": "Pakistan: Karachi",
+              "count": 1
+            },
+            {
+              "value": "USA: San Diego, California",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -5486,6 +22901,39 @@ export const data = {
           "allele": "G",
           "count": 10,
           "spdi": "NC_045512.2:186:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 2
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Italy: Lazio",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-25",
@@ -5508,6 +22956,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:28702:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "D144Y",
@@ -5530,6 +23003,31 @@ export const data = {
           "allele": "G",
           "count": 15,
           "spdi": "NC_045512.2:10760:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Skagit County",
+              "count": 11
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 1
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K236R",
@@ -5552,6 +23050,59 @@ export const data = {
           "allele": "T",
           "count": 23,
           "spdi": "NC_045512.2:3870:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 8
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 5
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "France",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Verona, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "K384N",
@@ -5574,6 +23125,27 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:8101:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 6
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V1795F",
@@ -5596,6 +23168,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:17549:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L438L",
@@ -5618,6 +23215,35 @@ export const data = {
           "allele": "T",
           "count": 44,
           "spdi": "NC_045512.2:30:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 44
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 26
+            },
+            {
+              "value": "USA: ID",
+              "count": 9
+            },
+            {
+              "value": "USA: CT",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: OR",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-77",
@@ -5640,6 +23266,31 @@ export const data = {
           "allele": "T",
           "count": 23,
           "spdi": "NC_045512.2:10850:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 23
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 11
+            },
+            {
+              "value": "USA: NY",
+              "count": 6
+            },
+            {
+              "value": "USA: CT",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A266V",
@@ -5662,6 +23313,63 @@ export const data = {
           "allele": "T",
           "count": 91,
           "spdi": "NC_045512.2:18997:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 91
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 39
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 29
+            },
+            {
+              "value": "USA: CA",
+              "count": 8
+            },
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "USA: NJ",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "A320V",
@@ -5684,6 +23392,63 @@ export const data = {
           "allele": "A",
           "count": 91,
           "spdi": "NC_045512.2:29539:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 91
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 39
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 29
+            },
+            {
+              "value": "USA: CA",
+              "count": 8
+            },
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "USA: NJ",
+              "count": 1
+            },
+            {
+              "value": "Brazil",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-5",
@@ -5706,6 +23471,39 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:4112:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A465V",
@@ -5728,6 +23526,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:28092:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: ID",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "S67F",
@@ -5750,6 +23577,27 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:6026:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA: AK",
+              "count": 4
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "P1103L",
@@ -5772,6 +23620,23 @@ export const data = {
           "allele": "G",
           "count": 10,
           "spdi": "NC_045512.2:10235:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA: AK",
+              "count": 4
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K61R",
@@ -5794,6 +23659,23 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:1917:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            }
+          ],
           "codon": "ACC",
           "amino_acid": "T",
           "protein_variant": "T371T",
@@ -5816,6 +23698,35 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:18554:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D172D",
@@ -5838,6 +23749,39 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:29613:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "C19C",
@@ -5860,6 +23804,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:3783:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Benton County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V355V",
@@ -5882,6 +23851,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:29450:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T393I",
@@ -5904,6 +23898,31 @@ export const data = {
           "allele": "C",
           "count": 8,
           "spdi": "NC_045512.2:12:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-83",
@@ -5926,6 +23945,39 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:3095:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S126L",
@@ -5948,6 +24000,43 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:25903:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Cowlitz County",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S171L",
@@ -5970,6 +24059,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:10478:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Modasa",
+              "count": 3
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "N142I",
@@ -5992,6 +24098,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:6503:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: AK",
+              "count": 7
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "A1262V",
@@ -6014,6 +24137,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:10206:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N51N",
@@ -6036,6 +24180,35 @@ export const data = {
           "allele": "A",
           "count": 12,
           "spdi": "NC_045512.2:2839:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "ACC",
           "amino_acid": "T",
           "protein_variant": "A41T",
@@ -6058,6 +24231,35 @@ export const data = {
           "allele": "G",
           "count": 12,
           "spdi": "NC_045512.2:26044:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Clark County",
+              "count": 2
+            },
+            {
+              "value": "USA: UT",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "CGA",
           "amino_acid": "R",
           "protein_variant": "Q218R",
@@ -6080,6 +24282,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:28835:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CT",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S188L",
@@ -6102,6 +24329,39 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:7764:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Turkey",
+              "count": 2
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S1682S",
@@ -6124,6 +24384,39 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:19487:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Poland",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V483V",
@@ -6146,6 +24439,35 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:17765:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,King County",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V510V",
@@ -6168,6 +24490,39 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:26624:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "L35L",
@@ -6190,6 +24545,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:11223:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V84V",
@@ -6212,6 +24592,19 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:21145:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 7
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "L163H",
@@ -6234,6 +24627,27 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:9:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 3
+            },
+            {
+              "value": "Poland",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-84",
@@ -6256,6 +24670,23 @@ export const data = {
           "allele": "T",
           "count": 28,
           "spdi": "NC_045512.2:24903:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 28
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 27
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I1114I",
@@ -6278,6 +24709,47 @@ export const data = {
           "allele": "T",
           "count": 20,
           "spdi": "NC_045512.2:10581:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 11
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 3
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Guam",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Pakistan: Karachi",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D176D",
@@ -6300,6 +24772,35 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:9966:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "Hong Kong",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L471L",
@@ -6322,6 +24823,27 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:23933:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Taiwan",
+              "count": 6
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T791I",
@@ -6344,6 +24866,19 @@ export const data = {
           "allele": "C",
           "count": 6,
           "spdi": "NC_045512.2:28647:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Taiwan",
+              "count": 6
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "A125A",
@@ -6366,6 +24901,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:10014:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y487Y",
@@ -6388,6 +24940,23 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:18743:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 11
+            },
+            {
+              "value": "USA: NY",
+              "count": 4
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y235Y",
@@ -6410,6 +24979,31 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:10264:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 4
+            },
+            {
+              "value": "Serbia",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Novi Pazar",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "G71S",
@@ -6431,7 +25025,60 @@ export const data = {
         {
           "allele": "T",
           "count": 124,
-          "spdi": "NC_045512.2:29710:G:T"
+          "spdi": "NC_045512.2:29710:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 124
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 84
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 14
+            },
+            {
+              "value": "USA: CA",
+              "count": 11
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Washington county",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Chippewa county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -6444,6 +25091,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:28841:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "S190I",
@@ -6466,6 +25134,35 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:28848:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 10
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 4
+            },
+            {
+              "value": "USA: NY",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N192N",
@@ -6488,6 +25185,27 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:25643:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L84L",
@@ -6510,6 +25228,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:10368:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "CGT",
           "amino_acid": "R",
           "protein_variant": "R105R",
@@ -6532,6 +25275,27 @@ export const data = {
           "allele": "T",
           "count": 22,
           "spdi": "NC_045512.2:10276:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 22
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 18
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 3
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "L75F",
@@ -6554,6 +25318,23 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:20004:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "G129S",
@@ -6576,6 +25357,35 @@ export const data = {
           "allele": "C",
           "count": 11,
           "spdi": "NC_045512.2:9171:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "CTC",
           "amino_acid": "L",
           "protein_variant": "L206L",
@@ -6598,6 +25408,35 @@ export const data = {
           "allele": "G",
           "count": 11,
           "spdi": "NC_045512.2:10947:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 3
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "R298R",
@@ -6620,6 +25459,19 @@ export const data = {
           "allele": "G",
           "count": 6,
           "spdi": "NC_045512.2:26906:C:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            }
+          ],
           "codon": "GTG",
           "amino_acid": "V",
           "protein_variant": "L129V",
@@ -6642,6 +25494,19 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:1624:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: NY",
+              "count": 6
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "L274F",
@@ -6664,6 +25529,43 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:26680:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: GA",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F53F",
@@ -6686,6 +25588,55 @@ export const data = {
           "allele": "T",
           "count": 25,
           "spdi": "NC_045512.2:19523:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 25
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Timor-Leste",
+              "count": 7
+            },
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 4
+            },
+            {
+              "value": "Malaysia",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "India: Surat",
+              "count": 1
+            },
+            {
+              "value": "Jamaica",
+              "count": 1
+            },
+            {
+              "value": "India: Una",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L495L",
@@ -6708,6 +25659,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:17003:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "Taiwan",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L256L",
@@ -6730,6 +25706,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:28811:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "S180I",
@@ -6752,6 +25753,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:12147:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "Q19H",
@@ -6774,6 +25800,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25885:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "S165F",
@@ -6796,6 +25839,23 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:27227:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, King County",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 2
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "V9V",
@@ -6818,6 +25878,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:11035:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: WA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L22F",
@@ -6840,6 +25917,31 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:20133:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 9
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "V172L",
@@ -6862,6 +25964,63 @@ export const data = {
           "allele": "T",
           "count": 28,
           "spdi": "NC_045512.2:10187:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 28
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 12
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: MARINGOUIN, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "ATC",
           "amino_acid": "I",
           "protein_variant": "T45I",
@@ -6884,6 +26043,59 @@ export const data = {
           "allele": "C",
           "count": 27,
           "spdi": "NC_045512.2:24981:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 12
+            },
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: RACELAND, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: New Orleans, LA",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: LOCKPORT, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: KENNER, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: HOUMA, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: NAPOLEONVILLE, LA",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "CCC",
           "amino_acid": "P",
           "protein_variant": "P1140P",
@@ -6906,6 +26118,19 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:2763:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 10
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V15V",
@@ -6928,6 +26153,35 @@ export const data = {
           "allele": "T",
           "count": 31,
           "spdi": "NC_045512.2:28085:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 31
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 14
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 14
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "A65S",
@@ -6950,6 +26204,27 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:24094:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "France",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "A845S",
@@ -6972,6 +26247,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:27293:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 4
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y31Y",
@@ -6994,6 +26286,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:28850:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "S193I",
@@ -7016,6 +26333,31 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:13251:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 11
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y76Y",
@@ -7038,6 +26380,27 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:23603:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 11
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "P681L",
@@ -7060,6 +26423,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:20001:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "D128Y",
@@ -7082,6 +26474,35 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:28000:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 2
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Grant county",
+              "count": 1
+            }
+          ],
           "codon": "CCT",
           "amino_acid": "P",
           "protein_variant": "P36P",
@@ -7104,6 +26525,31 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:1379:C:T",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            },
+            {
+              "value": "Homo sapiens",
+              "count": 2
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 6
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 2
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "A192V",
@@ -7126,6 +26572,23 @@ export const data = {
           "allele": "A",
           "count": 9,
           "spdi": "NC_045512.2:12794:G:A",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 8
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            }
+          ],
           "codon": "GAA",
           "amino_acid": "E",
           "protein_variant": "G37E",
@@ -7148,6 +26611,23 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:14273:G:A",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 6
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-653",
@@ -7170,6 +26650,47 @@ export const data = {
           "allele": "G",
           "count": 14,
           "spdi": "NC_045512.2:24861:A:G",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 7
+            },
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 6
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "Netherlands: Milheeze",
+              "count": 1
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            }
+          ],
           "codon": "ACG",
           "amino_acid": "T",
           "protein_variant": "T1100T",
@@ -7192,6 +26713,27 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:921:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Michigan",
+              "count": 3
+            },
+            {
+              "value": "USA: MI",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "L39L",
@@ -7214,6 +26756,23 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:24381:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 10
+            },
+            {
+              "value": "USA: WA",
+              "count": 2
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S940S",
@@ -7236,6 +26795,31 @@ export const data = {
           "allele": "T",
           "count": 19,
           "spdi": "NC_045512.2:18787:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 19
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 15
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Mason County",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T250I",
@@ -7258,6 +26842,55 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:13535:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 6
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "Serbia",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-899",
@@ -7280,6 +26913,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:16974:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "India: Modasa",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V247F",
@@ -7302,6 +26956,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:14182:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 4
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-683",
@@ -7324,6 +26995,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:13553:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 4
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-893",
@@ -7346,6 +27034,31 @@ export const data = {
           "allele": "T",
           "count": 29,
           "spdi": "NC_045512.2:28518:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 29
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 26
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D82D",
@@ -7368,6 +27081,35 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:13516:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 3
+            },
+            {
+              "value": "Felis catus",
+              "count": 2
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "France",
+              "count": 2
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-905",
@@ -7390,6 +27132,51 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:25349:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 5
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 3
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "P1263L",
@@ -7412,6 +27199,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:7563:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S1615S",
@@ -7434,6 +27242,31 @@ export const data = {
           "allele": "G",
           "count": 5,
           "spdi": "NC_045512.2:13711:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-840",
@@ -7456,6 +27289,31 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:29357:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 11
+            },
+            {
+              "value": "USA: VA",
+              "count": 4
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T362I",
@@ -7478,6 +27336,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:18114:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "Puerto Rico",
+              "count": 1
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            }
+          ],
           "codon": "TAC",
           "amino_acid": "Y",
           "protein_variant": "H26Y",
@@ -7500,6 +27379,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:5183:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "P822L",
@@ -7522,6 +27418,31 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:19169:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 2
+            },
+            {
+              "value": "Kazakhstan",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F377F",
@@ -7544,6 +27465,39 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:19871:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Gandhinagar",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V84V",
@@ -7566,6 +27520,99 @@ export const data = {
           "allele": "T",
           "count": 107,
           "spdi": "NC_045512.2:2835:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 107
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 41
+            },
+            {
+              "value": "India: Surat",
+              "count": 17
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 13
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 6
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 1
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "C39C",
@@ -7588,6 +27635,35 @@ export const data = {
           "allele": "A",
           "count": 19,
           "spdi": "NC_045512.2:16077:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 19
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 12
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-52",
@@ -7610,6 +27686,135 @@ export const data = {
           "allele": "T",
           "count": 170,
           "spdi": "NC_045512.2:26734:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 169
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 66
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 21
+            },
+            {
+              "value": "India: Surat",
+              "count": 14
+            },
+            {
+              "value": "India: Modasa",
+              "count": 12
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 9
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 5
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 4
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 4
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 3
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            },
+            {
+              "value": "India: Prantij",
+              "count": 1
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Mansa",
+              "count": 1
+            },
+            {
+              "value": "India: Kodinar",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 1
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Nadiad",
+              "count": 1
+            },
+            {
+              "value": "India: Kapadvanj",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y71Y",
@@ -7632,6 +27837,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:4865:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 4
+            },
+            {
+              "value": "India: Mansa",
+              "count": 1
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 1
+            },
+            {
+              "value": "India: Bhuj",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "S716I",
@@ -7654,6 +27884,31 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:14424:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 4
+            },
+            {
+              "value": "India: Mansa",
+              "count": 1
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 1
+            },
+            {
+              "value": "India: Bhuj",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-603",
@@ -7676,6 +27931,19 @@ export const data = {
           "allele": "T",
           "count": 36,
           "spdi": "NC_045512.2:25691:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 36
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 36
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "G100G",
@@ -7698,6 +27966,19 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:10616:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 5
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "R188K",
@@ -7720,6 +28001,19 @@ export const data = {
           "allele": "G",
           "count": 13,
           "spdi": "NC_045512.2:14939:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 13
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-431",
@@ -7742,6 +28036,19 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:6362:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 12
+            }
+          ],
           "codon": "GTG",
           "amino_acid": "V",
           "protein_variant": "A1215V",
@@ -7764,6 +28071,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:16427:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 3
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y64Y",
@@ -7786,6 +28114,23 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:25975:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Michigan",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "S195Y",
@@ -7808,6 +28153,47 @@ export const data = {
           "allele": "C",
           "count": 11,
           "spdi": "NC_045512.2:27298:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "ACA",
           "amino_acid": "T",
           "protein_variant": "I33T",
@@ -7830,6 +28216,47 @@ export const data = {
           "allele": "C",
           "count": 11,
           "spdi": "NC_045512.2:29147:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 4
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Chile",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 1
+            }
+          ],
           "codon": "ACC",
           "amino_acid": "T",
           "protein_variant": "I292T",
@@ -7852,6 +28279,43 @@ export const data = {
           "allele": "A",
           "count": 21,
           "spdi": "NC_045512.2:16380:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 14
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "V49I",
@@ -7874,6 +28338,43 @@ export const data = {
           "allele": "C",
           "count": 21,
           "spdi": "NC_045512.2:17876:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 14
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "ACC",
           "amino_acid": "T",
           "protein_variant": "T547T",
@@ -7896,6 +28397,43 @@ export const data = {
           "allele": "T",
           "count": 21,
           "spdi": "NC_045512.2:25499:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 14
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: MI",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "CCT",
           "amino_acid": "P",
           "protein_variant": "P36P",
@@ -7918,6 +28456,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:2938:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "India: Kheda",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "P74S",
@@ -7940,6 +28499,19 @@ export const data = {
           "allele": "C",
           "count": 7,
           "spdi": "NC_045512.2:6511:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 7
+            }
+          ],
           "codon": "CGT",
           "amino_acid": "R",
           "protein_variant": "S1265R",
@@ -7962,6 +28534,31 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:18028:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "China",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "A598V",
@@ -7984,6 +28581,23 @@ export const data = {
           "allele": "C",
           "count": 30,
           "spdi": "NC_045512.2:25946:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 30
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 28
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            }
+          ],
           "codon": "CAC",
           "amino_acid": "H",
           "protein_variant": "Q185H",
@@ -8006,6 +28620,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:26255:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 7
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F4F",
@@ -8028,6 +28659,27 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:29667:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 7
+            },
+            {
+              "value": "USA: SC",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L37L",
@@ -8050,6 +28702,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25707:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 4
+            },
+            {
+              "value": "USA: NEW ORLEANS, LA",
+              "count": 1
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "L106F",
@@ -8072,6 +28741,19 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:2941:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 10
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "L75L",
@@ -8094,6 +28776,19 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:4389:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 10
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L557F",
@@ -8116,6 +28811,19 @@ export const data = {
           "allele": "A",
           "count": 9,
           "spdi": "NC_045512.2:24046:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 9
+            }
+          ],
           "codon": "ACA",
           "amino_acid": "T",
           "protein_variant": "A829T",
@@ -8138,6 +28846,19 @@ export const data = {
           "allele": "G",
           "count": 8,
           "spdi": "NC_045512.2:894:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 8
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "K30K",
@@ -8160,6 +28881,19 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:9597:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Thailand",
+              "count": 7
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y348Y",
@@ -8182,6 +28916,51 @@ export const data = {
           "allele": "C",
           "count": 27,
           "spdi": "NC_045512.2:15353:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 14
+            },
+            {
+              "value": "USA: Illinois",
+              "count": 4
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 2
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Fond du Lac county",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-293",
@@ -8204,6 +28983,59 @@ export const data = {
           "allele": "T",
           "count": 40,
           "spdi": "NC_045512.2:4299:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 40
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 15
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 3
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "Thailand",
+              "count": 1
+            },
+            {
+              "value": "India: Modasa",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 1
+            },
+            {
+              "value": "India: Kheda",
+              "count": 1
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V527V",
@@ -8226,6 +29058,19 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:490:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 6
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "A76T",
@@ -8248,6 +29093,19 @@ export const data = {
           "allele": "G",
           "count": 27,
           "spdi": "NC_045512.2:12556:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 27
+            }
+          ],
           "codon": "GTC",
           "amino_acid": "V",
           "protein_variant": "I156V",
@@ -8270,6 +29128,51 @@ export const data = {
           "allele": "T",
           "count": 47,
           "spdi": "NC_045512.2:25915:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 47
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 28
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 5
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T175I",
@@ -8292,6 +29195,19 @@ export const data = {
           "allele": "G",
           "count": 27,
           "spdi": "NC_045512.2:27358:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 27
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "D53G",
@@ -8314,6 +29230,23 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:20990:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 11
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L111F",
@@ -8336,6 +29269,23 @@ export const data = {
           "allele": "T",
           "count": 18,
           "spdi": "NC_045512.2:25584:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 11
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "L65F",
@@ -8358,6 +29308,23 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:20718:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 7
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "L21L",
@@ -8379,7 +29346,28 @@ export const data = {
         {
           "allele": "T",
           "count": 5,
-          "spdi": "NC_045512.2:29707:C:T"
+          "spdi": "NC_045512.2:29707:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 2
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -8392,6 +29380,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:18456:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "P140S",
@@ -8414,6 +29423,19 @@ export const data = {
           "allele": "T",
           "count": 26,
           "spdi": "NC_045512.2:1075:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 26
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 26
+            }
+          ],
           "codon": "TCA",
           "amino_acid": "S",
           "protein_variant": "P91S",
@@ -8436,6 +29458,27 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:17103:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 12
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "H290Y",
@@ -8458,6 +29501,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:20577:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "USA: MA",
+              "count": 1
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "V320L",
@@ -8480,6 +29540,27 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:2522:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 7
+            },
+            {
+              "value": "USA: ID",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T573I",
@@ -8502,6 +29583,39 @@ export const data = {
           "allele": "T",
           "count": 30,
           "spdi": "NC_045512.2:4539:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 30
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 19
+            },
+            {
+              "value": "USA: CA",
+              "count": 7
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y607Y",
@@ -8524,6 +29638,71 @@ export const data = {
           "allele": "T",
           "count": 37,
           "spdi": "NC_045512.2:3633:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 37
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 15
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 4
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 3
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 3
+            },
+            {
+              "value": "India: Kadi",
+              "count": 2
+            },
+            {
+              "value": "India: Kalol",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "India: Junagadh",
+              "count": 1
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 1
+            },
+            {
+              "value": "India: Rajkot",
+              "count": 1
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Dhanera",
+              "count": 1
+            },
+            {
+              "value": "India: Bharuch",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N305N",
@@ -8546,6 +29725,19 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:13626:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 11
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-869",
@@ -8568,6 +29760,23 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:15539:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 11
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 4
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-231",
@@ -8590,6 +29799,19 @@ export const data = {
           "allele": "G",
           "count": 11,
           "spdi": "NC_045512.2:28337:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 11
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "D22G",
@@ -8612,6 +29834,27 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:25571:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 15
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Timor-Leste",
+              "count": 1
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S60S",
@@ -8634,6 +29877,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:12780:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "USA: AK",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y32Y",
@@ -8656,6 +29916,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:17943:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "V570L",
@@ -8678,6 +29955,19 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:956:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 6
+            }
+          ],
           "codon": "TAC",
           "amino_acid": "Y",
           "protein_variant": "C51Y",
@@ -8700,6 +29990,35 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:8370:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "France",
+              "count": 4
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "Bangladesh",
+              "count": 2
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "Q1884H",
@@ -8722,6 +30041,35 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:21122:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Michigan",
+              "count": 8
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Whatcom County",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "G155G",
@@ -8744,6 +30092,19 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:11940:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 5
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "V33V",
@@ -8766,6 +30127,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25709:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L106L",
@@ -8788,6 +30166,19 @@ export const data = {
           "allele": "G",
           "count": 5,
           "spdi": "NC_045512.2:1546:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            }
+          ],
           "codon": "GGC",
           "amino_acid": "G",
           "protein_variant": "S248G",
@@ -8810,6 +30201,23 @@ export const data = {
           "allele": "C",
           "count": 24,
           "spdi": "NC_045512.2:7437:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 24
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 21
+            },
+            {
+              "value": "Czech Republic",
+              "count": 3
+            }
+          ],
           "codon": "TAC",
           "amino_acid": "Y",
           "protein_variant": "Y1573Y",
@@ -8832,6 +30240,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:11194:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Pierce County",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L75F",
@@ -8854,6 +30287,19 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:29211:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            }
+          ],
           "codon": "GCT",
           "amino_acid": "A",
           "protein_variant": "A313A",
@@ -8876,6 +30322,19 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:373:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "E37K",
@@ -8898,6 +30357,19 @@ export const data = {
           "allele": "G",
           "count": 9,
           "spdi": "NC_045512.2:26863:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 9
+            }
+          ],
           "codon": "CCG",
           "amino_acid": "P",
           "protein_variant": "P114P",
@@ -8920,6 +30392,31 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:4001:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 7
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "Serbia",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T428I",
@@ -8942,6 +30439,31 @@ export const data = {
           "allele": "A",
           "count": 12,
           "spdi": "NC_045512.2:10096:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 8
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "Serbia",
+              "count": 1
+            }
+          ],
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "G15S",
@@ -8964,6 +30486,31 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:23730:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 7
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "Serbia",
+              "count": 1
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "T723T",
@@ -8986,6 +30533,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:8916:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 1
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F121F",
@@ -9008,6 +30580,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:28336:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 2
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "D22Y",
@@ -9030,6 +30623,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:6284:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 1
+            }
+          ],
           "codon": "ATC",
           "amino_acid": "I",
           "protein_variant": "T1189I",
@@ -9052,6 +30662,19 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:27811:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 7
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F19F",
@@ -9074,6 +30697,27 @@ export const data = {
           "allele": "C",
           "count": 19,
           "spdi": "NC_045512.2:12111:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 19
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 14
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            }
+          ],
           "codon": "AGC",
           "amino_acid": "S",
           "protein_variant": "S7S",
@@ -9096,6 +30740,43 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:17689:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Turkey",
+              "count": 2
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S485L",
@@ -9118,6 +30799,31 @@ export const data = {
           "allele": "C",
           "count": 20,
           "spdi": "NC_045512.2:21973:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 14
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 2
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "D138H",
@@ -9140,6 +30846,23 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:21657:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 8
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F32F",
@@ -9162,6 +30885,27 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:29419:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "TCG",
           "amino_acid": "S",
           "protein_variant": "P383S",
@@ -9184,6 +30928,19 @@ export const data = {
           "allele": "C",
           "count": 6,
           "spdi": "NC_045512.2:15165:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 6
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-356",
@@ -9206,6 +30963,35 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:23310:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 11
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "E583D",
@@ -9228,6 +31014,23 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:26958:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "R146H",
@@ -9250,6 +31053,27 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:16016:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 3
+            },
+            {
+              "value": "India: Surat",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-72",
@@ -9272,6 +31096,27 @@ export const data = {
           "allele": "G",
           "count": 8,
           "spdi": "NC_045512.2:14672:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 5
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 2
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-520",
@@ -9294,6 +31139,23 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:10477:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Modasa",
+              "count": 3
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "N142H",
@@ -9316,6 +31178,19 @@ export const data = {
           "allele": "G",
           "count": 5,
           "spdi": "NC_045512.2:10828:A:G",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 5
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "I259V",
@@ -9338,6 +31213,19 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:22919:A:T",
+          "Host": [
+            {
+              "value": "Mustela lutreola",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Netherlands",
+              "count": 5
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "Y453F",
@@ -9360,6 +31248,35 @@ export const data = {
           "allele": "C",
           "count": 19,
           "spdi": "NC_045512.2:13437:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            },
+            {
+              "value": "Mustela lutreola",
+              "count": 1
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 14
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 3
+            },
+            {
+              "value": "Netherlands",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "CTC",
           "amino_acid": "L",
           "protein_variant": "L138L",
@@ -9382,6 +31299,31 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:20401:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Greece: Athens",
+              "count": 3
+            },
+            {
+              "value": "Spain: ASTURIAS",
+              "count": 2
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "S261L",
@@ -9404,6 +31346,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:18263:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "T75T",
@@ -9426,6 +31393,31 @@ export const data = {
           "allele": "G",
           "count": 18,
           "spdi": "NC_045512.2:15592:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 14
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "Greece: Athens",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-213",
@@ -9448,6 +31440,19 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:8784:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 7
+            }
+          ],
           "codon": "CAA",
           "amino_acid": "Q",
           "protein_variant": "Q77Q",
@@ -9470,6 +31475,27 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:24074:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 6
+            },
+            {
+              "value": "USA: WA",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "G838D",
@@ -9492,6 +31518,23 @@ export const data = {
           "allele": "T",
           "count": 19,
           "spdi": "NC_045512.2:104:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 19
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 18
+            },
+            {
+              "value": "USA: CT",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-52",
@@ -9513,7 +31556,28 @@ export const data = {
         {
           "allele": "T",
           "count": 7,
-          "spdi": "NC_045512.2:29768:C:T"
+          "spdi": "NC_045512.2:29768:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 4
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "Poland",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -9526,6 +31590,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:28947:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Gandhinagar",
+              "count": 3
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D225D",
@@ -9548,6 +31629,27 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:23276:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 9
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "India: Bayad",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T572I",
@@ -9570,6 +31672,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:9437:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Prantij",
+              "count": 4
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 2
+            },
+            {
+              "value": "India: Modasa",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T295I",
@@ -9592,6 +31719,27 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:12615:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Modasa",
+              "count": 8
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D175D",
@@ -9614,6 +31762,23 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:21794:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Modasa",
+              "count": 9
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            }
+          ],
           "codon": "ATG",
           "amino_acid": "M",
           "protein_variant": "R78M",
@@ -9636,6 +31801,35 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:6401:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 2
+            },
+            {
+              "value": "India: Dhansura",
+              "count": 1
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "P1228L",
@@ -9658,6 +31852,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:15379:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 2
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "Morocco",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-284",
@@ -9680,6 +31899,35 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:12075:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "France",
+              "count": 1
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 1
+            },
+            {
+              "value": "India: Himatnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N78N",
@@ -9702,6 +31950,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:29421:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "Germany: Dusseldorf",
+              "count": 1
+            },
+            {
+              "value": "USA: Iowa, Dubuque county",
+              "count": 1
+            }
+          ],
           "codon": "CCT",
           "amino_acid": "P",
           "protein_variant": "P383P",
@@ -9724,6 +31993,27 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:4903:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "D729Y",
@@ -9746,6 +32036,27 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:5205:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "M829I",
@@ -9768,6 +32079,31 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:24137:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 6
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T859I",
@@ -9790,6 +32126,35 @@ export const data = {
           "allele": "T",
           "count": 64,
           "spdi": "NC_045512.2:1162:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 64
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Bangladesh",
+              "count": 22
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 17
+            },
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 13
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 11
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "I120F",
@@ -9812,6 +32177,19 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:9600:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 10
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L349F",
@@ -9834,6 +32212,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:217:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 3
+            },
+            {
+              "value": "India: Dahegam",
+              "count": 1
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-15",
@@ -9856,6 +32255,31 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:16851:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "India: Gandhinagar",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "India: Kalol",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "G206C",
@@ -9878,6 +32302,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:25317:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 2
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S1252S",
@@ -9900,6 +32341,23 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:23634:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: VA",
+              "count": 6
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 5
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "S691S",
@@ -9922,6 +32380,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:9520:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "USA: VA",
+              "count": 1
+            },
+            {
+              "value": "USA: MD",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L323F",
@@ -9944,6 +32423,35 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:2112:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 2
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "Turkey",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I436I",
@@ -9966,6 +32474,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:3652:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Poland",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 2
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "L312F",
@@ -9988,6 +32513,31 @@ export const data = {
           "allele": "T",
           "count": 22,
           "spdi": "NC_045512.2:7419:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 22
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 19
+            },
+            {
+              "value": "Tunisia",
+              "count": 1
+            },
+            {
+              "value": "India: Jamnagar",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I1567I",
@@ -10010,6 +32560,23 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:29076:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 10
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y268Y",
@@ -10032,6 +32599,35 @@ export const data = {
           "allele": "C",
           "count": 10,
           "spdi": "NC_045512.2:695:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Illinois",
+              "count": 5
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "D144A",
@@ -10054,6 +32650,39 @@ export const data = {
           "allele": "C",
           "count": 11,
           "spdi": "NC_045512.2:3930:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Illinois",
+              "count": 5
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "GTC",
           "amino_acid": "V",
           "protein_variant": "V404V",
@@ -10076,6 +32705,39 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:28976:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Illinois",
+              "count": 5
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 2
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Monroe county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "S235F",
@@ -10098,6 +32760,35 @@ export const data = {
           "allele": "C",
           "count": 27,
           "spdi": "NC_045512.2:14072:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 23
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-720",
@@ -10120,6 +32811,35 @@ export const data = {
           "allele": "G",
           "count": 27,
           "spdi": "NC_045512.2:23946:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 23
+            },
+            {
+              "value": "USA: Madison, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Lafayette county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago County",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "K795K",
@@ -10142,6 +32862,39 @@ export const data = {
           "allele": "T",
           "count": 20,
           "spdi": "NC_045512.2:20315:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 20
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 14
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 2
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F232F",
@@ -10164,6 +32917,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:26123:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 4
+            },
+            {
+              "value": "USA: Dane County, Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Green county",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V244V",
@@ -10186,6 +32960,23 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:28320:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Jamaica",
+              "count": 3
+            },
+            {
+              "value": "Egypt",
+              "count": 2
+            }
+          ],
           "codon": "ACA",
           "amino_acid": "T",
           "protein_variant": "T16T",
@@ -10208,6 +32999,39 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:336:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Serbia: Kraljevo",
+              "count": 1
+            },
+            {
+              "value": "USA: Michigan",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Washington county",
+              "count": 1
+            }
+          ],
           "codon": "CGT",
           "amino_acid": "R",
           "protein_variant": "R24R",
@@ -10230,6 +33054,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:8949:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I132I",
@@ -10252,6 +33093,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:4443:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Dahod",
+              "count": 4
+            },
+            {
+              "value": "Bangladesh",
+              "count": 2
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V575V",
@@ -10274,6 +33132,23 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:25512:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            }
+          ],
           "codon": "ATC",
           "amino_acid": "I",
           "protein_variant": "L41I",
@@ -10296,6 +33171,31 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:5699:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Una",
+              "count": 2
+            },
+            {
+              "value": "India: Khedbrahma",
+              "count": 2
+            },
+            {
+              "value": "India: Mandvi",
+              "count": 1
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "A994D",
@@ -10318,6 +33218,27 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:5283:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 9
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N855N",
@@ -10339,7 +33260,20 @@ export const data = {
         {
           "allele": "A",
           "count": 12,
-          "spdi": "NC_045512.2:29743:G:A"
+          "spdi": "NC_045512.2:29743:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 12
+            }
+          ]
         }
       ]
     },
@@ -10352,6 +33286,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:2939:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 2
+            },
+            {
+              "value": "Bangladesh: Chattogram",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Mason County",
+              "count": 1
+            }
+          ],
           "codon": "CTA",
           "amino_acid": "L",
           "protein_variant": "P74L",
@@ -10374,6 +33329,19 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:5019:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 6
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D767D",
@@ -10396,6 +33364,19 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:4353:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 5
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "E545D",
@@ -10418,6 +33399,19 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:18:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Poland",
+              "count": 9
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-81",
@@ -10440,6 +33434,23 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:105:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Poland",
+              "count": 9
+            },
+            {
+              "value": "USA: HAMMOND, LA",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-52",
@@ -10462,6 +33473,23 @@ export const data = {
           "allele": "G",
           "count": 10,
           "spdi": "NC_045512.2:8071:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Poland",
+              "count": 9
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GAC",
           "amino_acid": "D",
           "protein_variant": "N1785D",
@@ -10484,6 +33512,27 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:540:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Czech Republic",
+              "count": 4
+            },
+            {
+              "value": "Poland",
+              "count": 3
+            },
+            {
+              "value": "USA: FL",
+              "count": 2
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L92L",
@@ -10506,6 +33555,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:19253:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Poland",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 2
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V405V",
@@ -10528,6 +33594,35 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:17933:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "Spain: Donostia-San Sebatian",
+              "count": 1
+            }
+          ],
           "codon": "ACT",
           "amino_acid": "T",
           "protein_variant": "T566T",
@@ -10550,6 +33645,23 @@ export const data = {
           "allele": "T",
           "count": 78,
           "spdi": "NC_045512.2:3891:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 78
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 77
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "E391D",
@@ -10572,6 +33684,19 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:24095:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 8
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "A845D",
@@ -10594,6 +33719,35 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:28602:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 5
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F110F",
@@ -10616,6 +33770,31 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:16615:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            },
+            {
+              "value": "USA: NY",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "T127I",
@@ -10638,6 +33817,19 @@ export const data = {
           "allele": "C",
           "count": 9,
           "spdi": "NC_045512.2:10215:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 9
+            }
+          ],
           "codon": "TAC",
           "amino_acid": "Y",
           "protein_variant": "Y54Y",
@@ -10660,6 +33852,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:28959:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 3
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 3
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "Q229H",
@@ -10681,7 +33890,56 @@ export const data = {
         {
           "allele": "T",
           "count": 45,
-          "spdi": "NC_045512.2:29749:C:T"
+          "spdi": "NC_045512.2:29749:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 45
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 16
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "Saudi Arabia: Jeddah",
+              "count": 4
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 4
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "USA: Massachusetts",
+              "count": 1
+            },
+            {
+              "value": "India: Kheda",
+              "count": 1
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -10694,6 +33952,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:21603:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Massachusetts",
+              "count": 7
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "Q14H",
@@ -10716,6 +33991,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:5883:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y1055Y",
@@ -10738,6 +34030,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:13486:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-915",
@@ -10760,6 +34073,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:22857:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 4
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "C432C",
@@ -10782,6 +34116,19 @@ export const data = {
           "allele": "T",
           "count": 14,
           "spdi": "NC_045512.2:23223:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 14
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "E554D",
@@ -10804,6 +34151,19 @@ export const data = {
           "allele": "A",
           "count": 9,
           "spdi": "NC_045512.2:8524:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 9
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "V1936I",
@@ -10826,6 +34186,19 @@ export const data = {
           "allele": "G",
           "count": 9,
           "spdi": "NC_045512.2:17481:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 9
+            }
+          ],
           "codon": "GCA",
           "amino_acid": "A",
           "protein_variant": "T416A",
@@ -10848,6 +34221,19 @@ export const data = {
           "allele": "C",
           "count": 9,
           "spdi": "NC_045512.2:21125:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 9
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "F156F",
@@ -10870,6 +34256,23 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:28907:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 8
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "GTC",
           "amino_acid": "V",
           "protein_variant": "G212V",
@@ -10892,6 +34295,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:29271:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "TAT",
           "amino_acid": "Y",
           "protein_variant": "Y333Y",
@@ -10914,6 +34334,23 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:11619:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Vadodara",
+              "count": 5
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 3
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F216F",
@@ -10936,6 +34373,27 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:11746:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 3
+            },
+            {
+              "value": "India: Ahmedabad",
+              "count": 1
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "L259L",
@@ -10958,6 +34416,19 @@ export const data = {
           "allele": "T",
           "count": 14,
           "spdi": "NC_045512.2:25458:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 14
+            }
+          ],
           "codon": "TCT",
           "amino_acid": "S",
           "protein_variant": "A23S",
@@ -10980,6 +34451,27 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:25554:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 14
+            },
+            {
+              "value": "Egypt",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,King County",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V55F",
@@ -11002,6 +34494,23 @@ export const data = {
           "allele": "C",
           "count": 9,
           "spdi": "NC_045512.2:25470:G:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 8
+            },
+            {
+              "value": "USA: Virginia",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "D27H",
@@ -11024,6 +34533,19 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:8663:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "T37N",
@@ -11046,6 +34568,19 @@ export const data = {
           "allele": "A",
           "count": 7,
           "spdi": "NC_045512.2:8850:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "V99V",
@@ -11068,6 +34603,23 @@ export const data = {
           "allele": "C",
           "count": 8,
           "spdi": "NC_045512.2:25504:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            },
+            {
+              "value": "USA: FL",
+              "count": 1
+            }
+          ],
           "codon": "CCA",
           "amino_acid": "P",
           "protein_variant": "Q38P",
@@ -11090,6 +34642,23 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:12524:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington, Grant County",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T145I",
@@ -11112,6 +34681,59 @@ export const data = {
           "allele": "T",
           "count": 39,
           "spdi": "NC_045512.2:18567:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 39
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 14
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 3
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "China: Guangzhou",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 1
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 1
+            },
+            {
+              "value": "India: Kheda",
+              "count": 1
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 1
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 1
+            }
+          ],
           "codon": "TTC",
           "amino_acid": "F",
           "protein_variant": "L177F",
@@ -11134,6 +34756,27 @@ export const data = {
           "allele": "T",
           "count": 15,
           "spdi": "NC_045512.2:1203:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 15
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 13
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N133N",
@@ -11156,6 +34799,31 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:3428:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Ahmedabad",
+              "count": 2
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 1
+            },
+            {
+              "value": "Australia: Victoria",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T237I",
@@ -11178,6 +34846,23 @@ export const data = {
           "allele": "G",
           "count": 23,
           "spdi": "NC_045512.2:20373:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 23
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 22
+            },
+            {
+              "value": "Nigeria",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "I252V",
@@ -11200,6 +34885,31 @@ export const data = {
           "allele": "T",
           "count": 13,
           "spdi": "NC_045512.2:3960:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 13
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Bangladesh: Rangpur",
+              "count": 6
+            },
+            {
+              "value": "Bangladesh: Dhaka",
+              "count": 3
+            },
+            {
+              "value": "Bangladesh",
+              "count": 2
+            },
+            {
+              "value": "Bangladesh: Narayanganj",
+              "count": 2
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "I414I",
@@ -11222,6 +34932,23 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:8343:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Michigan",
+              "count": 8
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "D1875D",
@@ -11244,6 +34971,19 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:14767:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Michigan",
+              "count": 8
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-488",
@@ -11266,6 +35006,27 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:20627:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Timor-Leste",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "GGT",
           "amino_acid": "G",
           "protein_variant": "G336G",
@@ -11288,6 +35049,19 @@ export const data = {
           "allele": "G",
           "count": 7,
           "spdi": "NC_045512.2:3721:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "I335V",
@@ -11310,6 +35084,19 @@ export const data = {
           "allele": "G",
           "count": 7,
           "spdi": "NC_045512.2:20162:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "K181K",
@@ -11332,6 +35119,19 @@ export const data = {
           "allele": "G",
           "count": 7,
           "spdi": "NC_045512.2:22251:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 7
+            }
+          ],
           "codon": "CCG",
           "amino_acid": "P",
           "protein_variant": "P230P",
@@ -11354,6 +35154,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:9519:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 3
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "F322F",
@@ -11376,6 +35193,19 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:6650:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 10
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "A1311V",
@@ -11398,6 +35228,23 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:28845:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Egypt",
+              "count": 6
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "CGT",
           "amino_acid": "R",
           "protein_variant": "R191R",
@@ -11420,6 +35267,19 @@ export const data = {
           "allele": "T",
           "count": 21,
           "spdi": "NC_045512.2:4775:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 21
+            }
+          ],
           "codon": "ATC",
           "amino_acid": "I",
           "protein_variant": "T686I",
@@ -11442,6 +35302,23 @@ export const data = {
           "allele": "A",
           "count": 6,
           "spdi": "NC_045512.2:27914:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 5
+            },
+            {
+              "value": "USA",
+              "count": 1
+            }
+          ],
           "codon": "AGA",
           "amino_acid": "R",
           "protein_variant": "G8R",
@@ -11464,6 +35341,23 @@ export const data = {
           "allele": "T",
           "count": 10,
           "spdi": "NC_045512.2:5537:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 5
+            }
+          ],
           "codon": "CTG",
           "amino_acid": "L",
           "protein_variant": "Q940L",
@@ -11486,6 +35380,27 @@ export const data = {
           "allele": "A",
           "count": 41,
           "spdi": "NC_045512.2:16812:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 41
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 31
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 9
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "V193I",
@@ -11508,6 +35423,27 @@ export const data = {
           "allele": "C",
           "count": 27,
           "spdi": "NC_045512.2:25782:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 21
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "CGG",
           "amino_acid": "R",
           "protein_variant": "W131R",
@@ -11530,6 +35466,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:17162:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Asotin County",
+              "count": 5
+            },
+            {
+              "value": "USA: Washington, Asotin County",
+              "count": 1
+            }
+          ],
           "codon": "TGT",
           "amino_acid": "C",
           "protein_variant": "C309C",
@@ -11552,6 +35505,27 @@ export const data = {
           "allele": "T",
           "count": 19,
           "spdi": "NC_045512.2:2069:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 19
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 16
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T422I",
@@ -11574,6 +35548,23 @@ export const data = {
           "allele": "G",
           "count": 18,
           "spdi": "NC_045512.2:26565:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 16
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 2
+            }
+          ],
           "codon": "AGG",
           "amino_acid": "R",
           "protein_variant": "K15R",
@@ -11596,6 +35587,27 @@ export const data = {
           "allele": "A",
           "count": 26,
           "spdi": "NC_045512.2:3310:C:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 26
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 24
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "ATT",
           "amino_acid": "I",
           "protein_variant": "L198I",
@@ -11618,6 +35630,23 @@ export const data = {
           "allele": "T",
           "count": 24,
           "spdi": "NC_045512.2:17670:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 24
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 23
+            },
+            {
+              "value": "USA: Washington",
+              "count": 1
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V479F",
@@ -11640,6 +35669,23 @@ export const data = {
           "allele": "A",
           "count": 27,
           "spdi": "NC_045512.2:15405:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 27
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 17
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 10
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-276",
@@ -11662,6 +35708,23 @@ export const data = {
           "allele": "C",
           "count": 7,
           "spdi": "NC_045512.2:22290:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GCC",
           "amino_acid": "A",
           "protein_variant": "A243A",
@@ -11684,6 +35747,23 @@ export const data = {
           "allele": "A",
           "count": 14,
           "spdi": "NC_045512.2:1746:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 13
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "L314L",
@@ -11706,6 +35786,31 @@ export const data = {
           "allele": "G",
           "count": 62,
           "spdi": "NC_045512.2:2160:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 62
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 53
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 6
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            }
+          ],
           "codon": "GAG",
           "amino_acid": "E",
           "protein_variant": "E452E",
@@ -11728,6 +35833,31 @@ export const data = {
           "allele": "T",
           "count": 67,
           "spdi": "NC_045512.2:16375:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 67
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 56
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Spokane County",
+              "count": 1
+            }
+          ],
           "codon": "CTG",
           "amino_acid": "L",
           "protein_variant": "P47L",
@@ -11750,6 +35880,27 @@ export const data = {
           "allele": "G",
           "count": 35,
           "spdi": "NC_045512.2:19307:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 35
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 29
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 5
+            },
+            {
+              "value": "USA: California, Monterey County",
+              "count": 1
+            }
+          ],
           "codon": "AAG",
           "amino_acid": "K",
           "protein_variant": "K423K",
@@ -11772,6 +35923,27 @@ export const data = {
           "allele": "T",
           "count": 17,
           "spdi": "NC_045512.2:4992:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 14
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N758N",
@@ -11793,7 +35965,28 @@ export const data = {
         {
           "allele": "T",
           "count": 21,
-          "spdi": "NC_045512.2:29783:C:T"
+          "spdi": "NC_045512.2:29783:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 21
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 17
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ]
         }
       ]
     },
@@ -11806,6 +35999,23 @@ export const data = {
           "allele": "T",
           "count": 39,
           "spdi": "NC_045512.2:28457:A:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 39
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 38
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "E62V",
@@ -11828,6 +36038,19 @@ export const data = {
           "allele": "A",
           "count": 18,
           "spdi": "NC_045512.2:25011:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 18
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 18
+            }
+          ],
           "codon": "GAA",
           "amino_acid": "E",
           "protein_variant": "E1150E",
@@ -11850,6 +36073,19 @@ export const data = {
           "allele": "A",
           "count": 11,
           "spdi": "NC_045512.2:9439:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: CA",
+              "count": 11
+            }
+          ],
           "codon": "AGC",
           "amino_acid": "S",
           "protein_variant": "C296S",
@@ -11872,6 +36108,31 @@ export const data = {
           "allele": "T",
           "count": 12,
           "spdi": "NC_045512.2:19028:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 12
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            },
+            {
+              "value": "USA: CA",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 1
+            }
+          ],
           "codon": "CAT",
           "amino_acid": "H",
           "protein_variant": "H330H",
@@ -11894,6 +36155,23 @@ export const data = {
           "allele": "G",
           "count": 10,
           "spdi": "NC_045512.2:15425:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 10
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Snohomish County",
+              "count": 7
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 3
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-269",
@@ -11916,6 +36194,19 @@ export const data = {
           "allele": "G",
           "count": 6,
           "spdi": "NC_045512.2:3420:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 6
+            }
+          ],
           "codon": "GTG",
           "amino_acid": "V",
           "protein_variant": "V234V",
@@ -11938,6 +36229,27 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:24918:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington,Franklin County",
+              "count": 4
+            },
+            {
+              "value": "USA: Washington,Adams County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "AAT",
           "amino_acid": "N",
           "protein_variant": "N1119N",
@@ -11960,6 +36272,27 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:14897:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Franklin County",
+              "count": 3
+            },
+            {
+              "value": "USA: Washington, Benton County",
+              "count": 2
+            },
+            {
+              "value": "USA: Washington,Yakima County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-445",
@@ -11982,6 +36315,55 @@ export const data = {
           "allele": "C",
           "count": 40,
           "spdi": "NC_045512.2:2291:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 40
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 15
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 3
+            },
+            {
+              "value": "India: Gujarat, Vadodara",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 1
+            },
+            {
+              "value": "India: Kheda",
+              "count": 1
+            },
+            {
+              "value": "India: Bardoli",
+              "count": 1
+            },
+            {
+              "value": "India: Choryasi",
+              "count": 1
+            }
+          ],
           "codon": "CCG",
           "amino_acid": "P",
           "protein_variant": "Q496P",
@@ -12004,6 +36386,39 @@ export const data = {
           "allele": "T",
           "count": 22,
           "spdi": "NC_045512.2:19153:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 22
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 10
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 6
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 3
+            },
+            {
+              "value": "India: Gujarat, Mahemdavad",
+              "count": 1
+            },
+            {
+              "value": "India: Savli",
+              "count": 1
+            },
+            {
+              "value": "India: Savali",
+              "count": 1
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T372I",
@@ -12026,6 +36441,23 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:3563:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 15
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G282V",
@@ -12048,6 +36480,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:8789:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G79V",
@@ -12070,6 +36519,23 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:11534:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 5
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G188V",
@@ -12092,6 +36558,23 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:24932:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "Australia: Victoria",
+              "count": 15
+            },
+            {
+              "value": "Australia: Northern Territory",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "G1124V",
@@ -12114,6 +36597,23 @@ export const data = {
           "allele": "G",
           "count": 17,
           "spdi": "NC_045512.2:4196:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 17
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 16
+            },
+            {
+              "value": "USA: Washington, Snohomish County",
+              "count": 1
+            }
+          ],
           "codon": "GGA",
           "amino_acid": "G",
           "protein_variant": "E493G",
@@ -12136,6 +36636,19 @@ export const data = {
           "allele": "G",
           "count": 9,
           "spdi": "NC_045512.2:20474:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Pierce County",
+              "count": 9
+            }
+          ],
           "codon": "ACG",
           "amino_acid": "T",
           "protein_variant": "T285T",
@@ -12158,6 +36671,23 @@ export const data = {
           "allele": "T",
           "count": 11,
           "spdi": "NC_045512.2:15932:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 11
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 10
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-100",
@@ -12180,6 +36710,23 @@ export const data = {
           "allele": "T",
           "count": 9,
           "spdi": "NC_045512.2:16967:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 9
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 8
+            },
+            {
+              "value": "USA: Washington, King County",
+              "count": 1
+            }
+          ],
           "codon": "GAT",
           "amino_acid": "D",
           "protein_variant": "E244D",
@@ -12202,6 +36749,19 @@ export const data = {
           "allele": "C",
           "count": 24,
           "spdi": "NC_045512.2:27949:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 24
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Washington, Yakima County",
+              "count": 24
+            }
+          ],
           "codon": "GAC",
           "amino_acid": "D",
           "protein_variant": "E19D",
@@ -12224,6 +36784,39 @@ export const data = {
           "allele": "G",
           "count": 32,
           "spdi": "NC_045512.2:16511:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 32
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "India: Surat",
+              "count": 13
+            },
+            {
+              "value": "India: Vadodara",
+              "count": 12
+            },
+            {
+              "value": "India: Palanpur",
+              "count": 2
+            },
+            {
+              "value": "India: Savli",
+              "count": 2
+            },
+            {
+              "value": "India: Savali",
+              "count": 2
+            },
+            {
+              "value": "India: Kheda",
+              "count": 1
+            }
+          ],
           "codon": "TTG",
           "amino_acid": "L",
           "protein_variant": "L92L",
@@ -12246,6 +36839,19 @@ export const data = {
           "allele": "T",
           "count": 16,
           "spdi": "NC_045512.2:9164:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 16
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 16
+            }
+          ],
           "codon": "ATC",
           "amino_acid": "I",
           "protein_variant": "T204I",
@@ -12268,6 +36874,19 @@ export const data = {
           "allele": "G",
           "count": 8,
           "spdi": "NC_045512.2:4388:T:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 8
+            }
+          ],
           "codon": "TGG",
           "amino_acid": "W",
           "protein_variant": "L557W",
@@ -12290,6 +36909,19 @@ export const data = {
           "allele": "A",
           "count": 8,
           "spdi": "NC_045512.2:22769:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Virginia",
+              "count": 8
+            }
+          ],
           "codon": "AAA",
           "amino_acid": "K",
           "protein_variant": "R403K",
@@ -12312,6 +36944,19 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:26064:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 5
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V225F",
@@ -12334,6 +36979,19 @@ export const data = {
           "allele": "C",
           "count": 8,
           "spdi": "NC_045512.2:22219:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 8
+            }
+          ],
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "F220L",
@@ -12356,6 +37014,19 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:21110:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: FL",
+              "count": 5
+            }
+          ],
           "codon": "ACC",
           "amino_acid": "T",
           "protein_variant": "T151T",
@@ -12377,7 +37048,20 @@ export const data = {
         {
           "allele": "T",
           "count": 6,
-          "spdi": "NC_045512.2:29689:G:T"
+          "spdi": "NC_045512.2:29689:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: MD",
+              "count": 6
+            }
+          ]
         }
       ]
     },
@@ -12390,6 +37074,31 @@ export const data = {
           "allele": "T",
           "count": 8,
           "spdi": "NC_045512.2:26210:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 8
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 5
+            },
+            {
+              "value": "USA: Wisconsin",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Rock county",
+              "count": 1
+            },
+            {
+              "value": "USA: Illinois, Winnebago county",
+              "count": 1
+            }
+          ],
           "codon": "GTT",
           "amino_acid": "V",
           "protein_variant": "V273V",
@@ -12412,6 +37121,27 @@ export const data = {
           "allele": "C",
           "count": 5,
           "spdi": "NC_045512.2:15365:T:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 1
+            },
+            {
+              "value": "USA: Wisconsin, Racine county",
+              "count": 1
+            }
+          ],
           "codon": "",
           "amino_acid": "",
           "protein_variant": "-289",
@@ -12434,6 +37164,19 @@ export const data = {
           "allele": "T",
           "count": 5,
           "spdi": "NC_045512.2:28538:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Dane County",
+              "count": 5
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "R89I",
@@ -12456,6 +37199,23 @@ export const data = {
           "allele": "A",
           "count": 14,
           "spdi": "NC_045512.2:2115:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 14
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 13
+            },
+            {
+              "value": "USA: Wisconsin, Ozaukee county",
+              "count": 1
+            }
+          ],
           "codon": "TTA",
           "amino_acid": "L",
           "protein_variant": "F437L",
@@ -12478,6 +37238,19 @@ export const data = {
           "allele": "C",
           "count": 6,
           "spdi": "NC_045512.2:10069:A:C",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            }
+          ],
           "codon": "CTG",
           "amino_acid": "L",
           "protein_variant": "M6L",
@@ -12500,6 +37273,19 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:23517:G:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 5
+            }
+          ],
           "codon": "GGA",
           "amino_acid": "G",
           "protein_variant": "G652G",
@@ -12522,6 +37308,23 @@ export const data = {
           "allele": "A",
           "count": 5,
           "spdi": "NC_045512.2:808:T:A",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 5
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 3
+            },
+            {
+              "value": "USA: Wisconsin, Waukesha county",
+              "count": 2
+            }
+          ],
           "codon": "AAC",
           "amino_acid": "N",
           "protein_variant": "Y2N",
@@ -12544,6 +37347,19 @@ export const data = {
           "allele": "T",
           "count": 7,
           "spdi": "NC_045512.2:9194:C:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 7
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 7
+            }
+          ],
           "codon": "ATA",
           "amino_acid": "I",
           "protein_variant": "T214I",
@@ -12566,6 +37382,19 @@ export const data = {
           "allele": "G",
           "count": 19,
           "spdi": "NC_045512.2:4837:A:G",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 19
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 19
+            }
+          ],
           "codon": "GTA",
           "amino_acid": "V",
           "protein_variant": "I707V",
@@ -12588,6 +37417,19 @@ export const data = {
           "allele": "T",
           "count": 6,
           "spdi": "NC_045512.2:3691:G:T",
+          "Host": [
+            {
+              "value": "Homo sapiens",
+              "count": 6
+            }
+          ],
+          "Collection Date": [],
+          "Collection Location": [
+            {
+              "value": "USA: Wisconsin, Milwaukee county",
+              "count": 6
+            }
+          ],
           "codon": "TTT",
           "amino_acid": "F",
           "protein_variant": "V325F",
