@@ -145,7 +145,7 @@
 
         var posHash = {};
         for(var i = 0, il = snpData.length; i < il; ++i) {
-            var pos = snpData[i].start;
+            var pos = snpData[i].start + 1;
             posHash[pos] = snpData[i];
         }
 
