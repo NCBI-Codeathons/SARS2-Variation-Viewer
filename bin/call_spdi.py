@@ -55,6 +55,12 @@ def keys_for(spdi):
 
     return position_key, allele_key
 
+def count_attributes(list_of_attr):
+    output = []
+    counts = Counter(list_of_attr)
+    for term, cnt in counts.most_common():
+        output.append({'value': term, 'count': cnt})
+    return output
 
 def main():
     parser = argparse.ArgumentParser(
@@ -72,9 +78,14 @@ def main():
     logging.basicConfig(filename=args.logfile, level=logging.INFO)
 
     # read in metadata to add to output
-    # with open(args.metadata) as f:
-    #     meta = json.load(f)['accessions']
-    # accessions = [x['accession'] for x in meta]
+    with open(args.metadata) as f:
+         meta = json.load(f)['accessions']
+    accs_index = {}
+    
+    # need to create a map for the index of a given acc in metadata
+    accessions = [x['accession'] for x in meta]
+    for i, x in enumerate(accessions):
+        accs_index[x] = i
 
     # input data for spdi calls
     with open(args.input) as f:
@@ -87,7 +98,7 @@ def main():
     #         allele_count[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] += 1
     #     except:
     #         allele_count[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] = 1
-
+    variants = variants['variants']
     counter = 0
     total = len(variants)
     for var in variants:
@@ -112,13 +123,13 @@ def main():
             alleles[position_key]['alleles'][allele_key] = {
                 'spdi': spdi,
                 'count': 1,
-                'accessions': []
+                'accessions': [],
+                'isolates': []
             }
-
-        # append meta-data ....
+        curr_meta_acc = meta[accs_index[var['accession']]]
         alleles[position_key]['alleles'][allele_key]['accessions'].append(var["accession"])
-
-        # etc.
+        alleles[position_key]['alleles'][allele_key]['isolates'].append(curr_meta_acc['isolates'])
+        # To-do
         # count_key = f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'
 
         # if var['accession'] in accessions:
@@ -155,8 +166,22 @@ def main():
             new_record['alleles'].append({
                 'allele': spdi_data['spdi']['inserted_sequence'],
                 'count': spdi_data['count'],
-                'spdi': spdi
-            })
+                'spdi': spdi,
+                # insert function here to count list
+                'attributes': [
+                    {
+                        'name': 'isolate',
+                        'values': count_attributes(alleles[position_key]['alleles'][allele_key]['isolates']),
+                        #'name': 'host',
+                        #'values': count_attributes(),
+                        #'name': 'location',
+                        #'values': count_attributes(),
+                        #'name': 'date',
+                        #'values': count_attributes()
+                    }
+                    ]
+                }
+            )
         if new_record['alleles']:
             variants.append(new_record)
 
