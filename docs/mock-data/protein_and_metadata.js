@@ -1,4 +1,4 @@
-export const cartoonData = {
+export const data = {
   "_id": "GCF_009858895",
   "organism": "Severe acute respiratory syndrome coronavirus 2",
   "assembly_uid": 15851418,
