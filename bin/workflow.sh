@@ -13,6 +13,9 @@ do
     hash $tool 2>/dev/null || { echo >&2 $message; exit 1; }
 done
 
+SARS2_DATA_ZIP=data/sars2_data.zip
+SARS2_REFSEQ_DATA_ZIP=data/sars2_refseq_data.zip
+
 GENOMIC_FASTA_FILE='data/ncbi_dataset/data/genomic.fna'
 if [[ ! -e $GENOMIC_FASTA_FILE ]]
 then
@@ -21,9 +24,10 @@ then
     chmod +x bin/datasets
     mkdir -p data
 
-    SARS2_DATA_ZIP=data/sars2_data.zip
     bin/datasets download virus genome tax-name sars2 --filename $SARS2_DATA_ZIP
     unzip $SARS2_DATA_ZIP -d data/
+
+    bin/datasets download virus genome tax-name sars2 --refseq --filename $SARS2_REFSEQ_DATA_ZIP
 fi
 
 
@@ -95,20 +99,22 @@ then
     ./bin/call_spdi.py -i data/pre_spdi.calls.json -o ${VARIANTS_JSON} -m $METADATA_JSON
 fi
 
-FRONTEND_CARTOON=data/cartoon.json
-if [[ ! -e ${FRONTEND_CARTOON} ]]
+FINAL_DATA_FILE=docs/mock-data/protein_and_metadata.js
+if [[ ! -e ${FINAL_DATA_FILE} ]]
 then
-    echo "-> Create cartoon graphic"
+    echo "-> Create data to support front-end: ${FINAL_DATA_FILE}"
     grep -v \> data/reference/NC_045512.fasta | tr -d '\n' > data/raw_reference_sequence.txt
     ./bin/annotate.py \
        -v ${VARIANTS_JSON} \
-       -o data/annoated_variants.json \
+       -o data/annotated_varints.json \
        -i ${SARS2_DATA_ZIP} \
-       -r data/sars2_refseq_data.zip
+       -r ${SARS2_REFSEQ_DATA_ZIP}
 
     ./bin/produce_cartoon_data.py \
-       -i data/variants.json \
+       -i data/annotated_varints.json \
        -t bin/template_cartoon.json \
-       -o ${FRONTEND_CARTOON} \
+       -o ${FINAL_DATA_FILE} \
        -r data/raw_reference_sequence.txt
+else
+    echo "${FINAL_DATA_FILE} already exists.  Not re-creating"
 fi

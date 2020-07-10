@@ -80,25 +80,12 @@ def main():
 
     # read in metadata to add to output
     with open(args.metadata) as f:
-         meta = json.load(f)['accessions']
-    accs_index = {}
-    
-    # need to create a map for the index of a given acc in metadata
-    accessions = [x['accession'] for x in meta]
-    for i, x in enumerate(accessions):
-        accs_index[x] = i
+         metadata = json.load(f)
 
     # input data for spdi calls
     with open(args.input) as f:
         variants = json.load(f)
 
-    alleles = {}
-    # get the allele_count for all the input variants
-    # for var in variants:
-    #     try:
-    #         allele_count[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] += 1
-    #     except:
-    #         allele_count[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] = 1
     counter = 0
     total = len(variants)
 
@@ -108,6 +95,7 @@ def main():
         'collection_date': 'Collection Date',
         'location': 'Collection Location'
     }
+    alleles = {}
     for var in variants:
         if counter % 100 == 0:
             print(f'Processing variant {counter}/{total}')
@@ -137,7 +125,7 @@ def main():
 
         alleles[position_key]['alleles'][allele_key]['accessions'].append(var["accession"])
 
-        metadata_for_accession = meta[accs_index[var['accession']]]['metadata']
+        metadata_for_accession = metadata[var["accession"]]
         for key, value in metadata_kv.items():
             if key in metadata_for_accession:
                 alleles[position_key]['alleles'][allele_key][value].append(metadata_for_accession[key])

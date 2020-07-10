@@ -18,7 +18,6 @@ def virus_report_for(path_to_zipfile):
     '''
     Return an object representing the data report.
     path_to_zipfile: The relative path to the zipfile containing the virus data report
-    
     '''
     with zipfile.ZipFile(path_to_zipfile, 'r') as zip:
         virus_report_as_dict = yaml.safe_load(zip.read('ncbi_dataset/data/data_report.yaml'))
@@ -26,6 +25,14 @@ def virus_report_for(path_to_zipfile):
     ParseDict(virus_report_as_dict, virus_report)
     return virus_report
 
+
+def _location_for(location):
+    result = []
+    if location.geographic_location:
+        result.append(location.geographic_location)
+    if location.geographic_region:
+        result.append(location.geographic_region)
+    return '/'.join(result)
 
 def main():
     parser = argparse.ArgumentParser(
@@ -37,24 +44,22 @@ def main():
 
     args = parser.parse_args()
 
+    print(f'Gather virus report from {args.input}')
     virus_report = virus_report_for(args.input)
 
-    genome_data = []
+    metadata = {}
     for g in virus_report.genomes:
         print(f'Process {g.accession}')
-        genome_data.append({
-            'accession': g.accession,
-            'metadata': {
+        metadata[g.accession] = {
                 'virusName': g.virus.sci_name,
                 'host': g.host.sci_name,
                 'isolate': g.isolate.name,
-                'location': g.location.geographic_location,
+                'location': _location_for(g.location),
+                'collection_date': g.isolate.collection_date
             }
-        })
 
-    genome_data = {'accessions': genome_data}
     with open(args.output, 'w') as f:
-        json.dump(genome_data, f)
+        json.dump(metadata, f)
 
 if __name__ == '__main__':
     sys.exit(main())
