@@ -83,7 +83,7 @@ METADATA_JSON=data/metadata.json
 if [[ ! -e ${METADATA_JSON} ]]
 then
     echo "-> Collect metadata"
-    ./bin/collect_metadata.py -i data/sars2_data.zip -o ${METDATA_JSON}
+    ./bin/collect_metadata.py -i ${SARS2_DATA_ZIP} -o ${METDATA_JSON}
 fi
 
 
@@ -100,7 +100,17 @@ if [[ ! -e ${FRONTEND_CARTOON} ]]
 then
     echo "-> Create cartoon graphic"
     grep -v \> data/reference/NC_045512.fasta | tr -d '\n' > data/raw_reference_sequence.txt
-    ./bin/produce_cartoon_data.py -i data/variants.json -t bin/template_cartoon.json -o ${FRONTEND_CARTOON} -r data/raw_reference_sequence.txt
+    ./bin/annotate.py \
+       -v ${VARIANTS_JSON} \
+       -o data/annoated_variants.json \
+       -i ${SARS2_DATA_ZIP} \
+       -r data/sars2_refseq_data.zip
+
+    ./bin/produce_cartoon_data.py \
+       -i data/variants.json \
+       -t bin/template_cartoon.json \
+       -o ${FRONTEND_CARTOON} \
+       -r data/raw_reference_sequence.txt
 fi
 
 # TODO:
