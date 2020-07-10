@@ -87,7 +87,7 @@ METADATA_JSON=data/metadata.json
 if [[ ! -e ${METADATA_JSON} ]]
 then
     echo "-> Collect metadata"
-    ./bin/collect_metadata.py -i ${SARS2_DATA_ZIP} -o ${METDATA_JSON}
+    ./bin/collect_metadata.py -i ${SARS2_DATA_ZIP} -o ${METADATA_JSON}
 fi
 
 

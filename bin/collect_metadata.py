@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
 import argparse
-from datetime import datetime, timezone, timedelta
 import json
 import sys
 import zipfile
 
-import pandas as pd
-from pyfaidx import Fasta
 from google.protobuf.json_format import ParseDict
 import yaml
 
 import ncbi.datasets.v1alpha1.reports.virus_pb2 as virus_report_pb2
-import ncbi.datasets
 
 
 def virus_report_for(path_to_zipfile):
@@ -33,6 +29,7 @@ def _location_for(location):
     if location.geographic_region:
         result.append(location.geographic_region)
     return '/'.join(result)
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -60,6 +57,7 @@ def main():
 
     with open(args.output, 'w') as f:
         json.dump(metadata, f)
+
 
 if __name__ == '__main__':
     sys.exit(main())

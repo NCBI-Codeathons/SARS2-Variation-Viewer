@@ -25,6 +25,7 @@ def virus_report_for(path_to_zipfile):
     ParseDict(virus_report_as_dict, virus_report)
     return virus_report
 
+
 # See http://www.petercollingridge.co.uk/tutorials/bioinformatics/codon-table/
 bases = "TCAG"
 codons = [a + b + c for a in bases for b in bases for c in bases]
@@ -164,11 +165,9 @@ def main():
             else:
                 allele['aa_type'] = 'non_synonymous'
 
-
     with open(args.output, 'w') as fh_out:
         json.dump(variants, fh_out, indent=2)
 
+
 if __name__ == '__main__':
     sys.exit(main())
-
-

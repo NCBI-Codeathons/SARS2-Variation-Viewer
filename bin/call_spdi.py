@@ -13,6 +13,7 @@ from retry import retry
 BASE_URL = 'https://api.ncbi.nlm.nih.gov/variation/v0/spdi'
 REF_ACC = 'NC_045512.2'
 
+
 @retry(HTTPError, tries=10, delay=1, backoff=2, max_delay=5)
 def _get_spdi_with_retry(start, reference_allele, variant_allele):
     url = f'{BASE_URL}/{REF_ACC}:{start}:{reference_allele}:{variant_allele}/contextual'
@@ -56,12 +57,14 @@ def keys_for(spdi):
 
     return position_key, allele_key
 
+
 def count_attributes(list_of_attr):
     output = []
     counts = Counter(list_of_attr)
     for term, cnt in counts.most_common():
         output.append({'value': term, 'count': cnt})
     return output
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -80,7 +83,7 @@ def main():
 
     # read in metadata to add to output
     with open(args.metadata) as f:
-         metadata = json.load(f)
+        metadata = json.load(f)
 
     # input data for spdi calls
     with open(args.input) as f:

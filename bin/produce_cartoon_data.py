@@ -32,5 +32,6 @@ def main():
         fh_out.write('export const data = ')
         json.dump(template, fh_out, indent=2)
 
+
 if __name__ == '__main__':
     sys.exit(main())

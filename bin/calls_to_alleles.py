@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import csv
 import json
 import os
 import sys
@@ -18,6 +17,7 @@ def process_record(line, accession):
         'reference': reference
     }
 
+
 def main():
     parser = argparse.ArgumentParser(
         description='Convert VCF calls into allele JSON structure'
@@ -28,7 +28,7 @@ def main():
 
     args = parser.parse_args()
 
-    counter=0
+    counter = 0
     records = []
     for file in args.input:
         accession = os.path.splitext(os.path.basename(file))[0]
@@ -36,11 +36,12 @@ def main():
             for line in fh.readlines():
                 if line.startswith('#'):
                     continue
-                counter+=1
+                counter += 1
                 records.append(process_record(line, accession))
 
     with open(args.output, 'w') as fh:
         json.dump(records, fh)
+
 
 if __name__ == '__main__':
     sys.exit(main())
