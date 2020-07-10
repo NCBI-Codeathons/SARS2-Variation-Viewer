@@ -1,11 +1,11 @@
-import {cartoonData} from "../mock-data/data.js";
+import {data} from "./mock-data/protein_annotated_without_metadata.js";
 import {Cartoon} from "./modules/cartoon.js";
-import {Table} from "./table.js";
+import {Table} from "./modules/table.js";
 
 
 $(document).ready(function () {
-  const cartoon = new Cartoon({data: cartoonData});
-  const table = new Table({data: cartoonData})
+  const cartoon = new Cartoon({data});
+  const table = new Table({data})
 });
 
 // details view
