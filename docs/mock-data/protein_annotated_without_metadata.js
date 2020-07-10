@@ -1,4 +1,4 @@
-export const cartoonData = {
+export const data = {
   "_id": "GCF_009858895",
   "organism": "Severe acute respiratory syndrome coronavirus 2",
   "assembly_uid": 15851418,
@@ -34,7 +34,21 @@ export const cartoonData = {
           "codon": "AGT",
           "amino_acid": "S",
           "protein_variant": "S76S",
-          "aa_type": "synonymous"
+          "aa_type": "synonymous",
+          "attributes": [
+            {
+              "name": "Collection Location",
+              "values": [
+                {
+                  "value": "Chicago",
+                  "count": 36
+                },
+                {
+                  "value": "New York",
+                  "count": 1400
+                }
+              ]
+            }]
         }
       ],
       "protein_name": "nsp4",
@@ -122,7 +136,21 @@ export const cartoonData = {
           "codon": "CTT",
           "amino_acid": "L",
           "protein_variant": "L7L",
-          "aa_type": "synonymous"
+          "aa_type": "synonymous",
+          "attributes": [
+            {
+              "name": "Collection Location",
+              "values": [
+                {
+                  "value": "Chicago",
+                  "count": 36
+                },
+                {
+                  "value": "New York",
+                  "count": 1400
+                }
+              ]
+            }]
         }
       ],
       "protein_name": "3'-to-5' exonuclease",
