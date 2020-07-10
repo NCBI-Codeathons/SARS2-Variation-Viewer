@@ -6,5 +6,15 @@ import {detailsView} from './modules/details.js';
 $(document).ready(function () {
   const cartoon = new Cartoon({data});
   const table = new Table({data})
-  detailsView(data)
+  $('#details-tab').on('click', e => {
+    const $this = $(this);
+    if (!$this.data('load')) {
+      detailsView(data);
+      $this.data('load', true);
+    } else {
+      console.info("details view is already loaded.")
+    }
+  });
+
+
 });
