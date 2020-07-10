@@ -29,7 +29,7 @@ def main():
     template['reference'] = raw_reference
 
     with open(args.output, 'w') as fh_out:
-        fh_out.write('export const cartoonData = ')
+        fh_out.write('export const data = ')
         json.dump(template, fh_out, indent=2)
 
 if __name__ == '__main__':
