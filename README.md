@@ -10,6 +10,19 @@ The goal of this project is to identify and visualize variation (SNPs) in SARS-C
 
 ![workflow cartoon](github-readme-cartoon.jpg)
 
+## Executing the workflow
+The workflow depends on bwa, samtools and bcftools.  If those are not in `$PATH`, first execute:
+
+```
+bash bin/install_tool.sh
+```
+
+Next, run the workflow:
+
+```
+bash bin/workflow.sh
+```
+
 ## Download SARS-CoV-2 genomes using NCBI Datasets
 * Use the [NCBI Datasets command-line tool](https://www.ncbi.nlm.nih.gov/datasets/docs/command-line-virus/) to download all available SARS-CoV-2 genome sequences (6k+ as of July 8 2020) and associated metadata from GenBank 
 
