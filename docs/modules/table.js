@@ -76,7 +76,7 @@ export class Table {
       for (const al of v.alleles) {
         html += `<tr>`;
         html += `<td>${v.protein_name || ''}</td>`;
-        html += `<td>${al.protein_variant}</td>`;
+        html += `<td><a href="https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?mmdbid=1TSR&command=color+grey;+select+.A:20;+color+red;+style+sidec+stick">${al.protein_variant}</a></td>`;
         html += `<td>${al.count}</td>}`;
         html += `<td>${v.start}</td>`;
         html += `<td>${al.codon} > ${v.codon}</td>`;
