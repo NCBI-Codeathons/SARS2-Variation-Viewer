@@ -73,7 +73,7 @@ export class Table {
       return h;
     };
 
-    const createLinkToICN3d = variant => {
+    const createLinkToICN3d = (variant, al) => {
       let url = '';
 
       let realResi, oriResn, proteinName;
@@ -97,7 +97,7 @@ export class Table {
             + ';+show+selection;+color+secondary+structure+green;+select+.' + pdb_chain[1]
             + ':' + realResi + ';+color+FFA500;+style+sidec+stick;+your+note+|+' + realResi + oriResn + '>';
         }
-        return url !== '' ? `<a href="${url}">${proteinName}</a>` : proteinName;
+        return url !== '' ? `<a href="${url}">${al.protein_variant}</a>` : al.protein_variant;
       }
       return '';
     }
@@ -107,10 +107,10 @@ export class Table {
       for (const al of v.alleles) {
         html += `<tr>`;
         html += `<td>${v.protein_name || 'n/a'}</td>`;
-        html += `<td>${createLinkToICN3d(v) || 'n/a'}</td>`;
+        html += `<td>${createLinkToICN3d(v, al) || 'n/a'}</td>`;
 
         html += `<td>${al.count}</td>}`;
-        html += `<td>${v.start}</td>`;
+        html += `<td>${v.start + 1}</td>`;
 
         html += `<td>${al.codon && v.codon ? al.codon + ' > ' + v.codon: ''}</td>`;
 
