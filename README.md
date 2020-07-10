@@ -6,9 +6,9 @@ The goal of this project is to identify and visualize variation (SNPs) in SARS-C
 ## Background
 Understanding variation across SARS-CoV-2 genome sequences has important implications for epidemiology and molecular biology.
 
-Existing tools allow researchers to visualize SARS-CoV-2 variation but access to the underlying data is restricted and don’t provide access to individual genome sequences and valuable metadata, such as where in the world a particular genome was isolated.
+Existing tools allow researchers to visualize SARS-CoV-2 variation but access to the underlying data, including genome sequences and valuable metadata, such as where in the world a particular genome was isolated, is restricted.
 
-The SARS-CoV-2 Variation Viewer will allow users to view variation across SARS-CoV-2 genome sequences and associated protein annotation, protein structures, and genome metadata such as geographic location and host species.
+The SARS-CoV-2 Variation Viewer allows researchers to easily visualize SARS-CoV-2 SNPs mapped to the annotated Wuhan-Hu-1 reference genome (NC_045512.2), with a searchable tabular view showing amino acid changes, collection location, host species, and links to protein structure views in iCn3D.  
 
 ## Workflow
 1. Download all SARS-CoV-2 genomes from GenBank using [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
@@ -116,5 +116,6 @@ coding region and annotated).
 <img src="images/summary-view.png" alt="variant counts by position" width="800"/>
 <img src="images/detailed-view.png" alt="variant counts by position" width="800"/>
 
-[SARS2 Variation Viewer](https://ncbi-codeathons.github.io/SARS2-Variation-Viewer/)
+## SARS2 Variation Viewer Live Demo
+[https://ncbi-codeathons.github.io/SARS2-Variation-Viewer/](https://ncbi-codeathons.github.io/SARS2-Variation-Viewer/)
 
