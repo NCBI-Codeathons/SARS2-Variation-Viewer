@@ -128,7 +128,7 @@ export class Cartoon {
       .each(function (d, i) {
         cls.selectItemById.call(this, cls);
         cls.renderSegment.call(this, d, i, cls);
-      });
+      })
 
     // genes
     let genes = segment.selectAll('g.gene')
@@ -502,7 +502,7 @@ export class Cartoon {
             <div>Count: ${count}</div>
           </div>
         `
-      });
+      })
   }
 
   fixGeneCollision(d, i, cls) {

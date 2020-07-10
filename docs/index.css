@@ -145,8 +145,30 @@
 
 }
 
+.dataTables_wrapper {
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*============detail view styles=============*/
-.icn3d-seqLine {white-space:nowrap;}
-.icn3d-dl_sequence {background: white;}
-.icn3d-dl_sequence span {display:inline-block; font-size:11px; width:10px; text-align:center;}
-.icn3d-residue {font-weight:regular;}
+.icn3d-seqLine {
+    white-space: nowrap;
+}
+
+.icn3d-dl_sequence {
+    background: white;
+}
+
+.icn3d-dl_sequence span {
+    display: inline-block;
+    font-size: 11px;
+    width: 10px;
+    text-align: center;
+}
+
+.icn3d-residue {
+    font-weight: regular;
+}
+
+
