@@ -1,10 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
-hash bwa 2>/dev/null || { echo >&2 "I require bwa but it's not installed.  Aborting. "; exit 1; }
-hash samtools 2>/dev/null || { echo >&2 "I require samtools but it's not installed.  Aborting. "; exit 1; }
-hash bcftools 2>/dev/null || { echo >&2 "I require bcftools but it's not installed.  Aborting. "; exit 1; }
+message='''
+You are missing one of the following tools: bwa, samtools, bcftools.
 
+Please ensure these tools are on $PATH, or alternatively, run bin/install_tool.sh.
+
+Quitting.
+'''
+for tool in bwa samtools bcftools
+do
+    hash $tool 2>/dev/null || { echo >&2 $message; exit 1; }
+done
 
 GENOMIC_FASTA_FILE='data/ncbi_dataset/data/genomic.fna'
 if [[ ! -e $GENOMIC_FASTA_FILE ]]
