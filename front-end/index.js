@@ -1,6 +1,6 @@
 import {cartoonData} from "../mock-data/data.js";
 import {Cartoon} from "./modules/cartoon.js";
-import {Table} from "./table.js";
+import {Table} from "./modules/table.js";
 
 
 $(document).ready(function () {
