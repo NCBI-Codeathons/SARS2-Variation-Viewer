@@ -110,7 +110,7 @@ export class Table {
         html += `<td>${createLinkToICN3d(v, al) || 'n/a'}</td>`;
 
         html += `<td>${al.count}</td>}`;
-        html += `<td>${v.start}</td>`;
+        html += `<td>${v.start + 1}</td>`;
 
         html += `<td>${al.codon && v.codon ? al.codon + ' > ' + v.codon: ''}</td>`;
 
