@@ -38,6 +38,7 @@
 //     });
 //   }
 // }
+import {getPdbInfo, mapArray} from "./details.js";
 
 export class Table {
   constructor({data}) {
@@ -52,6 +53,7 @@ export class Table {
       }
       return hostHtml.join('<br />');
     };
+
     const collectionLocation = collectionLocations => {
       const collectionLocationHtml = [];
       collectionLocations.sort((a, b) => a.count > b.count);
@@ -71,15 +73,47 @@ export class Table {
       return h;
     };
 
+    const createLinkToICN3d = variant => {
+      let url = '';
+
+      let realResi, oriResn, proteinName;
+      if (variant.protein_accession) {
+        var acc_ver = variant.protein_accession;
+        var resi = variant.protein_position;
+        proteinName = variant.protein_name;
+
+        var pdbinfo = getPdbInfo(mapArray, acc_ver, resi);
+        oriResn = variant.amino_acid;
+
+        if (pdbinfo.pdbid !== undefined) {
+          var pdbid = pdbinfo.pdbid;
+          realResi = pdbinfo.resi;
+
+          var pdb_chain = pdbid.split('_');
+
+
+          url = 'https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?mmdbid=' + pdb_chain[0]
+            + '&command=view+annotations;+set+annotation+cdd;+set+annotation+snp;+set+annotation+3ddomain;+set+annotation+site;+set+annotation+ssbond;+set+annotation+crosslink;+set+view+detailed+view;+select+chain+!' + pdb_chain[1]
+            + ';+show+selection;+color+secondary+structure+green;+select+.' + pdb_chain[1]
+            + ':' + realResi + ';+color+FFA500;+style+sidec+stick;+your+note+|+' + realResi + oriResn + '>';
+        }
+        return url !== '' ? `<a href="${url}">${proteinName}</a>` : proteinName;
+      }
+      return '';
+    }
+
     let html = ``;
     for (const v of data.variants) {
       for (const al of v.alleles) {
         html += `<tr>`;
-        html += `<td>${v.protein_name || ''}</td>`;
-        html += `<td><a href="https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?mmdbid=1TSR&command=color+grey;+select+.A:20;+color+red;+style+sidec+stick">${al.protein_variant}</a></td>`;
+        html += `<td>${v.protein_name || 'n/a'}</td>`;
+        html += `<td>${createLinkToICN3d(v) || 'n/a'}</td>`;
+
         html += `<td>${al.count}</td>}`;
         html += `<td>${v.start}</td>`;
-        html += `<td>${al.codon} > ${v.codon}</td>`;
+
+        html += `<td>${al.codon && v.codon ? al.codon + ' > ' + v.codon: ''}</td>`;
+
         html += `<td>${al.aa_type}</td>`;
         html += `<td>${collectionLocation(al['Collection Location'] || [])}</td>`;
         html += `<td>${host(al.Host || [])}</td>`;
@@ -91,15 +125,15 @@ export class Table {
     $tbody.append(html);
     $table.DataTable({
       pageLength: 100,
-      "order": [[1, 'desc']]
+      "order": [[1, 'asc']]
     });
 
-    $table.on('click', '.see-more-location', e=> {
+    $table.on('click', '.see-more-location', e => {
       e.preventDefault();
       const $this = $(e.currentTarget);
       const $locations = $this.closest('td').find('span');
 
-      if ($this.data('state') !== 'hidden'){
+      if ($this.data('state') !== 'hidden') {
         $locations.show();
         $this.data('state', 'hidden')
         $this.text('see less')
