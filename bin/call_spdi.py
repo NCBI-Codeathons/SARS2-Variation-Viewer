@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+from collections import Counter
 from functools import lru_cache
 import json
 import logging
@@ -98,9 +99,15 @@ def main():
     #         allele_count[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] += 1
     #     except:
     #         allele_count[f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'] = 1
-    variants = variants['variants']
     counter = 0
     total = len(variants)
+
+    # Map metadata name to display name
+    metadata_kv = {
+        'host': 'Host',
+        'collection_date': 'Collection Date',
+        'location': 'Collection Location'
+    }
     for var in variants:
         if counter % 100 == 0:
             print(f'Processing variant {counter}/{total}')
@@ -123,35 +130,22 @@ def main():
             alleles[position_key]['alleles'][allele_key] = {
                 'spdi': spdi,
                 'count': 1,
-                'accessions': [],
-                'isolates': []
+                'accessions': []
             }
-        curr_meta_acc = meta[accs_index[var['accession']]]
-        alleles[position_key]['alleles'][allele_key]['accessions'].append(var["accession"])
-        alleles[position_key]['alleles'][allele_key]['isolates'].append(curr_meta_acc['isolates'])
-        # To-do
-        # count_key = f'{var["accession"]}{var["alleles"]}{var["start"]}{var["stop"]}{var["reference"]}'
+            for metadata_values in metadata_kv.values():
+                alleles[position_key]['alleles'][allele_key][metadata_values] = []
 
-        # if var['accession'] in accessions:
-        #     ct = 0
-        #     curr_acc = meta[0]['accession']
-        #     while curr_acc != var['accession']:
-        #         ct += 1
-        #         curr_acc = meta[ct]['accession']
-        #     curr_meta = meta[ct]['metadata']
-        #     # TO-DO: concat the metadata with the spdi output here as same elements in the last so next line of code below works
-        #     #spdis.append(output, curr_meta)
-        #     output = {"accession": var['accession'], "spdi": output, "metadata": curr_meta, "count": allele_count[count_key] }
-        #     spdis.append(output)
-        # else:
-        #     output = {"accession": var['accession'], "spdi": output, "metadata": {}, "count": allele_count[count_key]}
-        #     spdis.append(output)
+        alleles[position_key]['alleles'][allele_key]['accessions'].append(var["accession"])
+
+        metadata_for_accession = meta[accs_index[var['accession']]]['metadata']
+        for key, value in metadata_kv.items():
+            if key in metadata_for_accession:
+                alleles[position_key]['alleles'][allele_key][value].append(metadata_for_accession[key])
+
+        # if counter > 100:
+        #     break
 
     variants = []
-
-    with open('tmp.json', 'w') as fh:
-        json.dump(alleles, fh)
-
     for position_key, alleles in alleles.items():
         logging.info(f'Process {position_key}: {alleles}')
         new_record = {
@@ -163,32 +157,19 @@ def main():
         for spdi, spdi_data in alleles['alleles'].items():
             if spdi_data['count'] < args.count_cutoff:
                 continue
-            new_record['alleles'].append({
+            new_allele = {
                 'allele': spdi_data['spdi']['inserted_sequence'],
                 'count': spdi_data['count'],
                 'spdi': spdi,
-                # insert function here to count list
-                'attributes': [
-                    {
-                        'name': 'isolate',
-                        'values': count_attributes(alleles[position_key]['alleles'][allele_key]['isolates']),
-                        #'name': 'host',
-                        #'values': count_attributes(),
-                        #'name': 'location',
-                        #'values': count_attributes(),
-                        #'name': 'date',
-                        #'values': count_attributes()
-                    }
-                    ]
-                }
-            )
+            }
+            for key, value in metadata_kv.items():
+                new_allele[value] = count_attributes(spdi_data[value])
+
+            new_record['alleles'].append(new_allele)
         if new_record['alleles']:
             variants.append(new_record)
 
     out_json = {'variants': variants}
-
-    # TO-DO: read in front-jason JSON, then inser the above out_json into it in correct spot
-
 
     # output finalized json
     with open(args.output, 'w') as f:
