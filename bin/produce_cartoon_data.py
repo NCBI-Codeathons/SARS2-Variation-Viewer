@@ -25,7 +25,7 @@ def main():
     with open(args.input) as fh:
         variants = json.load(fh)
 
-    template['variants'] = variants
+    template['variants'].extend(variants['variants'])
     template['reference'] = raw_reference
 
     with open(args.output, 'w') as fh_out:

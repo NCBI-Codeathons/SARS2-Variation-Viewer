@@ -32,8 +32,6 @@ def main():
     records = []
     for file in args.input:
         accession = os.path.splitext(os.path.basename(file))[0]
-        print(f"Process {file} {accession}")
-
         with open(file) as fh:
             for line in fh.readlines():
                 if line.startswith('#'):

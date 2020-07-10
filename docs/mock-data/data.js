@@ -30,7 +30,21 @@ export const cartoonData = {
         {
           "allele": "T",
           "count": 1436,
-          "spdi": "NC_045512.2:8781:C:T"
+          "spdi": "NC_045512.2:8781:C:T",
+          "attributes": [
+            {
+              "name": "Collection Location",
+              "values": [
+                {
+                  "value": "Chicago",
+                  "count": 36
+                },
+                {
+                  "value": "New York",
+                  "count": 1400
+                }
+              ]
+            }]
         }
       ]
     },
