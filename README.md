@@ -13,7 +13,7 @@ The SARS-CoV-2 Variation Viewer will allow users to view variation across SARS-C
 ## Workflow
 1. Download all SARS-CoV-2 genomes from GenBank using [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/)
 2. Identify SNPs in these SARS-CoV-2 genomes
-3. Correlate SNPs with SARS-CoV-2 genome metadata (also from *NCBI Datasets*)
+3. Correlate SNPs with SARS-CoV-2 genome metadata (also from **NCBI Datasets**)
 4. Visualize SNPs and associated metadata in a graphical display
 
 ![workflow cartoon](images/github-readme-cartoon.jpg)
