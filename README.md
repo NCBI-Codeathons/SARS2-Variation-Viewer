@@ -19,7 +19,12 @@ The SARS-CoV-2 Variation Viewer will allow users to view variation across SARS-C
 ![workflow cartoon](images/github-readme-cartoon.jpg)
 
 ## Executing the workflow
-The workflow depends on bwa, samtools and bcftools.  If those are not in `$PATH`, first execute:
+The workflow depends on 
+* bwa
+* samtools 
+* bcftools
+
+If those are not in `$PATH`, first execute:
 
 ```
 bash bin/install_tool.sh
