@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/python-all/bin/python
 import argparse
 import bisect
 import io
@@ -8,23 +8,35 @@ import sys
 import zipfile
 
 import fastaparser
-from google.protobuf.json_format import ParseDict
-import yaml
+#from google.protobuf.json_format import ParseDict
+#import yaml
 
 import ncbi.datasets.v1alpha1.reports.virus_pb2 as virus_report_pb2
 
+import jsonlines
 
 def virus_report_for(path_to_zipfile):
     '''
     Return an object representing the data report.
     path_to_zipfile: The relative path to the zipfile containing the virus data report
-    '''
+    
+    old code below:
     with zipfile.ZipFile(path_to_zipfile, 'r') as zip:
         virus_report_as_dict = yaml.safe_load(zip.read('ncbi_dataset/data/data_report.yaml'))
     virus_report = virus_report_pb2.VirusReport()
     ParseDict(virus_report_as_dict, virus_report)
     return virus_report
+    '''
 
+    genomesArray = []
+    with zipfile.ZipFile(path_to_zipfile, 'r') as zip:
+        report_file_handle = zip.open('ncbi_dataset/data/data_report.jsonl')
+        reader = jsonlines.Reader(report_file_handle )        
+        for json_dict in reader.iter(type=dict, skip_invalid=True):
+            # json_dict is a single report - all fields should be there.
+            genomesArray.append(json_dict)
+    virus_report = {"genomes": genomesArray}
+    return virus_report
 
 # See http://www.petercollingridge.co.uk/tutorials/bioinformatics/codon-table/
 bases = "TCAG"
@@ -49,17 +61,21 @@ def fasta_for(path_to_zipfile):
 
 def protein_for(protein_index, position):
     index = bisect.bisect_right(protein_index, (position,))
+    # print(f'{position} len(protein_index): {len(protein_index)} index {index} protein_index {protein_index} ')
     # print(f'{position} - {index} / {len(protein_index)}')
+    if index > len(protein_index) - 1:
+        index = len(protein_index) - 1
     return protein_index[index][1]
 
 
 def _add_protein(proteins, item):
-    proteins[item.name] = {
-        'cds_seq_id': item.nucleotide.seq_id,
-        'genomic_offset': item.nucleotide.range[0].begin,
-        'protein_begin': item.protein.range[0].begin,
-        'protein_end': item.protein.range[0].end,
-        'protein_acc': item.protein.accession_version
+    # print(f'Processing variant {item}')
+    proteins[item["name"]] = {
+        'cds_seq_id': item["nucleotide"]["seqId"],
+        'genomic_offset': int(item["nucleotide"]["range"][0]["begin"]),
+        'protein_begin': int(item["protein"]["range"][0]["begin"]) if "range" in item["protein"] else 0,
+        'protein_end': int(item["protein"]["range"][0]["end"]) if "range" in item["protein"] else 0,
+        'protein_acc': item["protein"]["accessionVersion"]
     }
 
 
@@ -81,8 +97,8 @@ def _calculate_protein_change(cds_sequence, variant, allele, protein_info):
     # print(f'{nt_codon_start_zero_base} - {len(cds_sequence)}')
     ref_codon = cds_sequence[nt_codon_start_zero_base:nt_codon_start_zero_base+3]
     alt_codon = ref_codon[:offset] + allele['allele'] + ref_codon[offset+1:]
-    ref_aa = CODON_TABLE[ref_codon]
-    alt_aa = CODON_TABLE[alt_codon]
+    ref_aa = CODON_TABLE[ref_codon] if ref_codon in CODON_TABLE else ''
+    alt_aa = CODON_TABLE[alt_codon] if alt_codon in CODON_TABLE else ''
     return ref_codon, alt_codon, ref_aa, alt_aa
 
 
@@ -105,18 +121,19 @@ def main():
 
     protein_index = []
     proteins = {}
-    for gene in refseq_virus_report.genomes[0].annotation.genes:
-        for cds in gene.cds:
-            if cds.name == 'ORF1a polyprotein':
+    for gene in refseq_virus_report["genomes"][0]["annotation"]["genes"]:
+        # print(f'Processing gene {gene}')
+        for cds in gene["cds"]:
+            if cds["name"] == 'ORF1a polyprotein':
                 continue
-            if not cds.mature_peptide:
-                protein_index.append((cds.nucleotide.range[0].end, cds.name))
+            if not "maturePeptide" in cds:
+                protein_index.append((int(cds["nucleotide"]["range"][0]["end"]), cds["name"]))
                 _add_protein(proteins, cds)
                 continue
 
-            for mature_peptide in cds.mature_peptide:
-                protein_index.append((mature_peptide.nucleotide.range[0].end, mature_peptide.name))
-                _add_protein(proteins, mature_peptide)
+            for maturePeptide in cds["maturePeptide"]:
+                protein_index.append((int(maturePeptide["nucleotide"]["range"][0]["end"]), maturePeptide["name"]))
+                _add_protein(proteins, maturePeptide)
 
     with open(args.variants) as fh:
         variants = json.load(fh)
