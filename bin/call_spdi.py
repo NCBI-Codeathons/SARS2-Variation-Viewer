@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/python-all/bin/python
 import argparse
 from collections import Counter
 from functools import lru_cache
@@ -128,10 +128,11 @@ def main():
 
         alleles[position_key]['alleles'][allele_key]['accessions'].append(var["accession"])
 
-        metadata_for_accession = metadata[var["accession"]]
-        for key, value in metadata_kv.items():
-            if key in metadata_for_accession:
-                alleles[position_key]['alleles'][allele_key][value].append(metadata_for_accession[key])
+        if var["accession"] in metadata:
+            metadata_for_accession = metadata[var["accession"]]
+            for key, value in metadata_kv.items():
+                if key in metadata_for_accession:
+                    alleles[position_key]['alleles'][allele_key][value].append(metadata_for_accession[key])
 
         # if counter > 100:
         #     break
